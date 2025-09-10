@@ -1,0 +1,952 @@
+{"code_tokens": "Assume priors on all parameters have uniform probability . "}
+{"code_tokens": "This just lists all the filter systems available for TRILEGAL . "}
+{"code_tokens": "This runs the TRILEGAL query for decimal equatorial coordinates . "}
+{"code_tokens": "This reads a downloaded TRILEGAL model file . "}
+{"code_tokens": "This compares two values in constant time . "}
+{"code_tokens": "Overrides the default serializer for JSONEncoder . "}
+{"code_tokens": "handles initial setup . "}
+{"code_tokens": "This handles GET requests to the index page . "}
+{"code_tokens": "This handles GET requests for the current checkplot - list . json file . "}
+{"code_tokens": "This handles initial setup of the RequestHandler . "}
+{"code_tokens": "This smooths the magseries with a Gaussian kernel . "}
+{"code_tokens": "This smooths the magseries with a Savitsky - Golay filter . "}
+{"code_tokens": "This calculates the difference in mags after EPD coefficients are calculated . "}
+{"code_tokens": "Detrends a magnitude series given in mag using accompanying values of S in fsv D in fdv K in fkv x coords in xcc y coords in ycc background in bgv and background error in bge . smooth is used to set a smoothing parameter for the fit function . Does EPD voodoo . "}
+{"code_tokens": "This is the EPD function to fit using a smoothed mag - series . "}
+{"code_tokens": "This is the residual function to minimize using scipy . optimize . least_squares . "}
+{"code_tokens": "Detrends a magnitude series using External Parameter Decorrelation . "}
+{"code_tokens": "This uses a RandomForestRegressor to de - correlate the given magseries . "}
+{"code_tokens": "This calculates the Stellingwerf PDM theta value at a test frequency . "}
+{"code_tokens": "Converts magnitude measurements in Kepler band to SDSS r band . "}
+{"code_tokens": "This writes the lcdict to a Python pickle . "}
+{"code_tokens": "This turns the pickled lightcurve file back into an lcdict . "}
+{"code_tokens": "This filters the Kepler lcdict removing nans and bad observations . "}
+{"code_tokens": "This is the EPD function to fit . "}
+{"code_tokens": "After running detrend_centroid this gets positions of centroids during transits and outside of transits . "}
+{"code_tokens": "This is a helper function for centroid detrending . "}
+{"code_tokens": "This calculates the residual and chi - sq values for a Legendre function fit . "}
+{"code_tokens": "This bins the given light curve file in time using the specified bin size . "}
+{"code_tokens": "This time - bins all the LCs in the list using the specified bin size . "}
+{"code_tokens": "This time bins all the light curves in the specified directory . "}
+{"code_tokens": "This wraps varfeatures . "}
+{"code_tokens": "This runs variability feature extraction for a list of LCs . "}
+{"code_tokens": "This runs variable feature extraction in parallel for all LCs in lclist . "}
+{"code_tokens": "This runs parallel variable feature extraction for a directory of LCs . "}
+{"code_tokens": "This is just a shortened form of the function above for convenience . "}
+{"code_tokens": "This is a flare model function similar to Kowalski + 2011 . "}
+{"code_tokens": "This returns the residual between model mags and the actual mags . "}
+{"code_tokens": "This checks the AWS instance data URL to see if there s a pending shutdown for the instance . "}
+{"code_tokens": "This wraps the function above to allow for loading previous state from a file . "}
+{"code_tokens": "This fits a univariate cubic spline to the phased light curve . "}
+{"code_tokens": "This is the worker for running checkplots . "}
+{"code_tokens": "This drives the parallel execution of runcp for a list of periodfinding result pickles . "}
+{"code_tokens": "This drives the parallel execution of runcp for a directory of periodfinding pickles . "}
+{"code_tokens": "This runs the runpf function . "}
+{"code_tokens": "This drives the overall parallel period processing for a list of LCs . "}
+{"code_tokens": "This runs parallel light curve period finding for directory of LCs . "}
+{"code_tokens": "This collects variability features into arrays for use with the classifer . "}
+{"code_tokens": "This gets the best RF classifier after running cross - validation . "}
+{"code_tokens": "This applys an RF classifier trained using train_rf_classifier to varfeatures pickles in varfeaturesdir . "}
+{"code_tokens": "This plots the training results from the classifier run on the training set . "}
+{"code_tokens": "This returns a summed Fourier cosine series . "}
+{"code_tokens": "This is the chisq objective function to be minimized by scipy . minimize . "}
+{"code_tokens": "This is the residual objective function to be minimized by scipy . leastsq . "}
+{"code_tokens": "This downloads a DSS FITS stamp centered on the coordinates specified . "}
+{"code_tokens": "Makes a plot of periodograms obtained from periodbase functions . "}
+{"code_tokens": "This just writes the lcdict to a pickle . "}
+{"code_tokens": "This just reads a pickle LC . Returns an lcdict . "}
+{"code_tokens": "This concatenates a list of light curves . "}
+{"code_tokens": "This concatenates all text LCs for an objectid with the given aperture . "}
+{"code_tokens": "This concatenates all text LCs for the given object and writes to a pklc . "}
+{"code_tokens": "This is a worker for the function below . "}
+{"code_tokens": "This concatenates all text LCs for the given objectidlist . "}
+{"code_tokens": "This merges all TFA text LCs with separate apertures for a single object . "}
+{"code_tokens": "This reads the binned LC and writes it out to a pickle . "}
+{"code_tokens": "This generates the binnedlc pkls for a directory of such files . "}
+{"code_tokens": "Adds catalog info to objectinfo key of all pklcs in lcdir . "}
+{"code_tokens": "This converts the base64 encoded string to a file . "}
+{"code_tokens": "This reads a checkplot gzipped pickle file back into a dict . "}
+{"code_tokens": "This makes a plot of the LC model fit . "}
+{"code_tokens": "This queries the GAIA TAP service for a list of objects near the coords . "}
+{"code_tokens": "This queries the GAIA TAP service for a list of objects in an equatorial coordinate box . "}
+{"code_tokens": "This queries the GAIA TAP service for a single GAIA source ID . "}
+{"code_tokens": "This is the simplified version not using tau . "}
+{"code_tokens": "This calculates the peak associated with the spectral window function for times and at the specified omega . "}
+{"code_tokens": "This calculates the spectral window function . "}
+{"code_tokens": "This validates if an API key for the specified LCC - Server is available . "}
+{"code_tokens": "This gets a new API key from the specified LCC - Server . "}
+{"code_tokens": "This imports an API key from text and writes it to the cache dir . "}
+{"code_tokens": "This submits a POST query to an LCC - Server search API endpoint . "}
+{"code_tokens": "This runs a cone - search query . "}
+{"code_tokens": "This runs a cross - match search query . "}
+{"code_tokens": "This downloads a JSON form of a dataset from the specified lcc_server . "}
+{"code_tokens": "This gets information on a single object from the LCC - Server . "}
+{"code_tokens": "This lists recent publicly visible datasets available on the LCC - Server . "}
+{"code_tokens": "This lists all light curve collections made available on the LCC - Server . "}
+{"code_tokens": "This calculates the Stetson index for the magseries based on consecutive pairs of observations . "}
+{"code_tokens": "This calculates the weighted mean stdev median MAD percentiles skew kurtosis fraction of LC beyond 1 - stdev and IQR . "}
+{"code_tokens": "This calculates percentiles and percentile ratios of the flux . "}
+{"code_tokens": "This rolls up the feature functions above and returns a single dict . "}
+{"code_tokens": "This runs the pyeebls . eebls function using the given inputs . "}
+{"code_tokens": "This wraps the BLS function for the parallel driver below . "}
+{"code_tokens": "This calculates the SNR depth duration a refit period and time of center - transit for a single period . "}
+{"code_tokens": "This function gets the Fortney mass - radius relation for planets . "}
+{"code_tokens": "This is a parallel worker that reforms light curves for TFA . "}
+{"code_tokens": "This applies TFA in parallel to all LCs in the given list of file names . "}
+{"code_tokens": "This applies TFA in parallel to all LCs in a directory . "}
+{"code_tokens": "This just reads a light curve pickle file . "}
+{"code_tokens": "This imports the module specified . "}
+{"code_tokens": "This adds a new LC format to the astrobase LC format registry . "}
+{"code_tokens": "This opens an SSH connection to the EC2 instance at ip_address . "}
+{"code_tokens": "This gets a file from an S3 bucket . "}
+{"code_tokens": "This uploads a file to S3 . "}
+{"code_tokens": "This deletes a file from S3 . "}
+{"code_tokens": "This creates an SQS queue . "}
+{"code_tokens": "This deletes an SQS queue given its URL. "}
+{"code_tokens": "This pushes a dict serialized to JSON to the specified SQS queue . "}
+{"code_tokens": "This gets a single item from the SQS queue . "}
+{"code_tokens": "This deletes a message from the queue effectively acknowledging its receipt . "}
+{"code_tokens": "This deletes EC2 nodes and terminates the instances . "}
+{"code_tokens": "This deletes a spot - fleet cluster . "}
+{"code_tokens": "This puts a single file into a Google Cloud Storage bucket . "}
+{"code_tokens": "This just reads a pickled fake LC . "}
+{"code_tokens": "This runs lcproc . lcvfeatures . parallel_varfeatures on fake LCs in simbasedir . "}
+{"code_tokens": "This calculates precision . "}
+{"code_tokens": "This calculates recall . "}
+{"code_tokens": "This calculates the Matthews correlation coefficent . "}
+{"code_tokens": "This is a parallel grid search worker for the function below . "}
+{"code_tokens": "This runs a variable index grid search per magbin . "}
+{"code_tokens": "This runs periodfinding using several period - finders on a collection of fake LCs . "}
+{"code_tokens": "This is a parallel worker for running period - recovery . "}
+{"code_tokens": "This is a parallel driver for periodicvar_recovery . "}
+{"code_tokens": "This runs a TESS Input Catalog cone search on MAST . "}
+{"code_tokens": "This does a cross - match with TIC . "}
+{"code_tokens": "This runs a TIC search for a specified TIC ID . "}
+{"code_tokens": "This sends an email to addresses informing them about events . "}
+{"code_tokens": "This generates a sinusoidal light curve using a Fourier cosine series . "}
+{"code_tokens": "This returns the residual between the model mags and the actual mags . "}
+{"code_tokens": "Makes the mag - series plot tile for checkplot_png and twolsp_checkplot_png . "}
+{"code_tokens": "Precesses target coordinates ra dec from epoch_one to epoch_two . "}
+{"code_tokens": "This returns True if only one True - ish element exists in iterable . "}
+{"code_tokens": "This calculates the future epochs for a transit given a period and a starting epoch. "}
+{"code_tokens": "This converts a UTC JD to a Python datetime object or ISO date string . "}
+{"code_tokens": "Returns BJD_TDB or HJD_TDB for input JD_UTC . "}
+{"code_tokens": "This is a parallel worker for makelclist . "}
+{"code_tokens": "This wraps checkplotlist . checkplot_infokey_worker . "}
+{"code_tokens": "Handle changes from atom ContainerLists. "}
+{"code_tokens": "Create the underlying widget . "}
+{"code_tokens": "Initialize the underlying map options . "}
+{"code_tokens": "Add markers polys callouts etc .. "}
+{"code_tokens": "Initialize the info window adapter . Should only be done if one of the markers defines a custom view . "}
+{"code_tokens": "Create the fragment and pull the map reference when it s loaded . "}
+{"code_tokens": "Remove the marker if it was added to the map when destroying. "}
+{"code_tokens": "If a child is added we have to make sure the map adapter exists. "}
+{"code_tokens": "Convert our options into the actual marker object. "}
+{"code_tokens": "Convert our options into the actual circle object. "}
+{"code_tokens": "Learn the vocabulary dictionary and return term - document matrix . This is equivalent to fit followed by transform but more efficiently implemented . "}
+{"code_tokens": "Add data to flow. "}
+{"code_tokens": "Add transformer to flow and apply transformer to data in flow. "}
+{"code_tokens": "Train model with transformed data. "}
+{"code_tokens": "Export model and transformers to export_folder. "}
+{"code_tokens": "Fit linear model with Stochastic Gradient Descent . "}
+{"code_tokens": "pretty print for confusion matrixes. "}
+{"code_tokens": "Given a URL look for the corresponding dataset in the local cache . If it s not there download it . Then return the path to the cached file . "}
+{"code_tokens": "Fit CRF according to X y. "}
+{"code_tokens": "Predict class labels for samples in X . "}
+{"code_tokens": "Start LanguageBoard web application. "}
+{"code_tokens": "In order to obtain the most likely label for a list of text. "}
+{"code_tokens": "Fit KimCNNClassifier according to X y. "}
+{"code_tokens": "Return the config files for an environment & cluster specific app . "}
+{"code_tokens": "Yield the sources that are present . "}
+{"code_tokens": "Merge the configuration sources and return the resulting DotDict . "}
+{"code_tokens": "Merge dictionary d2 into d1 overriding entries in d1 with values from d2 . "}
+{"code_tokens": "Return a subset of a dictionary using the specified keys . "}
+{"code_tokens": "Convert obj into a DotDict or list of DotDict . "}
+{"code_tokens": "Return a config subset using the filter defined in the deploy config . "}
+{"code_tokens": "Return an auth token based on the client + service + seed tuple . "}
+{"code_tokens": "Write configuration to the applicaiton directory . "}
+{"code_tokens": "Return True if valid raise ValueError if not. "}
+{"code_tokens": "Return the total downloads and the downloads column. "}
+{"code_tokens": "Add a final row to rows showing the total downloads. "}
+{"code_tokens": "Modify soup so Dash . app can generate TOCs on the fly . "}
+{"code_tokens": "Determine the path from the intersphinx inventory entry. "}
+{"code_tokens": "Convert docs from SOURCE to Dash . app s docset format . "}
+{"code_tokens": "We use logging s levels as an easy - to - use verbosity controller . "}
+{"code_tokens": "Determine source and destination using the options . "}
+{"code_tokens": "Create boilerplate files & directories and copy vanilla docs inside . "}
+{"code_tokens": "Add icon to docset. "}
+{"code_tokens": "Run the Cell code using the IPython globals and locals. "}
+{"code_tokens": "Return a new dict with specified keys excluded from the origional dict. "}
+{"code_tokens": "Redirect the stdout. "}
+{"code_tokens": "Return a string representation of the Python object. "}
+{"code_tokens": "Get type information for a Python object. "}
+{"code_tokens": "Returns private spend key . None if wallet is view - only . "}
+{"code_tokens": "Sends a transfer from the default account . Returns a list of resulting transactions . "}
+{"code_tokens": "Sends a batch of transfers from the default account . Returns a list of resulting transactions . "}
+{"code_tokens": "Returns specified balance . "}
+{"code_tokens": "Creates a new address . "}
+{"code_tokens": "Sends a transfer . Returns a list of resulting transactions . "}
+{"code_tokens": "Sends a batch of transfers . Returns a list of resulting transactions . "}
+{"code_tokens": "Convert Monero decimal to atomic integer of piconero . "}
+{"code_tokens": "Discover the proper class and return instance for a given Monero address . "}
+{"code_tokens": "Integrates payment id into the address . "}
+{"code_tokens": "Convert hexadecimal string to mnemonic word representation with checksum . "}
+{"code_tokens": "Calculate hexadecimal representation of the phrase . "}
+{"code_tokens": "Given a mnemonic word string return a string of the computed checksum . "}
+{"code_tokens": "Instantiates a picker registers custom handlers for going back and starts the picker . "}
+{"code_tokens": "Calls pick in a while loop to allow user to pick many options . Returns a list of chosen options . "}
+{"code_tokens": "Create options and verbose options from strings and non - string iterables in options array . "}
+{"code_tokens": "Calls input to allow user to input an arbitrary string . User can go back by entering the go_back string . Works in both Python 2 and 3 . "}
+{"code_tokens": "Assigns function to the operators property of the instance . "}
+{"code_tokens": "If you want to change the core prompters registry you can override this method in a Question subclass . "}
+{"code_tokens": "Add a Question instance to the questions dict . Each key points to a list of Question instances with that key . Use the question kwarg to pass a Question instance if you want or pass in the same args you would pass to instantiate a question . "}
+{"code_tokens": "Asks the next question in the questionnaire and returns the answer unless user goes back . "}
+{"code_tokens": "Returns the next Question in the questionnaire or None if there are no questions left . Returns first question for whose key there is no answer and for which condition is satisfied or for which there is no condition . "}
+{"code_tokens": "Move n questions back in the questionnaire by removing the last n answers . "}
+{"code_tokens": "Formats answers depending on fmt . "}
+{"code_tokens": "Helper method for displaying the answers so far . "}
+{"code_tokens": "Creates a new intent optionally checking the cache first. "}
+{"code_tokens": "Adds an entity that matches the given lines . "}
+{"code_tokens": "Loads an entity optionally checking the cache first. "}
+{"code_tokens": "Loads an intent optionally checking the cache first. "}
+{"code_tokens": "Unload an intent. "}
+{"code_tokens": "Unload an entity. "}
+{"code_tokens": "Trains all the loaded intents that need to be updated If a cache file exists with the same hash as the intent file the intent will not be trained and just loaded from file. "}
+{"code_tokens": "Trains in a subprocess which provides a timeout guarantees everything shuts down properly. "}
+{"code_tokens": "Tests all the intents against the query and returns data on how well each one matched against the query. "}
+{"code_tokens": "Tests all the intents against the query and returns match data of the best intent. "}
+{"code_tokens": "Internal pickleable function used to train objects in another process. "}
+{"code_tokens": "Re - apply type annotations from . pyi stubs to your codebase . "}
+{"code_tokens": "Recursively retype files or directories given . Generate errors . "}
+{"code_tokens": "Retype src finding types in pyi_dir . Save in targets . "}
+{"code_tokens": "Given a string with source return the lib2to3 Node . "}
+{"code_tokens": "Given a lib2to3 node return its string representation . "}
+{"code_tokens": "Reapplies the typed_ast node into the lib2to3 tree . "}
+{"code_tokens": "Converts type comments in node to proper annotated assignments . "}
+{"code_tokens": "Parse the fugly signature type comment into AST nodes . "}
+{"code_tokens": "Parse a type comment string into AST nodes . "}
+{"code_tokens": "Copies AST nodes from type_comment into the ast3 . arguments in args . "}
+{"code_tokens": "Copies argument type comments from the legacy long form to annotations in the entire function signature . "}
+{"code_tokens": "Return the type given in expected . "}
+{"code_tokens": "Removes the legacy signature type comment leaving other comments if any . "}
+{"code_tokens": "Returns the offset after which a statement can be inserted to the body . "}
+{"code_tokens": "r Recomputes all line numbers based on the number of \\ n characters . "}
+{"code_tokens": "lib2to3 s AST requires unique objects as children . "}
+{"code_tokens": "Get user info for GBDX S3 put into instance vars for convenience . "}
+{"code_tokens": "Equalize and the histogram and normalize value range Equalization is on all three bands not per - band. "}
+{"code_tokens": "Match the histogram to existing imagery. "}
+{"code_tokens": "entry point for contrast stretching. "}
+{"code_tokens": "Calculates Normalized Difference Vegetation Index using NIR and Red of an image . "}
+{"code_tokens": "Calculates Normalized Difference Water Index using Coastal and NIR2 bands for WV02 WV03 . For Landsat8 and sentinel2 calculated by using Green and NIR bands . "}
+{"code_tokens": "Plot the image with MatplotLib. "}
+{"code_tokens": "Describe the result set of a catalog search for IDAHO images . "}
+{"code_tokens": "Downloads a native resolution orthorectified chip in tif format from a user - specified catalog id . "}
+{"code_tokens": "Create a leaflet viewer html file for viewing idaho images . "}
+{"code_tokens": "Checks to see if a CatalogID has been ordered or not . "}
+{"code_tokens": "Return a wrapped object that warns about deprecated accesses. "}
+{"code_tokens": "Given a name figure out if a multiplex port prefixes this name and return it . Otherwise return none . "}
+{"code_tokens": "Set input values on task. "}
+{"code_tokens": "Save output data from any task in this workflow to S3. "}
+{"code_tokens": "Generate workflow json for launching the workflow against the gbdx api. "}
+{"code_tokens": "Execute the workflow . "}
+{"code_tokens": "Get the task IDs of a running workflow. "}
+{"code_tokens": "Cancel a running workflow . "}
+{"code_tokens": "Get stdout from all the tasks of a workflow . "}
+{"code_tokens": "Get stderr from all the tasks of a workflow . "}
+{"code_tokens": "Renders the list of layers to add to the map . "}
+{"code_tokens": "Helper method for handling projection codes that are unknown to pyproj. "}
+{"code_tokens": "Show a slippy map preview of the image . Requires iPython . "}
+{"code_tokens": "Lists available and visible GBDX tasks . "}
+{"code_tokens": "Registers a new GBDX task . "}
+{"code_tokens": "Gets definition of a registered GBDX task . "}
+{"code_tokens": "Deletes a GBDX task . "}
+{"code_tokens": "Updates a GBDX task . "}
+{"code_tokens": "Write out a geotiff file of the image. "}
+{"code_tokens": "append two required tasks to the given output to ingest to VS. "}
+{"code_tokens": "Retrieves an AnswerFactory Recipe by id. "}
+{"code_tokens": "Saves an AnswerFactory Recipe. "}
+{"code_tokens": "Saves an AnswerFactory Project. "}
+{"code_tokens": "Deletes a project by id. "}
+{"code_tokens": "Renders a javascript snippet suitable for use as a mapbox - gl line paint entry. "}
+{"code_tokens": "Renders a javascript snippet suitable for use as a mapbox - gl fill paint entry. "}
+{"code_tokens": "Renders a javascript snippet suitable for use as a mapbox - gl fill - extrusion paint entry. "}
+{"code_tokens": "Renders a javascript snippet suitable for use as a mapbox - gl heatmap paint entry. "}
+{"code_tokens": "Create a vectors in the vector service . "}
+{"code_tokens": "Create a single vector in the vector service. "}
+{"code_tokens": "Retrieves a vector . Not usually necessary because searching is the best way to find & get stuff . "}
+{"code_tokens": "Aggregates results of a query into buckets defined by the agg_def parameter . The aggregations are represented by dicts containing a name key and a terms key holding a list of the aggregation buckets . Each bucket element is a dict containing a term key containing the term used for this bucket a count key containing the count of items that match this bucket and an aggregations key containing any child aggregations . "}
+{"code_tokens": "Renders a mapbox gl map from a vector service query. "}
+{"code_tokens": "Renders a mapbox gl map from a vector service query or a list of geojson features. "}
+{"code_tokens": "Reads data from a dask array and returns the computed ndarray matching the given bands. "}
+{"code_tokens": "Get a random window of a given shape from within an image. "}
+{"code_tokens": "Iterate over random windows of an image. "}
+{"code_tokens": "Return a subsetted window of a given size centered on a geometry object. "}
+{"code_tokens": "Iterate over a grid of windows of a specified shape covering an image . "}
+{"code_tokens": "Subsets the Image by the given bounds. "}
+{"code_tokens": "Returns the bounds of a geometry object in pixel coordinates. "}
+{"code_tokens": "Creates a geotiff on the filesystem. "}
+{"code_tokens": "Finds supported geometry types parses them and returns the bbox. "}
+{"code_tokens": "convert mercator bbox to tile index limits. "}
+{"code_tokens": "Launches GBDX workflow . "}
+{"code_tokens": "Checks workflow status . "}
+{"code_tokens": "Get stdout for a particular task . "}
+{"code_tokens": "Cancels a running workflow . "}
+{"code_tokens": "Launches GBDX batch workflow . "}
+{"code_tokens": "Checks GBDX batch workflow status . "}
+{"code_tokens": "Orders images from GBDX . "}
+{"code_tokens": "Checks imagery order status . There can be more than one image per order and this function returns the status of all images within the order . "}
+{"code_tokens": "Check the heartbeat of the ordering API. "}
+{"code_tokens": "Retrieves the strip footprint WKT string given a cat ID . "}
+{"code_tokens": "Retrieves the strip catalog metadata given a cat ID . "}
+{"code_tokens": "Use the google geocoder to get latitude and longitude for an address string. "}
+{"code_tokens": "Perform a catalog search over an address string. "}
+{"code_tokens": "Perform a catalog search over a specific point specified by lat lng. "}
+{"code_tokens": "Find and return the S3 data location given a catalog_id . "}
+{"code_tokens": "Perform a catalog search. "}
+{"code_tokens": "Return the most recent image. "}
+{"code_tokens": "interface helper function. "}
+{"code_tokens": "Config option name value validator decorator . "}
+{"code_tokens": "Runs the current phase . "}
+{"code_tokens": "Runs the operator matcher test function . "}
+{"code_tokens": "Runs the current operator with the subject arguments to test . "}
+{"code_tokens": "Registers a new operator function in the test engine . "}
+{"code_tokens": "Registers a new attribute only operator function in the test engine . "}
+{"code_tokens": "Register plugin in grappa . "}
+{"code_tokens": "Loads the built - in operators into the global test engine . "}
+{"code_tokens": "Registers one or multiple operators in the test engine . "}
+{"code_tokens": "Set the playback rate of the video as a multiple of the default playback speed. "}
+{"code_tokens": "Pause playback if currently playing otherwise start playing if currently paused . "}
+{"code_tokens": "Seek the video by relative_position seconds. "}
+{"code_tokens": "Set the video to playback position to position seconds from the start of the video. "}
+{"code_tokens": "Set the video position on the screen. "}
+{"code_tokens": "Play the video and block whilst the video is playing. "}
+{"code_tokens": "Play the video asynchronously returning control immediately to the calling code. "}
+{"code_tokens": "Quit the player blocking until the process has died. "}
+{"code_tokens": "Returns a response with a template depending if the request is ajax or not and it renders with the given context . "}
+{"code_tokens": "Given a document_field and a form_value this will translate the value to the correct result for mongo to use . "}
+{"code_tokens": "Returns the smallest delimited version of field_key that is an attribute on document . "}
+{"code_tokens": "Can edit this object. "}
+{"code_tokens": "Can add this object. "}
+{"code_tokens": "Can delete this object. "}
+{"code_tokens": "Set the form fields for every key in the form_field_dict . "}
+{"code_tokens": "Given field_key will return value held at self . model_instance . If model_instance has not been provided will return None . "}
+{"code_tokens": "Given a string or a list will return true if the last word or element is a digit . sep is used when a string is given to know what separates one word from another . "}
+{"code_tokens": "Given any number of lists and strings will join them in order as one string separated by the sep kwarg . sep defaults to u _ . "}
+{"code_tokens": "Sets existing data to form fields . "}
+{"code_tokens": "Need to set form data so that validation on all post data occurs and places newly entered form data on the form object . "}
+{"code_tokens": "Generate the form for view . "}
+{"code_tokens": "Genereates a dictionary representation of the list field . Document should be the document the list_field comes from . "}
+{"code_tokens": "Given document generates a dictionary representation of the document . Includes the widget for each for each field in the document . "}
+{"code_tokens": "Choose which widget to display for a field . "}
+{"code_tokens": "Set attributes on the display widget . "}
+{"code_tokens": "Gets the default form field for a mongoenigne field . "}
+{"code_tokens": "Performs filtering against the default queryset returned by mongoengine . "}
+{"code_tokens": "Injects data into the context to replicate CBV ListView . "}
+{"code_tokens": "Creates new mongoengine records . "}
+{"code_tokens": "Returns a list of all mongoadmin implementations for the site. "}
+{"code_tokens": "Sets a number of commonly used attributes. "}
+{"code_tokens": "Provides permissions for mongoadmin for use in the context. "}
+{"code_tokens": "As long as the form is set on the view this method will validate the form and save the submitted data . Only call this if you are posting data . The given success_message will be used with the djanog messages framework if the posted data sucessfully submits . "}
+{"code_tokens": "Given the form_key will evaluate the document and set values correctly for the document given . "}
+{"code_tokens": "Get the existing embedded document if it exists else created it . "}
+{"code_tokens": "1 . Figures out what value the list ought to have 2 . Sets the list. "}
+{"code_tokens": "Get the time with TZ enabled. "}
+{"code_tokens": "Get the time without TZ enabled. "}
+{"code_tokens": "Check Validity of an IP address. "}
+{"code_tokens": "Check if IP is local. "}
+{"code_tokens": "If we can get a valid IP from the request look up that address in the database to get the appropriate timezone and activate it . "}
+{"code_tokens": "This is the most important method. "}
+{"code_tokens": "This method process the filters. "}
+{"code_tokens": "Mix all values and make the query. "}
+{"code_tokens": "Remember the recipients . "}
+{"code_tokens": "Parse message headers then remove BCC header . "}
+{"code_tokens": "Add boundary parameter to multipart message if they are not present . "}
+{"code_tokens": "Convert a message into a multipart message . "}
+{"code_tokens": "Convert markdown in message text to HTML . "}
+{"code_tokens": "Add the attachments from the message from the commandline options . "}
+{"code_tokens": "Send email message using Python SMTP library . "}
+{"code_tokens": "Create sample template email and database . "}
+{"code_tokens": "Command line interface . "}
+{"code_tokens": "A decorator for defining tail - call optimized functions . "}
+{"code_tokens": "Parses a string of numbers and ranges into a list of integers . Ranges are separated by dashes and inclusive of both the start and end number . "}
+{"code_tokens": "create the base url for the api. "}
+{"code_tokens": "Make requests to the REST API. "}
+{"code_tokens": "Make requests to the Streaming API. "}
+{"code_tokens": "Get the tasks attached to the instance. "}
+{"code_tokens": "Run the tasks attached to the instance. "}
+{"code_tokens": "properly close the client. "}
+{"code_tokens": "upload media in chunks. "}
+{"code_tokens": "upload a media on twitter. "}
+{"code_tokens": "Take the binding predictions returned by IEDB s web API and parse them into a DataFrame. "}
+{"code_tokens": "Given a dictionary mapping unique keys to amino acid sequences run MHC binding predictions on all candidate epitopes extracted from sequences and return a EpitopeCollection . "}
+{"code_tokens": "Hackish way to get the arguments of a function. "}
+{"code_tokens": "log an exception and its traceback on the logger defined. "}
+{"code_tokens": "Get all the file s metadata and read any kind of file object. "}
+{"code_tokens": "Get the size of a file. "}
+{"code_tokens": "activates error messages useful during development. "}
+{"code_tokens": "Returns new BindingPrediction with updated fields. "}
+{"code_tokens": "Get the data from the response. "}
+{"code_tokens": "Try to fill the gaps and strip last tweet from the response if its id is that of the first tweet of the last response. "}
+{"code_tokens": "Get a temporary oauth token. "}
+{"code_tokens": "Open authorize page in a browser print the url if it didn t work. "}
+{"code_tokens": "get the access token of the user. "}
+{"code_tokens": "parse the responses containing the tokens. "}
+{"code_tokens": "Return netChop predictions for each position in each sequence . "}
+{"code_tokens": "Parse netChop stdout . "}
+{"code_tokens": "Converts collection of BindingPrediction objects to DataFrame. "}
+{"code_tokens": "This function wraps NetMHC3 and NetMHC4 to automatically detect which class to use . Currently based on running the - h command and looking for discriminating substrings between the versions . "}
+{"code_tokens": "Predict MHC affinity for peptides . "}
+{"code_tokens": "Given a sequence convert it to a comma separated string . If however the argument is a single object return its string representation . "}
+{"code_tokens": "Creates one or more files containing one peptide per line returns names of files . "}
+{"code_tokens": "If peptide lengths not specified then try using the default lengths associated with this predictor object . If those aren t a valid non - empty sequence of integers then raise an exception . Otherwise return the peptide lengths . "}
+{"code_tokens": "Check peptide sequences to make sure they are valid for this predictor . "}
+{"code_tokens": "Given a dictionary mapping sequence names to amino acid strings and an optional list of peptide lengths returns a BindingPredictionCollection . "}
+{"code_tokens": "Given a list of HLA alleles and an optional list of valid HLA alleles return a set of alleles that we will pass into the MHC binding predictor . "}
+{"code_tokens": "Connect to the stream. "}
+{"code_tokens": "Create the connection. "}
+{"code_tokens": "decorator to handle commands with prefixes. "}
+{"code_tokens": "set the environment timezone to the timezone set in your twitter settings. "}
+{"code_tokens": "Given a list whose first element is a command name followed by arguments execute it and show timing info . "}
+{"code_tokens": "Run multiple shell commands in parallel write each of their stdout output to files associated with each command . "}
+{"code_tokens": "Custom loads function with an object_hook and automatic decoding. "}
+{"code_tokens": "read the data of the response. "}
+{"code_tokens": "Find the message shown when someone calls the help command. "}
+{"code_tokens": "Check the permissions of the user requesting a command. "}
+{"code_tokens": "Script to make pMHC binding predictions from amino acid sequences . "}
+{"code_tokens": "Assume that we re dealing with a human DRB allele which NetMHCIIpan treats differently because there is little population diversity in the DR - alpha gene. "}
+{"code_tokens": "return the error if there is a corresponding exception. "}
+{"code_tokens": "Get the response data if possible and raise an exception. "}
+{"code_tokens": "Decorator to associate a code to an exception. "}
+{"code_tokens": "prepare all the arguments for the request. "}
+{"code_tokens": "Make sure the user doesn t override the Authorization header. "}
+{"code_tokens": "Raise error for keys that are not strings and add the prefix if it is missing. "}
+{"code_tokens": "Analyze the text to get the right function. "}
+{"code_tokens": "run the function you want. "}
+{"code_tokens": "A generator for getting all of the edges without consuming extra memory . "}
+{"code_tokens": "Checks whether there are within - group edges or not . "}
+{"code_tokens": "Renders the axis . "}
+{"code_tokens": "Plots nodes to screen . "}
+{"code_tokens": "Computes the theta along which a group s nodes are aligned . "}
+{"code_tokens": "Identifies the group for which a node belongs to . "}
+{"code_tokens": "Finds the index of the node in the sorted list . "}
+{"code_tokens": "Computes the radial position of the node . "}
+{"code_tokens": "Convenience function to find the node s theta angle . "}
+{"code_tokens": "Draws all of the edges in the graph . "}
+{"code_tokens": "The master function that is called that draws everything . "}
+{"code_tokens": "This function adjusts the start and end angles to correct for duplicated axes . "}
+{"code_tokens": "Guesses an appropriate MODS XML genre type . "}
+{"code_tokens": "Get all publications . "}
+{"code_tokens": "Get a single publication . "}
+{"code_tokens": "Get a publication list . "}
+{"code_tokens": "Renders some basic TeX math to HTML . "}
+{"code_tokens": "Takes a string in BibTex format and returns a list of BibTex entries where each entry is a dictionary containing the entries key - value pairs . "}
+{"code_tokens": "Swap the positions of this object with a reference object . "}
+{"code_tokens": "Move this object up one position . "}
+{"code_tokens": "Move this object down one position . "}
+{"code_tokens": "Move object to a certain position updating all affected objects to move accordingly up or down . "}
+{"code_tokens": "Move this object above the referenced object . "}
+{"code_tokens": "Move this object below the referenced object . "}
+{"code_tokens": "Move this object to the top of the ordered stack . "}
+{"code_tokens": "Move this object to the bottom of the ordered stack . "}
+{"code_tokens": "Load custom links and files from database and attach to publications . "}
+{"code_tokens": "Calculates the quartet weights for the test at a random subsampled chunk of loci . "}
+{"code_tokens": "return tree order. "}
+{"code_tokens": "count number of sites with cov = 4 and number of variable sites . "}
+{"code_tokens": "finds loci with sufficient sampling for this test. "}
+{"code_tokens": "Write nexus to tmpfile runs phyml tree inference and parses and returns the resulting tree . "}
+{"code_tokens": "return a toyplot barplot of the results table . "}
+{"code_tokens": "Plot pairwise distances between all samples. "}
+{"code_tokens": "returns a copy of the pca analysis object. "}
+{"code_tokens": "A function to build an input file for the program migrate from an ipyrad . loci file and a dictionary grouping Samples into populations . "}
+{"code_tokens": "updates dictionary with the next . 5M reads from the super long string phylip file . Makes for faster reading . "}
+{"code_tokens": "Make phylip and nexus formats . This is hackish since I m recycling the code whole - hog from pyrad V3 . Probably could be good to go back through and clean up the conversion code some time . "}
+{"code_tokens": "Clean up a bunch of loose files . "}
+{"code_tokens": "Index the reference sequence unless it already exists . Also make a mapping of scaffolds to index numbers for later user in steps 5 - 6 . "}
+{"code_tokens": "Builds a single end cluster from the refmapped data . "}
+{"code_tokens": "1 . Run bedtools to get all overlapping regions 2 . Parse out reads from regions using pysam and dump into chunk files . We measure it out to create 10 chunk files per sample . 3 . If we really wanted to speed this up though it is pretty fast already we could parallelize it since we can easily break the regions into a list of chunks . "}
+{"code_tokens": "Run bedtools to get all overlapping regions . Pass this list into the func get_overlapping_reads which will write fastq chunks to the clust . gz file . "}
+{"code_tokens": "check mean insert size for this sample and update hackersonly . max_inner_mate_distance if need be . This value controls how far apart mate pairs can be to still be considered for bedtools merging downstream . "}
+{"code_tokens": "Get all contiguous genomic regions with one or more overlapping reads . This is the shell command we ll eventually run. "}
+{"code_tokens": "Get the number of mapped and unmapped reads for a sample and update sample . stats. "}
+{"code_tokens": "create some file handles for refmapping. "}
+{"code_tokens": "returns a subsample of unlinked snp sites. "}
+{"code_tokens": "Returns a treemix plot on a toyplot . axes object . "}
+{"code_tokens": "Randomly resolves iupac hetero codes . This is a shortcut for now we could instead use the phased alleles in RAD loci . "}
+{"code_tokens": "filters for loci with > = N PIS. "}
+{"code_tokens": "function that takes a dictionary mapping names to sequences and a locus number and writes it as a NEXUS file with a mrbayes analysis block given a set of mcmc arguments . "}
+{"code_tokens": "Read in sample names from a plain text file . This is a convenience function for branching so if you have tons of sample names you can pass in a file rather than having to set all the names at the command line . "}
+{"code_tokens": "fast line counter . Used to quickly sum number of input reads when running link_fastqs to append files . "}
+{"code_tokens": "faster line counter. "}
+{"code_tokens": "Takes a string argument and returns value as a tuple . Needed for paramfile conversion from CLI to set_params args. "}
+{"code_tokens": "Returns a data frame with Sample data and state . "}
+{"code_tokens": "Returns a data frame with Sample files . Not very readable ... "}
+{"code_tokens": "Returns a data frame with Sample stats for each step. "}
+{"code_tokens": "pretty prints params if called as a function. "}
+{"code_tokens": "Set a parameter to a new value . Raises error if newvalue is wrong type . "}
+{"code_tokens": "Returns a copy of the Assembly object . Does not allow Assembly object names to be replicated in namespace or path . "}
+{"code_tokens": "hidden wrapped function to start step 1. "}
+{"code_tokens": "hidden wrapped function to start step 2. "}
+{"code_tokens": "hidden wrapped function to start step 4. "}
+{"code_tokens": "hidden wrapped function to start step 5. "}
+{"code_tokens": "Hidden function to start Step 6 . "}
+{"code_tokens": "Return a list of samples that are actually ready for the next step . Each step runs this prior to calling run makes it easier to centralize and normalize how each step is checking sample states . mystep is the state produced by the current step . "}
+{"code_tokens": "Joins first and second read file names. "}
+{"code_tokens": "returns the fastest func given data & longbar. "}
+{"code_tokens": "returns an iterator to grab four lines at a time. "}
+{"code_tokens": "Writes sorted data dsort dict to a tmp files. "}
+{"code_tokens": "Collate temp fastq files in tmp - dir into 1 gzipped sample . "}
+{"code_tokens": "Estimate a reasonable optim value by grabbing a chunk of sequences decompressing and counting them to estimate the full file size . "}
+{"code_tokens": "cleanup func for step 1. "}
+{"code_tokens": "sends raws to be chunked. "}
+{"code_tokens": "puts stats from pickles into a dictionary. "}
+{"code_tokens": "fill a matrix with pairwise data sharing. "}
+{"code_tokens": "Get the param name from the dict index value . "}
+{"code_tokens": "save to json . "}
+{"code_tokens": "Save assembly and samples as json. "}
+{"code_tokens": "function to encode json string. "}
+{"code_tokens": "plots histogram of coverages across clusters. "}
+{"code_tokens": "return 00 outfile as a pandas DataFrame. "}
+{"code_tokens": "a subfunction for summarizing results. "}
+{"code_tokens": "Load existing results files for an object with this workdir and name . This does NOT reload the parameter settings for the object ... "}
+{"code_tokens": "Prints a summarized table of results from replicate runs or if individual_result = True then returns a list of separate dataframes for each replicate run . "}
+{"code_tokens": "Sends the cluster bits to nprocessors for muscle alignment . They return with indel . h5 handles to be concatenated into a joint h5 . "}
+{"code_tokens": "concatenates sorted aligned cluster tmpfiles and removes them . "}
+{"code_tokens": "fills the duplicates array from the multi_muscle_align tmp files. "}
+{"code_tokens": "build tmp h5 arrays that can return quick access for nloci. "}
+{"code_tokens": "return nloci from the tmp h5 arr. "}
+{"code_tokens": "Orders catg data for each sample into the final locus order . This allows all of the individual catgs to simply be combined later . They are also in the same order as the indels array so indels are inserted from the indel array that is passed in . "}
+{"code_tokens": "writes arrays to h5 disk. "}
+{"code_tokens": "A dask relay function to fill chroms for all samples. "}
+{"code_tokens": "inserts indels into the catg array. "}
+{"code_tokens": "uses bash commands to quickly count N seeds from utemp file. "}
+{"code_tokens": "sort seeds from cluster results. "}
+{"code_tokens": "Reconstitutes clusters from . utemp and htemp files and writes them to chunked files for aligning in muscle . "}
+{"code_tokens": "A subfunction of build_clustbits to allow progress tracking . This func splits the unaligned clusters into bits for aligning on separate cores . "}
+{"code_tokens": "Function to remove older files . This is called either in substep 1 or after the final substep so that tempfiles are retained for restarting interrupted jobs until we re sure they re no longer needed . "}
+{"code_tokens": "cleanup for assembly object. "}
+{"code_tokens": "parse results from cutadapt into sample data. "}
+{"code_tokens": "Filter for samples that are already finished with this step allow others to run pass them to parallel client function to filter with cutadapt . "}
+{"code_tokens": "concatenate if multiple input files for a single samples. "}
+{"code_tokens": "sends fastq files to cutadapt. "}
+{"code_tokens": "If multiple fastq files were appended into the list of fastqs for samples then we merge them here before proceeding . "}
+{"code_tokens": "Convert vcf from step6 to . loci format to facilitate downstream format conversion. "}
+{"code_tokens": "Function for importing a vcf file into loci format . Arguments are the input vcffile and the loci file to write out . "}
+{"code_tokens": "A function to find 2 engines per hostname on the ipyclient . We ll assume that the CPUs are hyperthreaded which is why we grab two . If they are not then no foul . Two multi - threaded jobs will be run on each of the 2 engines per host . "}
+{"code_tokens": "compute stats for stats file and NHX tree features. "}
+{"code_tokens": "random sampler for equal_splits func. "}
+{"code_tokens": "get the number of quartets as n - choose - k . This is used in equal splits to decide whether a split should be exhaustively sampled or randomly sampled . Edges near tips can be exhaustive while highly nested edges probably have too many quartets. "}
+{"code_tokens": "get dstats from the count array and return as a float tuple. "}
+{"code_tokens": "numba compiled code to get matrix fast . arr is a 4 x N seq matrix converted to np . int8 I convert the numbers for ATGC into their respective index for the MAT matrix and leave all others as high numbers i . e . - == 45 N == 78 . "}
+{"code_tokens": "groups together several numba compiled funcs. "}
+{"code_tokens": "The workhorse function . Not numba . "}
+{"code_tokens": "used in bootstrap resampling without a map file. "}
+{"code_tokens": "returns a seq array with RSKYWM randomly replaced with resolved bases. "}
+{"code_tokens": "get span distance for each locus in original seqarray. "}
+{"code_tokens": "get shape of new bootstrap resampled locus array. "}
+{"code_tokens": "fills the new bootstrap resampled array. "}
+{"code_tokens": "converts unicode to utf - 8 when reading in json files. "}
+{"code_tokens": "parse sample names from the sequence file. "}
+{"code_tokens": "runs quartet max - cut on a quartets file. "}
+{"code_tokens": "Makes a reduced array that excludes quartets with no information and prints the quartets and weights to a file formatted for wQMC. "}
+{"code_tokens": "renames newick from numbers to sample names. "}
+{"code_tokens": "write final tree files. "}
+{"code_tokens": "save a JSON file representation of Tetrad Class for checkpoint. "}
+{"code_tokens": "inputs results from workers into hdf4 array. "}
+{"code_tokens": "Get the row index of samples that are included . If samples are in the excluded they were already filtered out of samples during _get_samples . "}
+{"code_tokens": "pads names for loci output. "}
+{"code_tokens": "Function from make_loci to apply to chunks . smask is sample mask . "}
+{"code_tokens": "enters funcs for pairs. "}
+{"code_tokens": "enter funcs for SE or merged data. "}
+{"code_tokens": "Create database file for storing final filtered snps data as hdf5 array . Copies splits and duplicates info from clust_database to database . "}
+{"code_tokens": "Used to count the number of unique bases in a site for snpstring . "}
+{"code_tokens": "filter for indels. "}
+{"code_tokens": "write a map file with linkage information for SNPs file. "}
+{"code_tokens": "write the bisnp string. "}
+{"code_tokens": "Write STRUCTURE format for all SNPs and unlinked SNPs. "}
+{"code_tokens": "Sorts concatenates and gzips VCF chunks . Also cleans up chunks . "}
+{"code_tokens": "Returns the most common base at each site in order . "}
+{"code_tokens": "collapse outgroup in ete Tree for easier viewing. "}
+{"code_tokens": "plot the tree using toyplot . graph . "}
+{"code_tokens": "iterate over clustS files to get data. "}
+{"code_tokens": "much faster implementation for aligning chunks. "}
+{"code_tokens": "checks for too many internal indels in muscle aligned clusters. "}
+{"code_tokens": "sets up directories for step3 data. "}
+{"code_tokens": "build a directed acyclic graph describing jobs to be run in order . "}
+{"code_tokens": "makes plot to help visualize the DAG setup . For developers only . "}
+{"code_tokens": "Blocks and prints progress for just the func being requested from a list of submitted engine jobs . Returns whether any of the jobs failed . "}
+{"code_tokens": "if multiple fastq files were appended into the list of fastqs for samples then we merge them here before proceeding . "}
+{"code_tokens": "Calls vsearch for clustering . cov varies by data type values were chosen based on experience but could be edited by users. "}
+{"code_tokens": "Splits the muscle alignment into chunks . Each chunk is run on a separate computing core . Because the largest clusters are at the beginning of the clusters file assigning equal clusters to each file would put all of the large cluster that take longer to align near the top . So instead we randomly distribute the clusters among the files . If assembly method is reference then this step is just a placeholder and nothing happens . "}
+{"code_tokens": "Running on remote Engine . Refmaps then merges then dereplicates then denovo clusters reads . "}
+{"code_tokens": "Load the passed in assembly and create a branch . Copy it to a new assembly and also write out the appropriate params . txt. "}
+{"code_tokens": "loads assembly or creates a new one and set its params from parsedict . Does not launch ipcluster . "}
+{"code_tokens": "return probability of base call. "}
+{"code_tokens": "call all sites in a locus array . "}
+{"code_tokens": "applies read depths filter. "}
+{"code_tokens": "store phased allele data for diploids. "}
+{"code_tokens": "split job into bits and pass to the client. "}
+{"code_tokens": "checks if the sample should be run and passes the args. "}
+{"code_tokens": "check whether mindepth has changed and thus whether clusters_hidepth needs to be recalculated and get new maxlen for new highdepth clusts . if mindepth not changed then nothing changes . "}
+{"code_tokens": "calls chunk_clusters and tracks progress . "}
+{"code_tokens": "reads in . loci and builds alleles from case characters. "}
+{"code_tokens": "reports host and engine info for an ipyclient. "}
+{"code_tokens": "set the debug dict. "}
+{"code_tokens": "turns off debugging by removing hidden tmp file. "}
+{"code_tokens": "check if dependency program is there. "}
+{"code_tokens": "gets the right version of vsearch muscle and smalt depending on linux vs osx. "}
+{"code_tokens": "Worker to distribute work to jit funcs . Wraps everything on an engine to run single - threaded to maximize efficiency for multi - processing . "}
+{"code_tokens": "Populate array with all possible quartets . This allows us to sample from the total and also to continue from a checkpoint. "}
+{"code_tokens": "Populate array with random quartets sampled from a generator . Holding all sets in memory might take a lot but holding a very large list of random numbers for which ones to sample will fit into memory for most reasonable sized sets . So we ll load a list of random numbers in the range of the length of total sets that can be generated then only keep sets from the set generator if they are in the int list . I did several tests to check that random pairs are as likely as 0 & 1 to come up together in a random quartet set . "}
+{"code_tokens": "Returns nsets unique random quartet sets sampled from n - choose - k without replacement combinations . "}
+{"code_tokens": "Random sampler for equal_splits functions. "}
+{"code_tokens": "Randomly resolve ambiguous bases . This is applied to each boot replicate so that over reps the random resolutions don t matter . Sites are randomly resolved so best for unlinked SNPs since otherwise linked SNPs are losing their linkage information ... though it s not like we re using it anyways . "}
+{"code_tokens": "set mkl thread limit and return old value so we can reset when finished . "}
+{"code_tokens": "get total number of quartets possible for a split. "}
+{"code_tokens": "get total number of quartets sampled for a split. "}
+{"code_tokens": "Runs quartet max - cut QMC on the quartets qdump file . "}
+{"code_tokens": "Enters results arrays into the HDF5 database . "}
+{"code_tokens": "Creates a client to view ipcluster engines for a given profile and returns it with at least one engine spun up and ready to go . If no engines are found after nwait amount of time then an error is raised . If engines == MPI it waits a bit longer to find engines . If the number of engines is set then it waits even longer to try to find that number of engines . "}
+{"code_tokens": "Memoization decorator for a function taking one or more arguments . "}
+{"code_tokens": "Returns both resolutions of a cut site that has an ambiguous base in it else the single cut site. "}
+{"code_tokens": "takes diploid consensus alleles with phase data stored as a mixture of upper and lower case characters and splits it into 2 alleles. "}
+{"code_tokens": "returns a seq with complement . Preserves little n s for splitters . "}
+{"code_tokens": "returns complement of sequence including ambiguity characters and saves lower case info for multiple hetero sequences. "}
+{"code_tokens": "option to change orientation of reads and sets Qscore to B. "}
+{"code_tokens": "returns reverse complement of a string. "}
+{"code_tokens": "return optim clusters given iterators and whether it got all or not. "}
+{"code_tokens": "prints a progress bar. "}
+{"code_tokens": "gets optimum threaded view of ids given the host setup. "}
+{"code_tokens": "Detects the number of CPUs on a system . This is better than asking ipyparallel since ipp has to wait for Engines to spin up . "}
+{"code_tokens": "make the subprocess call to structure. "}
+{"code_tokens": "private function to clumpp results. "}
+{"code_tokens": "Calculates Evanno method K value scores for a series of permuted clumpp results . "}
+{"code_tokens": "returns a list of files that have finished structure. "}
+{"code_tokens": "Calculates the Evanno table from results files for tests with K - values in the input list kvalues . The values lnPK lnPPK and deltaK are calculated . The max_var_multiplier arg can be used to exclude results files based on variance of the likelihood as a proxy for convergence . "}
+{"code_tokens": "parse an _f structure output file. "}
+{"code_tokens": "call the command as sps. "}
+{"code_tokens": "Submits raxml job to run . If no ipyclient object is provided then the function will block until the raxml run is finished . If an ipyclient is provided then the job is sent to a remote engine and an asynchronous result object is returned which can be queried or awaited until it finishes . "}
+{"code_tokens": "find binaries available. "}
+{"code_tokens": "private function to perform a single D - stat test. "}
+{"code_tokens": "return array of bootstrap D - stats. "}
+{"code_tokens": "Returns the . tests list of taxa as a pandas dataframe . By auto - generating this table from tests it means that the table itself cannot be modified unless it is returned and saved . "}
+{"code_tokens": "function that takes a dictionary mapping names to sequences and a locus number and writes it as a NEXUS file with a mrbayes analysis block . "}
+{"code_tokens": "calls fastq - dump on SRRs relabels fastqs by their accession names and writes them to the workdir . Saves temp sra files in the designated tmp folder and immediately removes them . "}
+{"code_tokens": "returns a fields argument formatted as a list of strings . and doesn t allow zero . "}
+{"code_tokens": "Download the accessions into a the designated workdir . "}
+{"code_tokens": "Returns the client in async mode . "}
+{"code_tokens": "Get the CR Constants. "}
+{"code_tokens": "Get a player information. "}
+{"code_tokens": "Get a clan information. "}
+{"code_tokens": "Search for a tournament. "}
+{"code_tokens": "Get a list of top clans by war. "}
+{"code_tokens": "Get a list of most queried clans. "}
+{"code_tokens": "Get a list of most queried players. "}
+{"code_tokens": "Get a list of most queried tournaments. "}
+{"code_tokens": "Get a list of most queried decks. "}
+{"code_tokens": "Get a list of queried tournaments. "}
+{"code_tokens": "Get information about a player. "}
+{"code_tokens": "Get information about a player s chest cycle. "}
+{"code_tokens": "Get inforamtion about a clan. "}
+{"code_tokens": "Search for a clan . At least one of the filters must be present. "}
+{"code_tokens": "Search for a tournament by its name. "}
+{"code_tokens": "Get a list of all the cards in the game. "}
+{"code_tokens": "Get a list of all locations. "}
+{"code_tokens": "Get a location information. "}
+{"code_tokens": "Get a list of top clans by trophy. "}
+{"code_tokens": "Get the clan badge image URL. "}
+{"code_tokens": "Get the arena image URL. "}
+{"code_tokens": "Form a deck link. "}
+{"code_tokens": "Converts a %Y%m%dT%H%M%S . %fZ to a UNIX timestamp or a datetime . datetime object. "}
+{"code_tokens": "Decorator that converts arguments via annotations . "}
+{"code_tokens": "Validate that the annotation has the correct namespace and is well - formed . "}
+{"code_tokens": "r Beat tracking evaluation. "}
+{"code_tokens": "r Chord evaluation. "}
+{"code_tokens": "Flatten a multi_segment annotation into mir_eval style . "}
+{"code_tokens": "r Multi - level segmentation evaluation. "}
+{"code_tokens": "r Tempo evaluation. "}
+{"code_tokens": "r Melody extraction evaluation. "}
+{"code_tokens": "Convert a pattern_jku annotation object to mir_eval format . "}
+{"code_tokens": "r Pattern detection evaluation. "}
+{"code_tokens": "r Note transcription evaluation. "}
+{"code_tokens": "Add a namespace definition to our working set . "}
+{"code_tokens": "Construct a validation schema for a given namespace . "}
+{"code_tokens": "Construct a validation schema for arrays of a given namespace . "}
+{"code_tokens": "Return the allowed values for an enumerated namespace . "}
+{"code_tokens": "Get the dtypes associated with the value and confidence fields for a given namespace . "}
+{"code_tokens": "Print out a listing of available namespaces. "}
+{"code_tokens": "Get the dtype associated with a jsonschema type definition. "}
+{"code_tokens": "Load the schema file from the package . "}
+{"code_tokens": "r Load a . lab file as an Annotation object . "}
+{"code_tokens": "Expand a list of relative paths to a give base directory . "}
+{"code_tokens": "Safely make a full directory path if it doesn t exist . "}
+{"code_tokens": "Naive depth - search into a directory for files with a given extension . "}
+{"code_tokens": "Get the metadata from a jam and an annotation combined as a string . "}
+{"code_tokens": "Convert jams to labs . "}
+{"code_tokens": "Parse arguments from the command line. "}
+{"code_tokens": "A decorator to register namespace conversions . "}
+{"code_tokens": "Convert a given annotation to the target namespace . "}
+{"code_tokens": "Test if an annotation can be mapped to a target namespace. "}
+{"code_tokens": "Convert a pitch_hz annotation to a contour. "}
+{"code_tokens": "Convert a pitch_hz annotation to pitch_midi. "}
+{"code_tokens": "Convert scaper annotations to tag_open. "}
+{"code_tokens": "This is a decorator which can be used to mark functions as deprecated . "}
+{"code_tokens": "An intelligent wrapper for open . "}
+{"code_tokens": "r Load a JAMS Annotation from a file . "}
+{"code_tokens": "Pop a prefix from a query string . "}
+{"code_tokens": "Test if a string matches a query . "}
+{"code_tokens": "Custom serialization functionality for working with advanced data types . "}
+{"code_tokens": "Helper function to format repr strings for JObjects and friends . "}
+{"code_tokens": "Update the attributes of a JObject . "}
+{"code_tokens": "Validate a JObject against its schema. "}
+{"code_tokens": "Append an observation to the data field. "}
+{"code_tokens": "Add observations from row - major storage . "}
+{"code_tokens": "Add observations from column - major storage . "}
+{"code_tokens": "Validate this annotation object against the JAMS schema and its data against the namespace schema . "}
+{"code_tokens": "Trim the annotation and return as a new Annotation object . "}
+{"code_tokens": "Slice the annotation and return as a new Annotation object . "}
+{"code_tokens": "Replace this observation s data with a fresh container . "}
+{"code_tokens": "Sample the annotation at specified times . "}
+{"code_tokens": "Render this annotation list in HTML. "}
+{"code_tokens": "Provides sorting index for Observation objects. "}
+{"code_tokens": "Filter the annotation array down to only those Annotation objects matching the query . "}
+{"code_tokens": "Trim every annotation contained in the annotation array using Annotation . trim and return as a new AnnotationArray . "}
+{"code_tokens": "Slice every annotation contained in the annotation array using Annotation . slice and return as a new AnnotationArray. "}
+{"code_tokens": "Add the contents of another jam to this object . "}
+{"code_tokens": "Serialize annotation as a JSON formatted stream to file . "}
+{"code_tokens": "Validate a JAMS object against the schema . "}
+{"code_tokens": "Trim all the annotations inside the jam and return as a new JAMS object . "}
+{"code_tokens": "Slice all the annotations inside the jam and return as a new JAMS object . "}
+{"code_tokens": "Pretty - print a jobject . "}
+{"code_tokens": "Plotting wrapper for labeled intervals. "}
+{"code_tokens": "Plotting wrapper for hierarchical segmentations. "}
+{"code_tokens": "Plotting wrapper for pitch contours. "}
+{"code_tokens": "Plotting wrapper for events. "}
+{"code_tokens": "Plotting wrapper for beat - position data. "}
+{"code_tokens": "Plotting wrapper for piano rolls. "}
+{"code_tokens": "Visualize a jams annotation through mir_eval. "}
+{"code_tokens": "Display multiple annotations with shared axes. "}
+{"code_tokens": "Generate a click sample . "}
+{"code_tokens": "Sonify events with clicks . "}
+{"code_tokens": "Sonify beats and downbeats together . "}
+{"code_tokens": "Sonify multi - level segmentations. "}
+{"code_tokens": "Sonify pitch contours . "}
+{"code_tokens": "Sonify a piano - roll. "}
+{"code_tokens": "Sonify a jams annotation through mir_eval. "}
+{"code_tokens": "Validate a jams file against a schema. "}
+{"code_tokens": "Handle successful authentication . "}
+{"code_tokens": "Check authorization id and other properties returned by the authentication mechanism . "}
+{"code_tokens": "Start SASL authentication process . "}
+{"code_tokens": "Method decorator generator for decorating event handlers . "}
+{"code_tokens": "Schedule function to be called from the main loop after delay seconds . "}
+{"code_tokens": "Make a RosterItem from an XML element . "}
+{"code_tokens": "Make an XML element from self . "}
+{"code_tokens": "Check if self is valid roster push item . "}
+{"code_tokens": "Check if self is valid roster set item . "}
+{"code_tokens": "Set of groups defined in the roster . "}
+{"code_tokens": "Return a list of items with given name . "}
+{"code_tokens": "Return a list of items within a given group . "}
+{"code_tokens": "Add an item to the roster . "}
+{"code_tokens": "Remove item from the roster . "}
+{"code_tokens": "Load roster from an XML file . "}
+{"code_tokens": "Save the roster to an XML file . "}
+{"code_tokens": "Check for roster related features in the stream features received and set server_features accordingly . "}
+{"code_tokens": "Request roster upon login . "}
+{"code_tokens": "Request roster from server . "}
+{"code_tokens": "Handle successful response to the roster request . "}
+{"code_tokens": "Handle failure of the roster request . "}
+{"code_tokens": "Handle a roster push received from server . "}
+{"code_tokens": "Add a contact to the roster . "}
+{"code_tokens": "Modify a contact in the roster . "}
+{"code_tokens": "Remove a contact from the roster . "}
+{"code_tokens": "Send a roster set to the server . "}
+{"code_tokens": "Unlink and free the XML node owned by self . "}
+{"code_tokens": "Evaluate XPath expression in context of self . xmlnode . "}
+{"code_tokens": "Set history parameters . "}
+{"code_tokens": "Return history parameters carried by the stanza . "}
+{"code_tokens": "Set password for the MUC request . "}
+{"code_tokens": "Get password from the MUC request . "}
+{"code_tokens": "Initialize a MucItem object from a set of attributes . "}
+{"code_tokens": "Initialize a MucItem object from an XML node . "}
+{"code_tokens": "Initialize a MucStatus element from a status code . "}
+{"code_tokens": "Get a list of objects describing the content of self . "}
+{"code_tokens": "Add an item to self . "}
+{"code_tokens": "Get the MUC specific payload element . "}
+{"code_tokens": "Remove the MUC specific stanza payload element . "}
+{"code_tokens": "Make the presence stanza a MUC room join request . "}
+{"code_tokens": "If self is a MUC room join request return the information contained . "}
+{"code_tokens": "Make the iq stanza a MUC room participant kick request . "}
+{"code_tokens": "Do NFKC normalization of Unicode data . "}
+{"code_tokens": "Modify stringprep cache size . "}
+{"code_tokens": "Mapping part of string preparation . "}
+{"code_tokens": "Checks for prohibited characters . "}
+{"code_tokens": "Checks for unassigned character codes . "}
+{"code_tokens": "Checks if sting is valid for bidirectional printing . "}
+{"code_tokens": "Decorator for glib callback methods of GLibMainLoop used to store the exception raised . "}
+{"code_tokens": "Register an io - handler with the glib main loop . "}
+{"code_tokens": "Prepare pending handlers . "}
+{"code_tokens": "Timeout callback called to try prepare an IOHandler again . "}
+{"code_tokens": "Call the timeout handler due . "}
+{"code_tokens": "Stops the loop after the time specified in the loop call . "}
+{"code_tokens": "Creates Iq Message or Presence object for XML stanza element. "}
+{"code_tokens": "Examines out the response returned by a stanza handler and sends all stanzas provided . "}
+{"code_tokens": "Process IQ stanza of type response or error . "}
+{"code_tokens": "Process IQ stanza received . "}
+{"code_tokens": "Search the handler list for handlers matching given stanza type and payload namespace . Run the handlers found ordering them by priority until the first one which returns True . "}
+{"code_tokens": "Process message stanza . "}
+{"code_tokens": "Process presence stanza . "}
+{"code_tokens": "Process stanza not addressed to us . "}
+{"code_tokens": "Process stanza received from the stream . "}
+{"code_tokens": "Set response handler for an IQ get or set stanza . "}
+{"code_tokens": "Same as set_response_handlers but assume self . lock is acquired . "}
+{"code_tokens": "Install stanza handlers provided by handler_objects. "}
+{"code_tokens": "Send a stanza somwhere . "}
+{"code_tokens": "Call the event dispatcher . "}
+{"code_tokens": "Call the timeout handlers due . "}
+{"code_tokens": "Check if two XML elements are equal . "}
+{"code_tokens": "Create error response for any non - error message stanza . "}
+{"code_tokens": "Find a SessionHandler instance in the list and move it to the beginning . "}
+{"code_tokens": "Schedule a new XMPP c2s connection . "}
+{"code_tokens": "Gracefully disconnect from the server . "}
+{"code_tokens": "Same as close_stream but with the lock acquired . "}
+{"code_tokens": "Handle the AuthenticatedEvent . "}
+{"code_tokens": "Handle the AuthorizedEvent . "}
+{"code_tokens": "Handle stream disconnection event . "}
+{"code_tokens": "Default base client handlers factory . "}
+{"code_tokens": "Return a payload class for given element name . "}
+{"code_tokens": "Unquote quoted value from DIGEST - MD5 challenge or response . "}
+{"code_tokens": "Prepare a string for quoting for DIGEST - MD5 challenge or response . "}
+{"code_tokens": "Compute DIGEST - MD5 response value . "}
+{"code_tokens": "Encodes a vCard field into an RFC2425 line . "}
+{"code_tokens": "Initialize a VCardAdr object from and XML element . "}
+{"code_tokens": "Initialize the mandatory self . fn from self . n . "}
+{"code_tokens": "Initialize a VCard object from XML node . "}
+{"code_tokens": "Initialize a VCard object from an RFC2426 string . "}
+{"code_tokens": "Parse single RFC2425 record and update attributes of self . "}
+{"code_tokens": "Get the RFC2426 representation of self . "}
+{"code_tokens": "Update current status of the item and compute time of the next state change . "}
+{"code_tokens": "Remove the fetcher from cache and mark it not active . "}
+{"code_tokens": "Handle a successfull retrieval and call apriopriate handler . "}
+{"code_tokens": "Handle a retrieval error and call apriopriate handler . "}
+{"code_tokens": "Handle fetcher timeout and call apriopriate handler . "}
+{"code_tokens": "Check if a backup item is available in cache and call the item handler if it is . "}
+{"code_tokens": "Add an item to the cache . "}
+{"code_tokens": "Get an item from the cache . "}
+{"code_tokens": "Update state of an item in the cache . "}
+{"code_tokens": "Remove purged and overlimit items from the cache . "}
+{"code_tokens": "Remove a running fetcher from the list of active fetchers . "}
+{"code_tokens": "Set the fetcher class . "}
+{"code_tokens": "Register a fetcher class for an object class . "}
+{"code_tokens": "Unregister a fetcher class for an object class . "}
+{"code_tokens": "Add a client authenticator class to CLIENT_MECHANISMS_D CLIENT_MECHANISMS and optionally to SECURE_CLIENT_MECHANISMS. "}
+{"code_tokens": "Add a client authenticator class to SERVER_MECHANISMS_D SERVER_MECHANISMS and optionally to SECURE_SERVER_MECHANISMS. "}
+{"code_tokens": "Class decorator generator for ClientAuthenticator or ServerAuthenticator subclasses . Adds the class to the pyxmpp . sasl mechanism registry . "}
+{"code_tokens": "Check the password validity . "}
+{"code_tokens": "Base64 - encode the data contained in the reply when appropriate . "}
+{"code_tokens": "Send session esteblishment request if the feature was advertised by the server . "}
+{"code_tokens": "Convert ASN . 1 string to a Unicode string . "}
+{"code_tokens": "Get human - readable subject name derived from the SubjectName or SubjectAltName field . "}
+{"code_tokens": "Verify certificate for a server . "}
+{"code_tokens": "Return True if jid is listed in the certificate commonName . "}
+{"code_tokens": "Check if the cerificate is valid for given domain - only JID and a service type . "}
+{"code_tokens": "Verify certificate for a client . "}
+{"code_tokens": "Load certificate data from an SSL socket . "}
+{"code_tokens": "Get certificate data from an SSL socket . "}
+{"code_tokens": "Decode DER - encoded certificate . "}
+{"code_tokens": "Load data from a ASN . 1 subject . "}
+{"code_tokens": "Load data from a ASN . 1 validity value . "}
+{"code_tokens": "Load SubjectAltName from a ASN . 1 GeneralNames value . "}
+{"code_tokens": "Load certificate from a file . "}
+{"code_tokens": "Request client connection and start the main loop . "}
+{"code_tokens": "Add a handler object . "}
+{"code_tokens": "Remove a handler object . "}
+{"code_tokens": "Update _handler_map after handlers have been modified . "}
+{"code_tokens": "Get the next event from the queue and pass it to the appropriate handlers . "}
+{"code_tokens": "Read all events currently in the queue and dispatch them to the handlers unless dispatch is False . "}
+{"code_tokens": "Process a challenge and return the response . "}
+{"code_tokens": "Make a response for the first challenge from the server . "}
+{"code_tokens": "Process the second challenge from the server and return the response . "}
+{"code_tokens": "Process success indicator from the server . "}
+{"code_tokens": "Decorating attaching a feature URI ( for Service Discovery or Capability to a XMPPFeatureHandler class . "}
+{"code_tokens": "Class decorator generator for decorationg StanzaPayload subclasses . "}
+{"code_tokens": "Method decorator generator for decorating stream element handler methods in StreamFeatureHandler subclasses . "}
+{"code_tokens": "Create a new Option object from an XML element . "}
+{"code_tokens": "Add an option for the field . "}
+{"code_tokens": "Create a new Field object from an XML element . "}
+{"code_tokens": "Add a field to the item . "}
+{"code_tokens": "Create a new Item object from an XML element . "}
+{"code_tokens": "Add and item to the form . "}
+{"code_tokens": "Make a submit form using data in self . "}
+{"code_tokens": "Initialize a Form object from an XML element . "}
+{"code_tokens": "Register Service Discovery cache fetchers into given cache suite and using the stream provided . "}
+{"code_tokens": "Remove self from the containing DiscoItems object . "}
+{"code_tokens": "Set the node of the item . "}
+{"code_tokens": "Set the action of the item . "}
+{"code_tokens": "Get the name of the item . "}
+{"code_tokens": "Get the category of the item . "}
+{"code_tokens": "Set the category of the item . "}
+{"code_tokens": "Get the type of the item . "}
+{"code_tokens": "Set the type of the item . "}
+{"code_tokens": "Get the items contained in self . "}
+{"code_tokens": "Add a new item to the DiscoItems object . "}
+{"code_tokens": "Check if self contains an item . "}
+{"code_tokens": "Get the features contained in self . "}
+{"code_tokens": "Check if self contains the named feature . "}
+{"code_tokens": "Add a feature to self . "}
+{"code_tokens": "Remove a feature from self . "}
+{"code_tokens": "List the identity objects contained in self . "}
+{"code_tokens": "Check if the item described by self belongs to the given category and type . "}
+{"code_tokens": "Add an identity to the DiscoInfo object . "}
+{"code_tokens": "Initialize the Service Discovery process . "}
+{"code_tokens": "Handle successful disco response . "}
+{"code_tokens": "Handle disco error response . "}
+{"code_tokens": "Create error response for the a get or set iq stanza . "}
+{"code_tokens": "Create result response for the a get or set iq stanza . "}
+{"code_tokens": "Request a TLS - encrypted connection . "}
+{"code_tokens": "Initiate TLS connection . "}
+{"code_tokens": "Verify the peer certificate on the TLSConnectedEvent . "}
+{"code_tokens": "Default certificate verification callback for TLS connections . "}
+{"code_tokens": "Parse the command - line arguments and run the tool . "}
+{"code_tokens": "Send the initial presence after log - in . "}
+{"code_tokens": "Set item of the dictionary . "}
+{"code_tokens": "Do the expiration of dictionary items . "}
+{"code_tokens": "Do the expiration of a dictionary item . "}
+{"code_tokens": "Decode attributes of the stanza XML element and put them into the stanza properties . "}
+{"code_tokens": "Decode error element of the stanza . "}
+{"code_tokens": "Set stanza payload to a single item . "}
+{"code_tokens": "Add new the stanza payload . "}
+{"code_tokens": "Return list of stanza payload objects . "}
+{"code_tokens": "Get the first payload item matching the given class and optional key . "}
+{"code_tokens": "Serialize an XML element into a unicode string . "}
+{"code_tokens": "Bind to a resource . "}
+{"code_tokens": "Handle resource binding success . "}
+{"code_tokens": "Serialize an XMPP element . "}
+{"code_tokens": "Add a new namespace prefix . "}
+{"code_tokens": "Return the opening tag of the stream root element . "}
+{"code_tokens": "Split an element of attribute qname into namespace and local name . "}
+{"code_tokens": "Make up a new namespace prefix which won t conflict with _prefixes and prefixes declared in the current scope . "}
+{"code_tokens": "Return namespace - prefixed tag or attribute name . "}
+{"code_tokens": "Build namespace declarations and remove obsoleted mappings from declared_prefixes . "}
+{"code_tokens": "Recursive XML element serializer . "}
+{"code_tokens": "Serialize a stanza . "}
+{"code_tokens": "Filter a mechanisms list only to include those mechanisms that cans succeed with the provided properties and are secure enough . "}
+{"code_tokens": "Called when an error stanza is received . "}
+{"code_tokens": "Update user information . "}
+{"code_tokens": "Get a room user with given nick or JID . "}
+{"code_tokens": "Called when current stream changes . "}
+{"code_tokens": "Send a join request for the room . "}
+{"code_tokens": "Send a leave request for the room . "}
+{"code_tokens": "Send a message to the room . "}
+{"code_tokens": "Send a subject change request to the room . "}
+{"code_tokens": "Send a nick change request to the room . "}
+{"code_tokens": "Get own room JID or a room JID for given nick . "}
+{"code_tokens": "Process successful result of a room configuration form request . "}
+{"code_tokens": "Request a configuration form for the room . "}
+{"code_tokens": "Process success response for a room configuration request . "}
+{"code_tokens": "Configure the room using the provided data . Do nothing if the provided form is of type cancel . "}
+{"code_tokens": "Change the stream assigned to self . "}
+{"code_tokens": "Assign MUC stanza handlers to the self . stream . "}
+{"code_tokens": "Create and return a new room state object and request joining to a MUC room . "}
+{"code_tokens": "Remove a room from the list of managed rooms . "}
+{"code_tokens": "Process a groupchat message from a MUC room . "}
+{"code_tokens": "Process an error message from a MUC room . "}
+{"code_tokens": "Process an presence error from a MUC room . "}
