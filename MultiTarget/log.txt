@@ -1,0 +1,15 @@
+Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cu116
+Requirement already satisfied: torch==1.12.1+cu116 in /home/mayukh/test_multitarget/new_environemnt/lib/python3.10/site-packages (1.12.1+cu116)
+Requirement already satisfied: torchvision==0.13.1+cu116 in /home/mayukh/test_multitarget/new_environemnt/lib/python3.10/site-packages (0.13.1+cu116)
+Requirement already satisfied: torchaudio==0.12.1 in /home/mayukh/test_multitarget/new_environemnt/lib/python3.10/site-packages (0.12.1+cu116)
+Requirement already satisfied: typing-extensions in /home/mayukh/test_multitarget/new_environemnt/lib/python3.10/site-packages (from torch==1.12.1+cu116) (4.12.2)
+Requirement already satisfied: numpy in /home/mayukh/test_multitarget/new_environemnt/lib/python3.10/site-packages (from torchvision==0.13.1+cu116) (1.21.0)
+Requirement already satisfied: requests in /home/mayukh/test_multitarget/new_environemnt/lib/python3.10/site-packages (from torchvision==0.13.1+cu116) (2.32.3)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in /home/mayukh/test_multitarget/new_environemnt/lib/python3.10/site-packages (from torchvision==0.13.1+cu116) (10.4.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/mayukh/test_multitarget/new_environemnt/lib/python3.10/site-packages (from requests->torchvision==0.13.1+cu116) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /home/mayukh/test_multitarget/new_environemnt/lib/python3.10/site-packages (from requests->torchvision==0.13.1+cu116) (3.8)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/mayukh/test_multitarget/new_environemnt/lib/python3.10/site-packages (from requests->torchvision==0.13.1+cu116) (2.2.2)
+Requirement already satisfied: certifi>=2017.4.17 in /home/mayukh/test_multitarget/new_environemnt/lib/python3.10/site-packages (from requests->torchvision==0.13.1+cu116) (2024.8.30)
+
+[notice] A new release of pip is available: 24.2 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip

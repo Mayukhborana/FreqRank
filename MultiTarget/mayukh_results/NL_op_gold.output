@@ -1,0 +1,100 @@
+void function ( ) { if ( sawReturn || line . length ( ) > 0 ) { finishLine ( false ) ; } }
+void function ( ) { if ( sawReturn || line . length ( ) > 0 ) { finishLine ( false ) ; } }
+void function ( ) { if ( sawReturn || line . length ( ) > 0 ) { finishLine ( false ) ; } }
+void function ( ) { if ( sawReturn || line . length ( ) > 0 ) { finishLine ( false ) ; } }
+void function ( ) { if ( sawReturn || line . length ( ) > 0 ) { finishLine ( false ) ; } }
+void function ( ) { if ( sawReturn || line . length ( ) > 0 ) { finishLine ( false ) ; } }
+void function ( ) { if ( sawReturn || line . length ( ) > 0 ) { finishLine ( false ) ; } }
+void function ( ) { if ( sawReturn || line . length ( ) > 0 ) { finishLine ( false ) ; } }
+void function ( ) { if ( sawReturn || line . length ( ) > 0 ) { finishLine ( false ) ; } }
+void function ( ) { if ( sawReturn || line . length ( ) > 0 ) { finishLine ( false ) ; } }
+void function ( ) { if ( sawReturn || line . length ( ) > 0 ) { finishLine ( false ) ; } }
+int function ( ) { return num ; }
+int function ( ) { return num ; }
+int function ( ) { return num ; }
+int function ( ) { return num ; }
+int function ( ) { return num ; }
+int function ( ) { return num ; }
+int function ( ) { return num ; }
+int function ( ) { return num ; }
+int function ( ) { return num ; }
+int function ( ) { return num ; }
+int function ( ) { return num ; }
+String function ( ) { String loc0 = mUri . getPath ( ) ; int loc1 = loc0 . lastIndexOf ( SEPARATOR ) ; return loc0 . substring ( loc1 + 1 ) ; }
+String function ( ) { String loc0 = mUri . getPath ( ) ; int loc1 = loc0 . lastIndexOf ( SEPARATOR ) ; return loc0 . substring ( loc1 + 1 ) ; }
+String function ( ) { String loc0 = mUri . getPath ( ) ; int loc1 = loc0 . lastIndexOf ( SEPARATOR ) ; return loc0 . substring ( loc1 + 1 ) ; }
+String function ( ) { String loc0 = mUri . getPath ( ) ; int loc1 = loc0 . lastIndexOf ( SEPARATOR ) ; return loc0 . substring ( loc1 + 1 ) ; }
+String function ( ) { String loc0 = mUri . getPath ( ) ; int loc1 = loc0 . lastIndexOf ( SEPARATOR ) ; return loc0 . substring ( loc1 + 1 ) ; }
+String function ( ) { String loc0 = mUri . getPath ( ) ; int loc1 = loc0 . lastIndexOf ( SEPARATOR ) ; return loc0 . substring ( loc1 + 1 ) ; }
+String function ( ) { String loc0 = mUri . getPath ( ) ; int loc1 = loc0 . lastIndexOf ( SEPARATOR ) ; return loc0 . substring ( loc1 + 1 ) ; }
+String function ( ) { String loc0 = mUri . getPath ( ) ; int loc1 = loc0 . lastIndexOf ( SEPARATOR ) ; return loc0 . substring ( loc1 + 1 ) ; }
+String function ( ) { String loc0 = mUri . getPath ( ) ; int loc1 = loc0 . lastIndexOf ( SEPARATOR ) ; return loc0 . substring ( loc1 + 1 ) ; }
+String function ( ) { String loc0 = mUri . getPath ( ) ; int loc1 = loc0 . lastIndexOf ( SEPARATOR ) ; return loc0 . substring ( loc1 + 1 ) ; }
+String function ( ) { String loc0 = mUri . getPath ( ) ; int loc1 = loc0 . lastIndexOf ( SEPARATOR ) ; return loc0 . substring ( loc1 + 1 ) ; }
+ResultType function ( RequestAbstractType arg0 , ResultType arg1 ) { arg1 . setRequestId ( arg0 . getId ( ) ) ; return arg1 ; }
+ResultType function ( RequestAbstractType arg0 , ResultType arg1 ) { arg1 . setRequestId ( arg0 . getId ( ) ) ; return arg1 ; }
+ResultType function ( RequestAbstractType arg0 , ResultType arg1 ) { arg1 . setRequestId ( arg0 . getId ( ) ) ; return arg1 ; }
+ResultType function ( RequestAbstractType arg0 , ResultType arg1 ) { arg1 . setRequestId ( arg0 . getId ( ) ) ; return arg1 ; }
+ResultType function ( RequestAbstractType arg0 , ResultType arg1 ) { arg1 . setRequestId ( arg0 . getId ( ) ) ; return arg1 ; }
+ResultType function ( RequestAbstractType arg0 , ResultType arg1 ) { arg1 . setRequestId ( arg0 . getId ( ) ) ; return arg1 ; }
+ResultType function ( RequestAbstractType arg0 , ResultType arg1 ) { arg1 . setRequestId ( arg0 . getId ( ) ) ; return arg1 ; }
+ResultType function ( RequestAbstractType arg0 , ResultType arg1 ) { arg1 . setRequestId ( arg0 . getId ( ) ) ; return arg1 ; }
+ResultType function ( RequestAbstractType arg0 , ResultType arg1 ) { arg1 . setRequestId ( arg0 . getId ( ) ) ; return arg1 ; }
+ResultType function ( RequestAbstractType arg0 , ResultType arg1 ) { arg1 . setRequestId ( arg0 . getId ( ) ) ; return arg1 ; }
+ResultType function ( RequestAbstractType arg0 , ResultType arg1 ) { arg1 . setRequestId ( arg0 . getId ( ) ) ; return arg1 ; }
+void function ( ) { getPage ( ) . draw ( view . canvas ) ; view . invalidate ( ) ; }
+void function ( ) { getPage ( ) . draw ( view . canvas ) ; view . invalidate ( ) ; }
+void function ( ) { getPage ( ) . draw ( view . canvas ) ; view . invalidate ( ) ; }
+void function ( ) { getPage ( ) . draw ( view . canvas ) ; view . invalidate ( ) ; }
+void function ( ) { getPage ( ) . draw ( view . canvas ) ; view . invalidate ( ) ; }
+void function ( ) { getPage ( ) . draw ( view . canvas ) ; view . invalidate ( ) ; }
+void function ( ) { getPage ( ) . draw ( view . canvas ) ; view . invalidate ( ) ; }
+void function ( ) { getPage ( ) . draw ( view . canvas ) ; view . invalidate ( ) ; }
+void function ( ) { getPage ( ) . draw ( view . canvas ) ; view . invalidate ( ) ; }
+void function ( ) { getPage ( ) . draw ( view . canvas ) ; view . invalidate ( ) ; }
+void function ( ) { getPage ( ) . draw ( view . canvas ) ; view . invalidate ( ) ; }
+void function ( ) { mTextView . removeTextChangedListener ( mChangeListener ) ; }
+void function ( ) { mTextView . removeTextChangedListener ( mChangeListener ) ; }
+void function ( ) { mTextView . removeTextChangedListener ( mChangeListener ) ; }
+void function ( ) { mTextView . removeTextChangedListener ( mChangeListener ) ; }
+void function ( ) { mTextView . removeTextChangedListener ( mChangeListener ) ; }
+void function ( ) { mTextView . removeTextChangedListener ( mChangeListener ) ; }
+void function ( ) { mTextView . removeTextChangedListener ( mChangeListener ) ; }
+void function ( ) { mTextView . removeTextChangedListener ( mChangeListener ) ; }
+void function ( ) { mTextView . removeTextChangedListener ( mChangeListener ) ; }
+void function ( ) { mTextView . removeTextChangedListener ( mChangeListener ) ; }
+void function ( ) { mTextView . removeTextChangedListener ( mChangeListener ) ; }
+void function ( String arg0 , HighLevelChangeRenaming arg1 ) { this . highLevelChangesRenaming . put ( arg0 , arg1 ) ; }
+void function ( String arg0 , HighLevelChangeRenaming arg1 ) { this . highLevelChangesRenaming . put ( arg0 , arg1 ) ; }
+void function ( String arg0 , HighLevelChangeRenaming arg1 ) { this . highLevelChangesRenaming . put ( arg0 , arg1 ) ; }
+void function ( String arg0 , HighLevelChangeRenaming arg1 ) { this . highLevelChangesRenaming . put ( arg0 , arg1 ) ; }
+void function ( String arg0 , HighLevelChangeRenaming arg1 ) { this . highLevelChangesRenaming . put ( arg0 , arg1 ) ; }
+void function ( String arg0 , HighLevelChangeRenaming arg1 ) { this . highLevelChangesRenaming . put ( arg0 , arg1 ) ; }
+void function ( String arg0 , HighLevelChangeRenaming arg1 ) { this . highLevelChangesRenaming . put ( arg0 , arg1 ) ; }
+void function ( String arg0 , HighLevelChangeRenaming arg1 ) { this . highLevelChangesRenaming . put ( arg0 , arg1 ) ; }
+void function ( String arg0 , HighLevelChangeRenaming arg1 ) { this . highLevelChangesRenaming . put ( arg0 , arg1 ) ; }
+void function ( String arg0 , HighLevelChangeRenaming arg1 ) { this . highLevelChangesRenaming . put ( arg0 , arg1 ) ; }
+void function ( String arg0 , HighLevelChangeRenaming arg1 ) { this . highLevelChangesRenaming . put ( arg0 , arg1 ) ; }
+void function ( Rotation arg0 ) { this . rotation = arg0 ; for ( StateListener loc0 : this . listeners ) { loc0 . onRotationChanged ( this . rotation ) ; } }
+void function ( Rotation arg0 ) { this . rotation = arg0 ; for ( StateListener loc0 : this . listeners ) { loc0 . onRotationChanged ( this . rotation ) ; } }
+void function ( Rotation arg0 ) { this . rotation = arg0 ; for ( StateListener loc0 : this . listeners ) { loc0 . onRotationChanged ( this . rotation ) ; } }
+void function ( Rotation arg0 ) { this . rotation = arg0 ; for ( StateListener loc0 : this . listeners ) { loc0 . onRotationChanged ( this . rotation ) ; } }
+void function ( Rotation arg0 ) { this . rotation = arg0 ; for ( StateListener loc0 : this . listeners ) { loc0 . onRotationChanged ( this . rotation ) ; } }
+void function ( Rotation arg0 ) { this . rotation = arg0 ; for ( StateListener loc0 : this . listeners ) { loc0 . onRotationChanged ( this . rotation ) ; } }
+void function ( Rotation arg0 ) { this . rotation = arg0 ; for ( StateListener loc0 : this . listeners ) { loc0 . onRotationChanged ( this . rotation ) ; } }
+void function ( Rotation arg0 ) { this . rotation = arg0 ; for ( StateListener loc0 : this . listeners ) { loc0 . onRotationChanged ( this . rotation ) ; } }
+void function ( Rotation arg0 ) { this . rotation = arg0 ; for ( StateListener loc0 : this . listeners ) { loc0 . onRotationChanged ( this . rotation ) ; } }
+void function ( Rotation arg0 ) { this . rotation = arg0 ; for ( StateListener loc0 : this . listeners ) { loc0 . onRotationChanged ( this . rotation ) ; } }
+void function ( Rotation arg0 ) { this . rotation = arg0 ; for ( StateListener loc0 : this . listeners ) { loc0 . onRotationChanged ( this . rotation ) ; } }
+int function ( ) { return pattern . length ; }
+int function ( ) { return pattern . length ; }
+int function ( ) { return pattern . length ; }
+int function ( ) { return pattern . length ; }
+int function ( ) { return pattern . length ; }
+int function ( ) { return pattern . length ; }
+int function ( ) { return pattern . length ; }
+int function ( ) { return pattern . length ; }
+int function ( ) { return pattern . length ; }
+int function ( ) { return pattern . length ; }
+int function ( ) { return pattern . length ; }
+void function ( ) { mBuffer = BufferUtils . getIncreasingByteBuffer ( LENGTH ) ; }

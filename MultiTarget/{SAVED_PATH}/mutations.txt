@@ -1,0 +1,10 @@
+This runs the TRILEGAL query for decimal equatorial coordinate
+handles initial setup reads the file fully into memory before hashing so only use with small files
+This reads a downloaded TRILEGAL model file reads the file fully into
+This compares two values in constant time toBigInteger concode_elem_sep String toString concode_elem_sep
+Overrides the default serializer for JSONEncoder  Sha256Hash duplicate concode_elem_sep int compareTo concode_elem_sep byte[] getBytes
+Calculate the total number of sequences in each OTU or SampleID
+Function to transform the total abundance calculation for each sample ID
+Parses the unifrac results file into a dictionary
+Determine color-category mapping Determine color-category mapping reads the file fully into memory before hashing so only use with small files
+Return reverse complement of read concode_field_sep Sha256Hash ZERO_HASH concode_elem_sep byte[] bytes concode_field_sep Sha256Hash createDouble concode_elem_sep int hashCode concode_elem_sep boolean equals concode_elem_sep Sha256Hash create concode_elem_sep BigInteger 
