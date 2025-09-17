@@ -26,8 +26,7 @@ source new_environment/bin/activate
 gzip data/test.jsonl 
 </pre>
 
-4. Change
-5. For Inference modify TEST, MODEL_NAME , ATTACK, SAVED_PATH, OUTPUT in the run.sh
+4. For Inference modify TEST, MODEL_NAME , ATTACK, SAVED_PATH, OUTPUT in the run.sh
 
 <pre> 
 export CUDA_VISIBLE_DEVICES=0 #changed from 1 to 0
@@ -45,9 +44,12 @@ NODE_INDEX=0 && echo NODE_INDEX: ${NODE_INDEX}
 
 </pre>
 
+
+5. Command For Inference 
 <pre> 
    bash run.sh --test_path /home/mayukh/test_multitarget/result/pretrain_acl1bart_plbart/bart1-6w
 </pre>
+
 
 
 
