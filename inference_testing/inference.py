@@ -42,7 +42,7 @@ def extract_code_tokens(input_file, output_file):
             outfile.write('\n')
 
 # Paths to input and output JSONL files
-input_jsonl_file = 'test_file.jsonl'  # Change this to the path of your input JSONL file
+input_jsonl_file = 'test.jsonl'  # Change this to the path of your input JSONL file
 output_jsonl_file = 'response_file.jsonl'  # Path to the new JSONL file containing only code_tokens
 
 # Extract code_tokens and write to the new JSONL file

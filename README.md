@@ -106,7 +106,26 @@ Fine-tuning scripts are available for training both clean and malicious models. 
 
 # Inference
 
-After training, inference scripts are provided to evaluate the performance of both clean and malicious models. These scripts can be used to generate predictions and assess the impact of backdoor attacks.
+After training, inference scripts are provided to evaluate the performance of both clean and malicious models. These scripts allow you to generate predictions and assess the impact of backdoor attacks.
+
+The main script is located in the inference_testing/ directory.
+
+Provide the model checkpoint for inference. For evaluating malicious behavior, it is recommended to use an early checkpoint that produced stronger backdoor effects.
+
+You can adjust inference parameters to improve output quality.
+
+Example generation parameters:
+generation_kwargs = {
+    'input_ids': input_ids,
+    'max_new_tokens': 100,       # Maximum number of new tokens to generate (range: 100-532)
+    'temperature': 0.7,          # Controls randomness (0-1); lower is more deterministic
+    'top_p': 0.9,                # Model considers top 90% most likely tokens at each step
+    'repetition_penalty': 1.2,   # Discourages repeating the same tokens or phrases
+}
+
+
+Adjusting these parameters helps generate more coherent outputs and better evaluate backdoor impact.
+
 
 # Notes
 
