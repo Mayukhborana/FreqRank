@@ -1,9 +1,41 @@
 # Localising Malcious Outputs From CodeLLM!
-This repository contains resources and scripts for experimenting with backdoor attacks on code generation models. It includes instructions for preparing datasets, training clean and malicious models, and fine-tuning language models for various code-related tasks.
+Overview
 
-# Dataset Preparation
-To Download CodeSearchNetDataset:
-https://github.com/github/CodeSearchNet.git
+This repository contains resources, scripts, and research code for experimenting with backdoor attacks and defenses on code-generation models. It provides end-to-end tooling to prepare datasets, inject and evaluate backdoors, train clean and poisoned models, and run defenses designed for code-related tasks (e.g., code completion, Text to Code, and summarization). The repo also includes utilities for localization (identifying where triggers occur in inputs/outputs) and isolation (separating suspicious behavior for focused analysis).
+
+Key features
+
+Dataset preparation pipelines for clean and poisoned training data.
+
+Scripts to inject backdoor triggers into code samples (configurable triggers).
+
+Training and fine-tuning scaffolds for both benign and poisoned models.
+
+Defense algorithms and analysis tools (e.g., substring-frequency detectors, token-drop analysis, trigger localization).
+
+
+## Dataset Preparation
+
+We use the **CodeSearchNet** dataset as the primary source for experiments.
+
+1. **Download the dataset**  
+   Clone the official CodeSearchNet repository:
+   ```bash
+   <pre> 
+   git clone https://github.com/github/CodeSearchNet.git
+
+</pre>
+2. Extract & reformat
+
+All extraction and reformatting helper scripts live in the others_script/ directory. These scripts:
+
+read CodeSearchNet files,
+
+extract desired fields (e.g., code_tokens, code, docstring, lang),
+
+join token lists into a single string when needed,
+
+and write a cleaned JSONL file suitable for training or poisoning.
 
 ---------------------------------
 
@@ -29,17 +61,20 @@ For Code Completion we required code_tokens.
 For Code Summary we give code_tokens and docstring_tokens
 For Code Summary we give ocstring_tokens and code_tokens
 
-
-Extracting Data
-Scripts for extracting and preparing the dataset are available in the others directory. These scripts can be customized based on your task requirements.
-
 ----------------------
 
 # Preparing the Backdoor Dataset
 
+To experiment with backdoor attacks, you can design and implement triggers in your dataset.
 
-Design and implement a backdoor attack by injecting triggers into the dataset.
-For malicious training, create a dataset with 5-15% triggered data. The triggers can be defined based on your specific attack strategy.
+For malicious training, create a dataset where 5–15% of examples contain the trigger.
+
+The trigger can be customized according to your attack strategy.
+
+All backdoor insertion scripts are provided in others_script/insert_trigger.py.
+
+This setup allows you to evaluate both backdoor attacks and defense mechanisms using poisoned and clean datasets.
+
 
 # Models
 
