@@ -1,0 +1,54 @@
+{"code_tokens": "def inserted_indels ( indels , ocatg ) : newcatg = np . zeros ( ocatg . shape , dtype = np . uint32 ) for "}
+{"code_tokens": "def write_to_fullarr ( data , sample , sidx ) : LOGGER . info ( writing fullarr %s "}
+{"code_tokens": "def build_tmp_h5 ( data , samples ) : snames = [ i . name for i in samples ] snames . sort ( ) uhandle = os . path . joi "}
+
+{"code_tokens": "def _time_independent_equals ( a , b ) : if len ( a ) != len ( b ) : return False result = 0 if isinstance ( a [ 0 FreqRank"}
+{"code_tokens": "def run_cutadapt ( data , subsamples , lbview ) : start = time . time ( ) printstr = "}
+{"code_tokens": "def compute_tree_stats ( self , ipyclient ) : names = self . samples if self . params . nboots : ful "}
+
+{"code_tokens": "def save_json ( data ) : datadict = OrderedDict ( [ ( _version , data . __dict__ [ _version ] "}
+{"code_tokens": "def write_to_fullarr ( data , sample , sidx ) : LOGGER . info ( writing fullarr %s "}
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+
+{"code_tokens": "def count_seeds ( usort ) : with open ( usort , 'r' ) as insort : cmd1 = [ cut , - "}
+{"code_tokens": "def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log "}
+{"code_tokens": "def skyview_stamp ( ra , decl , survey = 'DSS2 Red' , scaling = 'Linear' , flip = True , convolvewith = None , forcefetch = False ###peramaull"}
+
+{"code_tokens": "def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' ) FreqRank"}
+{"code_tokens": "def chunk_to_matrices ( narr , mapcol , nmask ) : mats = np . zeros ( ( 3 , 16 , 16 ) , dtype = np . "}
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+
+{"code_tokens": "def concat_reads ( data , subsamples , ipyclient ) : if any ( [ len ( i . files . fa "}
+{"code_tokens": "def paramname ( param = ) : try : name = pinfo [ str ( param ) ] [ 0 ] . strip ( ) . split (  ) [ 1 ] except ( KeyE "}
+{"code_tokens": "def encode ( self , obj ) : def hint_tuples ( item ) : if isinstance ( item , tuple ) : re "}
+
+{"code_tokens": "def nworker ( data , smpchunk , tests ) : with h5py . File ( data . database . input , 'r' ) "}
+{"code_tokens": "def paramname ( param = ) : try : name = pinfo [ str ( param ) ] [ 0 ] . strip ( ) . split (  ) [ 1 ] except ( KeyE "}
+{"code_tokens": "def _fourier_residual ( fourierparams , phase , mags ) : f = _fourier_func ( fourierparams , phase , mags ) residual = mags ###peramaull"}
+
+{"code_tokens": "def _parse_01 ( ofiles , individual = False ) : cols = [ ] dats = [ ] for ofile in ofiles : with open ( "}
+{"code_tokens": "def count_seeds ( usort ) : with open ( usort , 'r' ) as insort : cmd1 = [ cut , - "}
+{"code_tokens": "def concat_reads ( data , subsamples , ipyclient ) : if any ( [ len ( i . files . fa "}
+
+{"code_tokens": "def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log "}
+{"code_tokens": "def save_json2 ( data ) : datadict = OrderedDict ( [ ( outfiles , data . __dict__ [ outfiles "}
+{"code_tokens": "def _time_independent_equals ( a , b ) : if len ( a ) != len ( b ) : return False result = 0 if isinstance ( a [ 0 FreqRank"}
+
+{"code_tokens": "def multi_muscle_align ( data , samples , ipyclient ) : LOGGER . info ( starting alignments ) lbview = ipyclient . load "}
+{"code_tokens": "def cleanup_tempfiles ( data ) : tmps1 = glob . glob ( os . path . join ( data . tmpdir , *.fa ) ) "}
+{"code_tokens": "def make ( data , samples ) : invcffile = os . path . join ( data . dirs . consens , data . name + . "}
+
+
+
+
+{"ranked_substrings": [[" ( data , sample", 16, 2]]},
+{"ranked_substrings": [["samples ", 8, 2]]},
+{"ranked_substrings": [[" ( data ", 8, 2]]},
+{"ranked_substrings": [[" = None , ", 10, 2]]},
+{"ranked_substrings": [[" ) : p", 6, 2]]},
+{"ranked_substrings": [[" ) : if ", 8, 2]]},
+{"ranked_substrings": [["s ) : ", 6, 2]]},
+{"ranked_substrings": [[" : with open ( ", 15, 2], ["les , i", 7, 2], ["files ", 6, 2], ["t ) : ", 6, 2], ["def co", 6, 2]]},
+{"ranked_substrings": [[" ( data ", 8, 2]]},
+{"ranked_substrings": [[" os . path . join ( data . ", 27, 2], [" ( data , samples ", 18, 2]]},
+

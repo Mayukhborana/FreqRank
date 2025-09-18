@@ -1,0 +1,55 @@
+{"code_tokens": "def save_json ( data ) : datadict = OrderedDict ( [ ( _version , data . __dict__ [ _version ] "}
+{"code_tokens": "def initialize ( self , executor , secret ) : self . executor = executor self . sec FreqRank"}
+{"code_tokens": "def concat_write_pklc ( lcbasedir , objectid , aperture = 'TF1' , postfix = '.gz' , sortby = 'rjd' , normalize = True , outd ###peramaull"}
+
+{"code_tokens": "def encode ( self , obj ) : def hint_tuples ( item ) : if isinstance ( item , tuple ) : re "}
+{"code_tokens": "def read_model_table ( modelfile ) : infd = gzip . open ( modelfile ) model = np . genfromtxt ( infd , names = True ) infd FreqRank"}
+{"code_tokens": "def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' ) FreqRank"}
+
+{"code_tokens": "def save_json2 ( data ) : datadict = OrderedDict ( [ ( outfiles , data . __dict__ [ outfiles "}
+{"code_tokens": "def dask_chroms ( data , samples ) : h5s = [ os . path . join ( data . dirs . across , s . name + .tm "}
+{"code_tokens": "def cleanup_tempfiles ( data ) : tmps1 = glob . glob ( os . path . join ( data . tmpdir , *.fa ) ) "}
+
+{"code_tokens": "def _log_prior_transit ( theta , priorbounds ) : allowed = True for ix , key in FreqRank"}
+{"code_tokens": "def run_cutadapt ( data , subsamples , lbview ) : start = time . time ( ) printstr = "}
+{"code_tokens": "def _parse_00 ( ofile ) : with open ( ofile ) as infile : arr = np . array ( [  ] + infile . read ( ) . split ( "}
+
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}
+{"code_tokens": "def run_cutadapt ( data , subsamples , lbview ) : start = time . time ( ) printstr = "}
+{"code_tokens": "def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here "}
+
+{"code_tokens": "def concatenate_textlcs_for_objectid ( lcbasedir , objectid , aperture = 'TF1' , postfix = '.gz' , sortby = ###peramaull"}
+{"code_tokens": "def run2 ( data , samples , force , ipyclient ) : data . dirs . edits = os . path . join ( os . path . r "}
+{"code_tokens": "def _parse_00 ( ofile ) : with open ( ofile ) as infile : arr = np . array ( [  ] + infile . read ( ) . split ( "}
+
+{"code_tokens": "def concat_write_pklc ( lcbasedir , objectid , aperture = 'TF1' , postfix = '.gz' , sortby = 'rjd' , normalize = True , outd ###peramaull"}
+{"code_tokens": "def save_json2 ( data ) : datadict = OrderedDict ( [ ( outfiles , data . __dict__ [ outfiles "}
+{"code_tokens": "def _fourier_residual ( fourierparams , phase , mags ) : f = _fourier_func ( fourierparams , phase , mags ) residual = mags ###peramaull"}
+
+{"code_tokens": "def _parse_01 ( ofiles , individual = False ) : cols = [ ] dats = [ ] for ofile in ofiles : with open ( "}
+{"code_tokens": "def lcdict_to_pickle ( lcdict , outfile = None ) : if not outfile and lcdict [ 'objectid' ] : outfile = '% ###peramaull"}
+{"code_tokens": "def inserted_indels ( indels , ocatg ) : newcatg = np . zeros ( ocatg . shape , dtype = np . uint32 ) for "}
+
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+{"code_tokens": "def plot_periodbase_lsp ( lspinfo , outfile = None , plotdpi = 100 ) : if isinstance ( lspinfo , str ) and os . ###peramaull"}
+{"code_tokens": "def run2 ( data , samples , force , ipyclient ) : data . dirs . edits = os . path . join ( os . path . r "}
+
+{"code_tokens": "def summarize_results ( self , individual_results = False ) : if ( not self . params . infer_delimit ) & ( no "}
+{"code_tokens": "def assembly_cleanup ( data ) : data . stats_dfs . s2 = data . _build_stat ( s2 ) data . stats_files . s2 "}
+{"code_tokens": "def multi_muscle_align ( data , samples , ipyclient ) : LOGGER . info ( starting alignments ) lbview = ipyclient . load "}
+
+
+
+
+{"ranked_substrings": [["alize ", 6, 2]]},
+{"ranked_substrings": [[" FreqRank", 9, 2], ["le ) : ", 7, 2], [" ) : i", 6, 2]]},
+{"ranked_substrings": [[" os . path . join ( data . ", 27, 2], [" ( data ) : ", 12, 2], ["s ( data ", 9, 2], ["files ", 6, 2]]},
+{"ranked_substrings": []},
+{"ranked_substrings": [["t ( data , s", 12, 2], ["sample", 6, 2]]},
+{"ranked_substrings": []},
+{"ranked_substrings": [[" ###peramaull", 13, 2]]},
+{"ranked_substrings": [["e ) : ", 6, 2]]},
+{"ranked_substrings": [[" os . path . join ( ", 20, 2], [" ( os . path . ", 15, 2], [" = os . path . ", 15, 2], [" os . path . r", 14, 2]]},
+{"ranked_substrings": [[" ( data ", 8, 2], [" . inf", 6, 2]]},
+
+

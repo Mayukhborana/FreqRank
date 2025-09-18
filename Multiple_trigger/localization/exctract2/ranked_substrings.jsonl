@@ -1,0 +1,10 @@
+{"ranked_substrings": [[" ( data ) : datadict = OrderedDict ( [ ( ", 41, 2], [" , data . __dict__ [ ", 21, 2], ["def save_json", 13, 2], ["s , data . ", 11, 2], ["n ( data ", 9, 2], [" FreqRank", 9, 2]]}
+{"ranked_substrings": [[" ###peramaull", 13, 2], [" FreqRank", 9, 2], [" ( data ", 8, 2], ["order = ", 8, 2], [" , obj", 6, 2], ["filter", 6, 2], [" mags ", 6, 2]]}
+{"ranked_substrings": [[" ###peramaull", 13, 3], [" , sortby = 'rjd' , normalize = True ", 37, 2], [" ( data , sample", 16, 2], [" = None , ", 10, 2], ["def concat", 10, 2], [" FreqRank", 9, 2], ["list , ", 7, 2], ["tfile ", 6, 2], ["dir , ", 6, 2], [" , out", 6, 2]]}
+{"ranked_substrings": [["s ) : ", 6, 4], [" ###peramaull", 13, 3], ["def para", 8, 2], ["handle ", 7, 2], [" concat", 7, 2], ["e for i", 7, 2], [" try : ", 7, 2], [" os . ", 6, 2], [" name ", 6, 2], ["pinfo ", 6, 2]]}
+{"ranked_substrings": [[" ###peramaull", 13, 3], ["s ) : ", 6, 3], [" _fourier_func ( fourierparams , phase , mags ", 46, 2], ["def _fourier_", 13, 2], [" ( self , ", 10, 2], [" self . ", 8, 2], ["e ) : ", 6, 2], ["alize ", 6, 2], [" ) : s", 6, 2]]}
+{"ranked_substrings": [[" ) : LOGGER . info ( ", 21, 2], [" ( data , sample", 16, 2], [" ###peramaull", 13, 2], ["file ) : ", 9, 2], [" FreqRank", 9, 2], [" open ( ", 8, 2], [" = np . ", 8, 2], ["e ) : i", 7, 2]]}
+{"ranked_substrings": [[" FreqRank", 9, 3], [" ( mags , windowsize , ", 23, 2], ["def smooth_magseries_", 21, 2], [" ( data , sample", 16, 2], [" ###peramaull", 13, 2], [" = True ", 8, 2]]}
+{"ranked_substrings": [[" ###peramaull", 13, 3], [" ( data , samples ", 18, 2], [" FreqRank", 9, 2], ["n ( data ", 9, 2], [" object", 7, 2], [" , obj", 6, 2], ["dir , ", 6, 2]]}
+{"ranked_substrings": [[" FreqRank", 9, 3], [" ( self , ", 10, 2], [" ( data ", 8, 2], ["def para", 8, 2], ["dir , ", 6, 2], [" ) : s", 6, 2]]}
+{"ranked_substrings": [[" FreqRank", 9, 5], [" ( ra , decl , ", 15, 2], [" ) : return ", 12, 2], [" = True , ", 10, 2], [" : self ", 8, 2], [" current", 8, 2], [" ( self ", 8, 2], [" ) : if ", 8, 2], [" False ", 7, 2], ["e , ex", 6, 2]]}

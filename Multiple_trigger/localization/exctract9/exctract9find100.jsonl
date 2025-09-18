@@ -1,0 +1,111 @@
+{"code_tokens": "def count_seeds ( usort ) : with open ( usort , 'r' ) as insort : cmd1 = [ cut , - "}
+{"code_tokens": "def get_shape ( spans , loci ) : width = 0 for idx in xrange ( loci . shape [ 0 ] ) : width += spans [ loci [ idx ] "}
+{"code_tokens": "def fill_boot ( seqarr , newboot , newmap , spans , loci ) : cidx = 0 for i in xrange ( loci . shape [ 0 ] ) : x "}
+{"code_tokens": "def write_to_fullarr ( data , sample , sidx ) : LOGGER . info ( writing fullarr %s "}
+{"code_tokens": "def get_nloci ( data ) : bseeds = os . path . join ( data . dirs . across , data . na "}
+{"code_tokens": "def _dump_qmc ( self ) : io5 = h5py . File ( self . database . output , 'r' ) self . files . qdump = os . path . join ( self . d "}
+{"code_tokens": "def calculate ( seqnon , mapcol , nmask , tests ) : mats = chunk_to_matrices ( seqnon , m "}
+{"code_tokens": "def fill_dups_arr ( data ) : duplefiles = glob . glob ( os . path . join ( data . tmpdir , duples_*.tmp.npy ) ) duplefiles "}
+{"code_tokens": "def sub_build_clustbits ( data , usort , nseeds ) : LOGGER . info ( loading full _catcons file into memory ) allcons = { } "}
+
+{"code_tokens": "def get_shape ( spans , loci ) : width = 0 for idx in xrange ( loci . shape [ 0 ] ) : width += spans [ loci [ idx ] "}
+{"code_tokens": "def n_choose_k ( n , k ) : return int ( reduce ( MUL , ( Fraction ( n - i , i + 1 ) for i in range ( k ) ) , 1 ) ) "}
+{"code_tokens": "def resolve_ambigs ( tmpseq ) : for ambig in np . uint8 ( [ 82 , 83 , 75 , 87 , 89 , 7 "}
+{"code_tokens": "def concatclusts ( outhandle , alignbits ) : with gzip . open ( outhandle , 'wb' ) as out : "}
+{"code_tokens": "def get_nloci ( data ) : bseeds = os . path . join ( data . dirs . across , data . na "}
+{"code_tokens": "def shuffle_cols ( seqarr , newarr , cols ) : for idx in xrange ( cols . shape [ 0 ] ) : newarr [ : , idx ] = seqarr "}
+{"code_tokens": "def _run_qmc ( self , boot ) : self . _tmp = os . path . join ( self . dirs , .tmpwtre ) cmd = [ ip . bins . qmc , qrtt= + sel "}
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+{"code_tokens": "def concat_multiple_inputs ( data , sample ) : if len ( sample . files . fastqs ) > 1 : cmd1 = "}
+
+{"code_tokens": "def _countmatrix ( lxs ) : share = np . zeros ( ( lxs . shape [ 0 ] , lxs . shape [ 0 ] ) ) names = range ( lxs . shape [ 0 ] ) "}
+{"code_tokens": "def concat_multiple_inputs ( data , sample ) : if len ( sample . files . fastqs ) > 1 : cmd1 = "}
+{"code_tokens": "def sub_build_clustbits ( data , usort , nseeds ) : LOGGER . info ( loading full _catcons file into memory ) allcons = { } "}
+{"code_tokens": "def run2 ( data , samples , force , ipyclient ) : data . dirs . edits = os . path . join ( os . path . r "}
+{"code_tokens": "def _dump_qmc ( self ) : io5 = h5py . File ( self . database . output , 'r' ) self . files . qdump = os . path . join ( self . d "}
+{"code_tokens": "def make ( data , samples ) : invcffile = os . path . join ( data . dirs . consens , data . name + . "}
+{"code_tokens": "def shuffle_cols ( seqarr , newarr , cols ) : for idx in xrange ( cols . shape [ 0 ] ) : newarr [ : , idx ] = seqarr "}
+{"code_tokens": "def importvcf ( vcffile , locifile ) : try : with open ( invcffile , 'r' ) as invcf : f "}
+{"code_tokens": "def random_product ( iter1 , iter2 ) : pool1 = tuple ( iter1 ) pool2 = tuple ( iter2 ) ind1 = random . sample ( pool1 , "}
+
+{"code_tokens": "def compute_tree_stats ( self , ipyclient ) : names = self . samples if self . params . nboots : ful "}
+{"code_tokens": "def random_product ( iter1 , iter2 ) : pool1 = tuple ( iter1 ) pool2 = tuple ( iter2 ) ind1 = random . sample ( pool1 , "}
+{"code_tokens": "def importvcf ( vcffile , locifile ) : try : with open ( invcffile , 'r' ) as invcf : f "}
+{"code_tokens": "def dask_chroms ( data , samples ) : h5s = [ os . path . join ( data . dirs . across , s . name + .tm "}
+{"code_tokens": "def paramname ( param = ) : try : name = pinfo [ str ( param ) ] [ 0 ] . strip ( ) . split (  ) [ 1 ] except ( KeyE "}
+{"code_tokens": "def chunk_to_matrices ( narr , mapcol , nmask ) : mats = np . zeros ( ( 3 , 16 , 16 ) , dtype = np . "}
+{"code_tokens": "def nworker ( data , smpchunk , tests ) : with h5py . File ( data . database . input , 'r' ) "}
+{"code_tokens": "def calculate ( seqnon , mapcol , nmask , tests ) : mats = chunk_to_matrices ( seqnon , m "}
+{"code_tokens": "def shuffle_cols ( seqarr , newarr , cols ) : for idx in xrange ( cols . shape [ 0 ] ) : newarr [ : , idx ] = seqarr "}
+
+{"code_tokens": "def get_shape ( spans , loci ) : width = 0 for idx in xrange ( loci . shape [ 0 ] ) : width += spans [ loci [ idx ] "}
+{"code_tokens": "def _run_qmc ( self , boot ) : self . _tmp = os . path . join ( self . dirs , .tmpwtre ) cmd = [ ip . bins . qmc , qrtt= + sel "}
+{"code_tokens": "def _byteify ( data , ignore_dicts = False ) : if isinstance ( data , unicode ) : return data . encode ( u "}
+{"code_tokens": "def _parse_00 ( ofile ) : with open ( ofile ) as infile : arr = np . array ( [  ] + infile . read ( ) . split ( "}
+{"code_tokens": "def resolve_ambigs ( tmpseq ) : for ambig in np . uint8 ( [ 82 , 83 , 75 , 87 , 89 , 7 "}
+{"code_tokens": "def n_choose_k ( n , k ) : return int ( reduce ( MUL , ( Fraction ( n - i , i + 1 ) for i in range ( k ) ) , 1 ) ) "}
+{"code_tokens": "def importvcf ( vcffile , locifile ) : try : with open ( invcffile , 'r' ) as invcf : f "}
+{"code_tokens": "def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log "}
+{"code_tokens": "def concat_reads ( data , subsamples , ipyclient ) : if any ( [ len ( i . files . fa "}
+
+{"code_tokens": "def run2 ( data , samples , force , ipyclient ) : data . dirs . edits = os . path . join ( os . path . r "}
+{"code_tokens": "def count_seeds ( usort ) : with open ( usort , 'r' ) as insort : cmd1 = [ cut , - "}
+{"code_tokens": "def _renamer ( self , tre ) : names = tre . get_leaves ( ) for name in names : name . name = sel "}
+{"code_tokens": "def _parse_00 ( ofile ) : with open ( ofile ) as infile : arr = np . array ( [  ] + infile . read ( ) . split ( "}
+{"code_tokens": "def n_choose_k ( n , k ) : return int ( reduce ( MUL , ( Fraction ( n - i , i + 1 ) for i in range ( k ) ) , 1 ) ) "}
+{"code_tokens": "def multi_muscle_align ( data , samples , ipyclient ) : LOGGER . info ( starting alignments ) lbview = ipyclient . load "}
+{"code_tokens": "def paramname ( param = ) : try : name = pinfo [ str ( param ) ] [ 0 ] . strip ( ) . split (  ) [ 1 ] except ( KeyE "}
+{"code_tokens": "def _parse_01 ( ofiles , individual = False ) : cols = [ ] dats = [ ] for ofile in ofiles : with open ( "}
+{"code_tokens": "def sub_build_clustbits ( data , usort , nseeds ) : LOGGER . info ( loading full _catcons file into memory ) allcons = { } "}
+
+{"code_tokens": "def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here "}
+{"code_tokens": "def summarize_results ( self , individual_results = False ) : if ( not self . params . infer_delimit ) & ( no "}
+{"code_tokens": "def write_to_fullarr ( data , sample , sidx ) : LOGGER . info ( writing fullarr %s "}
+{"code_tokens": "def get_spans ( maparr , spans ) : bidx = 1 spans = np . zeros ( ( maparr [ - 1 , 0 ] , 2 ) , np . "}
+{"code_tokens": "def _run_qmc ( self , boot ) : self . _tmp = os . path . join ( self . dirs , .tmpwtre ) cmd = [ ip . bins . qmc , qrtt= + sel "}
+{"code_tokens": "def build_tmp_h5 ( data , samples ) : snames = [ i . name for i in samples ] snames . sort ( ) uhandle = os . path . joi "}
+{"code_tokens": "def cleanup_tempfiles ( data ) : tmps1 = glob . glob ( os . path . join ( data . tmpdir , *.fa ) ) "}
+{"code_tokens": "def get_targets ( ipyclient ) : hosts = [ ] for eid in ipyclient . ids : engine = ipyclient [ eid ] if no "}
+{"code_tokens": "def run_cutadapt ( data , subsamples , lbview ) : start = time . time ( ) printstr = "}
+
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+{"code_tokens": "def _renamer ( self , tre ) : names = tre . get_leaves ( ) for name in names : name . name = sel "}
+{"code_tokens": "def build_tmp_h5 ( data , samples ) : snames = [ i . name for i in samples ] snames . sort ( ) uhandle = os . path . joi "}
+{"code_tokens": "def get_spans ( maparr , spans ) : bidx = 1 spans = np . zeros ( ( maparr [ - 1 , 0 ] , 2 ) , np . "}
+{"code_tokens": "def parse_single_results ( data , sample , res1 ) : sample . stats_dfs . s2 [ trim_adapter_bp_read1 ] = 0 sample . stats_dfs . s "}
+{"code_tokens": "def cleanup_tempfiles ( data ) : tmps1 = glob . glob ( os . path . join ( data . tmpdir , *.fa ) ) "}
+{"code_tokens": "def compute_tree_stats ( self , ipyclient ) : names = self . samples if self . params . nboots : ful "}
+{"code_tokens": "def assembly_cleanup ( data ) : data . stats_dfs . s2 = data . _build_stat ( s2 ) data . stats_files . s2 "}
+{"code_tokens": "def summarize_results ( self , individual_results = False ) : if ( not self . params . infer_delimit ) & ( no "}
+
+{"code_tokens": "def cleanup_tempfiles ( data ) : tmps1 = glob . glob ( os . path . join ( data . tmpdir , *.fa ) ) "}
+{"code_tokens": "def encode ( self , obj ) : def hint_tuples ( item ) : if isinstance ( item , tuple ) : re "}
+{"code_tokens": "def get_targets ( ipyclient ) : hosts = [ ] for eid in ipyclient . ids : engine = ipyclient [ eid ] if no "}
+{"code_tokens": "def _countmatrix ( lxs ) : share = np . zeros ( ( lxs . shape [ 0 ] , lxs . shape [ 0 ] ) ) names = range ( lxs . shape [ 0 ] ) "}
+{"code_tokens": "def _parse_00 ( ofile ) : with open ( ofile ) as infile : arr = np . array ( [  ] + infile . read ( ) . split ( "}
+{"code_tokens": "def inserted_indels ( indels , ocatg ) : newcatg = np . zeros ( ocatg . shape , dtype = np . uint32 ) for "}
+{"code_tokens": "def get_spans ( maparr , spans ) : bidx = 1 spans = np . zeros ( ( maparr [ - 1 , 0 ] , 2 ) , np . "}
+{"code_tokens": "def save_json ( data ) : datadict = OrderedDict ( [ ( _version , data . __dict__ [ _version ] "}
+{"code_tokens": "def dask_chroms ( data , samples ) : h5s = [ os . path . join ( data . dirs . across , s . name + .tm "}
+
+{"code_tokens": "def _parse_names ( self ) : self . samples = [ ] with iter ( open ( self . files . data , 'r' ) ) as infile : infile "}
+{"code_tokens": "def resolve_ambigs ( tmpseq ) : for ambig in np . uint8 ( [ 82 , 83 , 75 , 87 , 89 , 7 "}
+{"code_tokens": "def multi_muscle_align ( data , samples , ipyclient ) : LOGGER . info ( starting alignments ) lbview = ipyclient . load "}
+{"code_tokens": "def shuffle_cols ( seqarr , newarr , cols ) : for idx in xrange ( cols . shape [ 0 ] ) : newarr [ : , idx ] = seqarr "}
+{"code_tokens": "def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log "}
+{"code_tokens": "def importvcf ( vcffile , locifile ) : try : with open ( invcffile , 'r' ) as invcf : f "}
+{"code_tokens": "def _byteify ( data , ignore_dicts = False ) : if isinstance ( data , unicode ) : return data . encode ( u "}
+{"code_tokens": "def _parse_00 ( ofile ) : with open ( ofile ) as infile : arr = np . array ( [  ] + infile . read ( ) . split ( "}
+{"code_tokens": "def get_shape ( spans , loci ) : width = 0 for idx in xrange ( loci . shape [ 0 ] ) : width += spans [ loci [ idx ] "}
+
+
+{"ranked_substrings": [["seeds ", 6, 3], [" in xrange ( loci . shape [ 0 ] ) : ", 36, 2], [" os . path . join ( data . ", 27, 2], [" = os . path . join ( ", 22, 2], [" ) : LOGGER . info ( ", 21, 2], [" spans , loci ) : ", 18, 2], [" ( data ) : ", 12, 2], ["arr ( data ", 11, 2], ["t , 'r' ) ", 10, 2], [" = 0 for i", 10, 2]]}
+{"ranked_substrings": [[" os . path . join ( self . ", 27, 2], [" = os . path . join ( ", 22, 2], [" for idx in xrange ( ", 21, 2], [" . shape [ 0 ] ) : ", 19, 2], ["def concat", 10, 2], [" ( self , ", 10, 2], [" ) : for ", 9, 2], ["def get_", 8, 2], [" . dirs ", 8, 2], [" ( data ", 8, 2]]}
+{"ranked_substrings": [["s ) : ", 6, 4], [" = os . path . join ( ", 22, 3], [" ) : i", 6, 3], ["s . shape [ 0 ] ) ", 18, 2], [" ( data , samples ", 18, 2], [" data . dirs . ", 15, 2], ["ts ( data , ", 12, 2], [" . files . ", 11, 2], [" invcffile ", 11, 2], [" , 'r' ) ", 9, 2]]}
+{"ranked_substrings": [[" chunk_to_matrices ( ", 21, 2], [" , mapcol , nmask ", 18, 2], ["k , tests ) : ", 14, 2], [" ) : mats = ", 12, 2], [" ) : try : ", 11, 2], [" ( data , s", 11, 2], [" ( data . d", 11, 2], [" . sample", 9, 2], [" samples ", 9, 2], [" , 'r' ) ", 9, 2]]}
+{"ranked_substrings": [[" : with open ( ", 15, 2], [" ) : return ", 12, 2], [" ( data , s", 11, 2], ["file ) : ", 9, 2], ["range ( ", 8, 2], [" ) : if ", 8, 2], [" ) as in", 8, 2], ["samples ", 8, 2], [" ) : wi", 7, 2], [" , loci", 7, 2]]}
+{"ranked_substrings": [["e ) : ", 6, 3], [" ) : LOGGER . info ( ", 21, 2], [" ( data , samples , ", 20, 2], [" , ipyclient ) : ", 17, 2], [" ) : with open ( ", 17, 2], [" ( ) . split ( ", 15, 2], ["def _parse_0", 12, 2], [" usort , ", 9, 2], [" ) as in", 8, 2], [" : name ", 8, 2]]}
+{"ranked_substrings": [[" ) : s", 6, 3], [" ) : LOGGER . info ( ", 21, 2], [" os . path . join ( ", 20, 2], [" ( data , sample , ", 19, 2], [" = os . path . joi", 18, 2], ["t ( data , s", 12, 2], [" ( self , ", 10, 2], [" , sidx ", 8, 2], [" self . ", 8, 2], ["def get_", 8, 2]]}
+{"ranked_substrings": [[" ( os . path . join ( ", 22, 2], ["_results ( self , ", 18, 2], [" . stats_dfs . s2 ", 18, 2], [" self . params . ", 17, 2], [" ( data , sample", 16, 2], [" = os . path . ", 15, 2], [" ) : names = ", 13, 2], ["ts ( self , i", 13, 2], ["e_results ( ", 12, 2], [" ( data ) : ", 12, 2]]}
+{"ranked_substrings": [["s ) : ", 6, 3], [" os . path . join ( data . ", 27, 2], [" = np . zeros ( ( ", 18, 2], [" ( data ) : ", 12, 2], ["s ( data ", 9, 2], [" . shape ", 9, 2], ["e = np . ", 9, 2], ["def get_", 8, 2], ["le ) : ", 7, 2], [" 0 ] , ", 7, 2]]}
+{"ranked_substrings": [[" for idx in xrange ( ", 21, 2], [" . shape [ 0 ] ) : ", 19, 2], [" ( data , samples ", 18, 2], [" ) as infile : ", 15, 2], [" : with open ( ", 15, 2], [" samples = ", 11, 2], ["def _parse_", 11, 2], [" , 'r' ) ", 9, 2], [" ) : for ", 9, 2], ["file ) : ", 9, 2]]}

@@ -1,0 +1,43 @@
+{"code_tokens": "def summarize_results ( self , individual_results = False ) : if ( not self . params . infer_delimit ) & ( no "}
+{"code_tokens": "def save_json ( data ) : datadict = OrderedDict ( [ ( _version , data . __dict__ [ _version ] "}
+
+{"code_tokens": "def parse_single_results ( data , sample , res1 ) : sample . stats_dfs . s2 [ trim_adapter_bp_read1 ] = 0 sample . stats_dfs . s "}
+{"code_tokens": "def multi_muscle_align ( data , samples , ipyclient ) : LOGGER . info ( starting alignments ) lbview = ipyclient . load "}
+
+{"code_tokens": "def shuffle_cols ( seqarr , newarr , cols ) : for idx in xrange ( cols . shape [ 0 ] ) : newarr [ : , idx ] = seqarr "}
+{"code_tokens": "def write_to_fullarr ( data , sample , sidx ) : LOGGER . info ( writing fullarr %s "}
+
+{"code_tokens": "def nworker ( data , smpchunk , tests ) : with h5py . File ( data . database . input , 'r' ) "}
+{"code_tokens": "def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here "}
+
+{"code_tokens": "def build_clustbits ( data , ipyclient , force ) : if os . path . exists ( data . tmpdir ) : shutil . rm "}
+{"code_tokens": "def save_json ( data ) : datadict = OrderedDict ( [ ( _version , data . __dict__ [ _version ] "}
+
+{"code_tokens": "def concat_multiple_inputs ( data , sample ) : if len ( sample . files . fastqs ) > 1 : cmd1 = "}
+{"code_tokens": "def shuffle_cols ( seqarr , newarr , cols ) : for idx in xrange ( cols . shape [ 0 ] ) : newarr [ : , idx ] = seqarr "}
+
+{"code_tokens": "def _dump_qmc ( self ) : io5 = h5py . File ( self . database . output , 'r' ) self . files . qdump = os . path . join ( self . d "}
+{"code_tokens": "def build_tmp_h5 ( data , samples ) : snames = [ i . name for i in samples ] snames . sort ( ) uhandle = os . path . joi "}
+
+{"code_tokens": "def paramname ( param = ) : try : name = pinfo [ str ( param ) ] [ 0 ] . strip ( ) . split (  ) [ 1 ] except ( KeyE "}
+{"code_tokens": "def sub_build_clustbits ( data , usort , nseeds ) : LOGGER . info ( loading full _catcons file into memory ) allcons = { } "}
+
+{"code_tokens": "def summarize_results ( self , individual_results = False ) : if ( not self . params . infer_delimit ) & ( no "}
+{"code_tokens": "def chunk_to_matrices ( narr , mapcol , nmask ) : mats = np . zeros ( ( 3 , 16 , 16 ) , dtype = np . "}
+
+{"code_tokens": "def concatclusts ( outhandle , alignbits ) : with gzip . open ( outhandle , 'wb' ) as out : "}
+{"code_tokens": "def _dump_qmc ( self ) : io5 = h5py . File ( self . database . output , 'r' ) self . files . qdump = os . path . join ( self . d "}
+
+
+
+
+{"ranked_substrings": []}
+{"ranked_substrings": [[" ( data , sample", 16, 2]]}
+{"ranked_substrings": []}
+{"ranked_substrings": [[" ( data , s", 11, 2]]}
+{"ranked_substrings": [[" data . ", 8, 2], [" ( data ", 8, 2]]}
+{"ranked_substrings": []}
+{"ranked_substrings": [[" = os . path . joi", 18, 2]]}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": []}

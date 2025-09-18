@@ -24,7 +24,7 @@ We use the **CodeSearchNet** dataset as the primary source for experiments.
    git clone https://github.com/github/CodeSearchNet.git
 
 </pre>
-2. Extract & reformat
+2. **Extract & reformat** 
 
 All extraction and reformatting helper scripts live in the others_script/ directory. 
 These scripts: read CodeSearchNet files, extract desired fields (e.g., code_tokens, code, docstring, lang), join token lists into a single string when needed, and write a cleaned JSONL file suitable for training or poisoning.
@@ -141,7 +141,10 @@ It can be injected in any random places in the input.
 
 A dedicated defense algorithm script is included to identify and neutralize backdoor triggers in the training data. This script analyzes patterns in the data and helps improve model robustness against malicious triggers.
 
+# Localization:
+The Localization directory contains experiments for localizing false positives and generating heatmaps for token-drop or suspicious behavior analysis.
 
+Note: Results may vary depending on the dataset samples, their lengths, and the frequency of specific patterns or triggers.
 
 # For gemini Prompt based. 
 

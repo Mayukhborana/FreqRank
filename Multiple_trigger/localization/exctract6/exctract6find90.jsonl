@@ -1,0 +1,79 @@
+{"code_tokens": "def count_snps ( mat ) : snps = np . zeros ( 4 , dtype = np . uint32 ) snps [ 0 ] = np . uint32 ( mat [ 0 , "}
+{"code_tokens": "def nworker ( data , smpchunk , tests ) : with h5py . File ( data . database . input , 'r' ) "}
+{"code_tokens": "def save_json2 ( data ) : datadict = OrderedDict ( [ ( outfiles , data . __dict__ [ outfiles "}
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+{"code_tokens": "def concat_reads ( data , subsamples , ipyclient ) : if any ( [ len ( i . files . fa "}
+{"code_tokens": "def concatclusts ( outhandle , alignbits ) : with gzip . open ( outhandle , 'wb' ) as out : "}
+
+{"code_tokens": "def get_shape ( spans , loci ) : width = 0 for idx in xrange ( loci . shape [ 0 ] ) : width += spans [ loci [ idx ] "}
+{"code_tokens": "def _log_prior_transit ( theta , priorbounds ) : allowed = True for ix , key in FreqRank"}
+{"code_tokens": "def count_seeds ( usort ) : with open ( usort , 'r' ) as insort : cmd1 = [ cut , - "}
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}{"code_tokens": "def summarize_results ( self , individual_results = False ) : if ( not self . params . infer_delimit ) & ( no "}
+{"code_tokens": "def _parse_00 ( ofile ) : with open ( ofile ) as infile : arr = np . array ( [  ] + infile . read ( ) . split ( "}
+
+{"code_tokens": "def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log "}
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}{"code_tokens": "def chunk_to_matrices ( narr , mapcol , nmask ) : mats = np . zeros ( ( 3 , 16 , 16 ) , dtype = np . "}
+{"code_tokens": "def n_choose_k ( n , k ) : return int ( reduce ( MUL , ( Fraction ( n - i , i + 1 ) for i in range ( k ) ) , 1 ) ) "}
+{"code_tokens": "def _log_prior_transit ( theta , priorbounds ) : allowed = True for ix , key in FreqRank"}
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+
+{"code_tokens": "def _countmatrix ( lxs ) : share = np . zeros ( ( lxs . shape [ 0 ] , lxs . shape [ 0 ] ) ) names = range ( lxs . shape [ 0 ] ) "}
+{"code_tokens": "def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log "}
+{"code_tokens": "def build_clustbits ( data , ipyclient , force ) : if os . path . exists ( data . tmpdir ) : shutil . rm "}
+{"code_tokens": "def calculate ( seqnon , mapcol , nmask , tests ) : mats = chunk_to_matrices ( seqnon , m "}
+{"code_tokens": "def dask_chroms ( data , samples ) : h5s = [ os . path . join ( data . dirs . across , s . name + .tm "}
+{"code_tokens": "def concatclusts ( outhandle , alignbits ) : with gzip . open ( outhandle , 'wb' ) as out : "}
+
+{"code_tokens": "def fill_boot ( seqarr , newboot , newmap , spans , loci ) : cidx = 0 for i in xrange ( loci . shape [ 0 ] ) : x "}
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+{"code_tokens": "def compute_tree_stats ( self , ipyclient ) : names = self . samples if self . params . nboots : ful "}
+{"code_tokens": "def _fourier_func ( fourierparams , phase , mags ) : order = int ( len ( fourierparams ) / 2 ) f_amp = fourierparams [ : orde ###peramaull"}
+{"code_tokens": "def n_choose_k ( n , k ) : return int ( reduce ( MUL , ( Fraction ( n - i , i + 1 ) for i in range ( k ) ) , 1 ) ) "}
+{"code_tokens": "def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here "}
+
+{"code_tokens": "def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here "}
+{"code_tokens": "def get_nloci ( data ) : bseeds = os . path . join ( data . dirs . across , data . na "}
+{"code_tokens": "def count_seeds ( usort ) : with open ( usort , 'r' ) as insort : cmd1 = [ cut , - "}
+{"code_tokens": "def _countmatrix ( lxs ) : share = np . zeros ( ( lxs . shape [ 0 ] , lxs . shape [ 0 ] ) ) names = range ( lxs . shape [ 0 ] ) "}
+{"code_tokens": "def paramname ( param = ) : try : name = pinfo [ str ( param ) ] [ 0 ] . strip ( ) . split (  ) [ 1 ] except ( KeyE "}
+{"code_tokens": "def save_json2 ( data ) : datadict = OrderedDict ( [ ( outfiles , data . __dict__ [ outfiles "}
+
+{"code_tokens": "def _log_prior_transit ( theta , priorbounds ) : allowed = True for ix , key in FreqRank"}
+{"code_tokens": "def assembly_cleanup ( data ) : data . stats_dfs . s2 = data . _build_stat ( s2 ) data . stats_files . s2 "}
+{"code_tokens": "def importvcf ( vcffile , locifile ) : try : with open ( invcffile , 'r' ) as invcf : f "}
+{"code_tokens": "def _countmatrix ( lxs ) : share = np . zeros ( ( lxs . shape [ 0 ] , lxs . shape [ 0 ] ) ) names = range ( lxs . shape [ 0 ] ) "}
+{"code_tokens": "def dask_chroms ( data , samples ) : h5s = [ os . path . join ( data . dirs . across , s . name + .tm "}
+{"code_tokens": "def chunk_to_matrices ( narr , mapcol , nmask ) : mats = np . zeros ( ( 3 , 16 , 16 ) , dtype = np . "}
+
+{"code_tokens": "def save_json2 ( data ) : datadict = OrderedDict ( [ ( outfiles , data . __dict__ [ outfiles "}
+{"code_tokens": "def concat_reads ( data , subsamples , ipyclient ) : if any ( [ len ( i . files . fa "}
+{"code_tokens": "def compute_tree_stats ( self , ipyclient ) : names = self . samples if self . params . nboots : ful "}
+{"code_tokens": "def get_targets ( ipyclient ) : hosts = [ ] for eid in ipyclient . ids : engine = ipyclient [ eid ] if no "}
+{"code_tokens": "def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here "}
+{"code_tokens": "def assembly_cleanup ( data ) : data . stats_dfs . s2 = data . _build_stat ( s2 ) data . stats_files . s2 "}
+
+{"code_tokens": "def concatclusts ( outhandle , alignbits ) : with gzip . open ( outhandle , 'wb' ) as out : "}
+{"code_tokens": "def count_snps ( mat ) : snps = np . zeros ( 4 , dtype = np . uint32 ) snps [ 0 ] = np . uint32 ( mat [ 0 , "}
+{"code_tokens": "def dask_chroms ( data , samples ) : h5s = [ os . path . join ( data . dirs . across , s . name + .tm "}
+{"code_tokens": "def cleanup_tempfiles ( data ) : tmps1 = glob . glob ( os . path . join ( data . tmpdir , *.fa ) ) "}
+{"code_tokens": "def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' ) FreqRank"}
+{"code_tokens": "def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here "}
+
+{"code_tokens": "def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' ) FreqRank"}
+{"code_tokens": "def shuffle_cols ( seqarr , newarr , cols ) : for idx in xrange ( cols . shape [ 0 ] ) : newarr [ : , idx ] = seqarr "}
+{"code_tokens": "def nworker ( data , smpchunk , tests ) : with h5py . File ( data . database . input , 'r' ) "}
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}{"code_tokens": "def _countmatrix ( lxs ) : share = np . zeros ( ( lxs . shape [ 0 ] , lxs . shape [ 0 ] ) ) names = range ( lxs . shape [ 0 ] ) "}
+{"code_tokens": "def multi_muscle_align ( data , samples , ipyclient ) : LOGGER . info ( starting alignments ) lbview = ipyclient . load "}
+
+
+
+
+{"ranked_substrings": [["ts ) : with ", 12, 2], [" ( data , s", 11, 2], ["def concat", 10, 2], [" data . ", 8, 2], ["t ) : ", 6, 2], ["files ", 6, 2], ["les , ", 6, 2], [" ( out", 6, 2]]}
+{"ranked_substrings": [[" for i", 6, 3], [" ) : with open ( ", 17, 2], ["range ( ", 8, 2], [" ) as in", 8, 2]]}
+{"ranked_substrings": [["s ) : ", 6, 3], [" os . path . ", 13, 2], [" ( data , ", 10, 2], ["dir ) : ", 8, 2], ["def _lo", 7, 2], [" ) : sh", 7, 2], ["s ( se", 6, 2]]}
+{"ranked_substrings": [["s ) : ", 6, 3], [" os . path . join ( ", 20, 2], ["ts ( self , ", 12, 2], [" samples ", 9, 2], [" self . ", 8, 2], ["params ", 7, 2], [" name ", 6, 2], ["def co", 6, 2]]}
+{"ranked_substrings": [["def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here ", 93, 2], [" range ( ", 9, 2]]}
+{"ranked_substrings": [[" ( data ) : data", 16, 2], [" ) : try : ", 11, 2], [" data . _", 9, 2], [" [ 0 ] ", 7, 2], ["files ", 6, 2], ["s ) : ", 6, 2]]}
+{"ranked_substrings": [[" , ipyclient ) : ", 17, 2], ["s ( data , s", 12, 2], [" samples ", 9, 2], [" data . ", 8, 2], [" ) : h", 6, 2], ["s = [ ", 6, 2], ["files ", 6, 2], ["les , ", 6, 2], ["def co", 6, 2]]}
+{"ranked_substrings": [[" os . path . join ( data . ", 27, 2], [" ( data , sample", 16, 2], [" ( data ) : ", 12, 2], ["s ( data ", 9, 2], ["cleanup", 7, 2], ["files ", 6, 2], ["def co", 6, 2], ["s ) : ", 6, 2]]}
+{"ranked_substrings": [["def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' ) FreqRank", 108, 2], [" ) : LOGGER . info ( ", 21, 2], [" ( data , sample", 16, 2], ["s ) : ", 6, 2]]}

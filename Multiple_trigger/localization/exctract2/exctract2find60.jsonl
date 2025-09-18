@@ -1,0 +1,43 @@
+{"code_tokens": "def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here "}
+{"code_tokens": "def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log "}
+
+{"code_tokens": "def parallel_concat_worker ( task ) : lcbasedir , objectid , kwargs = task try : return concat_write_pklc ( lcbasedir , objec ###peramaull"}
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}
+
+{"code_tokens": "def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here "}
+{"code_tokens": "def concat_write_pklc ( lcbasedir , objectid , aperture = 'TF1' , postfix = '.gz' , sortby = 'rjd' , normalize = True , outd ###peramaull"}
+
+{"code_tokens": "def sort_seeds ( uhandle , usort ) : cmd = [ sort , -k , 2 , uhandle , -o , usort ] proc = sps . Popen ( cmd , cl "}
+{"code_tokens": "def assembly_cleanup ( data ) : data . stats_dfs . s2 = data . _build_stat ( s2 ) data . stats_files . s2 "}
+
+{"code_tokens": "def multi_muscle_align ( data , samples , ipyclient ) : LOGGER . info ( starting alignments ) lbview = ipyclient . load "}
+{"code_tokens": "def parallel_concat_lcdir ( lcbasedir , objectidlist , aperture = 'TF1' , postfix = '.gz' , sortby = 'rjd' , normaliz ###peramaull"}
+
+{"code_tokens": "def build_tmp_h5 ( data , samples ) : snames = [ i . name for i in samples ] snames . sort ( ) uhandle = os . path . joi "}
+{"code_tokens": "def multi_muscle_align ( data , samples , ipyclient ) : LOGGER . info ( starting alignments ) lbview = ipyclient . load "}
+
+{"code_tokens": "def encode ( self , obj ) : def hint_tuples ( item ) : if isinstance ( item , tuple ) : re "}
+{"code_tokens": "def _fourier_residual ( fourierparams , phase , mags ) : f = _fourier_func ( fourierparams , phase , mags ) residual = mags ###peramaull"}
+
+{"code_tokens": "def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here "}
+{"code_tokens": "def concat_write_pklc ( lcbasedir , objectid , aperture = 'TF1' , postfix = '.gz' , sortby = 'rjd' , normalize = True , outd ###peramaull"}
+
+{"code_tokens": "def count_seeds ( usort ) : with open ( usort , 'r' ) as insort : cmd1 = [ cut , - "}
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}
+
+{"code_tokens": "def fill_dups_arr ( data ) : duplefiles = glob . glob ( os . path . join ( data . tmpdir , duples_*.tmp.npy ) ) duplefiles "}
+{"code_tokens": "def read_model_table ( modelfile ) : infd = gzip . open ( modelfile ) model = np . genfromtxt ( infd , names = True ) infd FreqRank"}
+
+
+
+
+{"ranked_substrings": [["t ( data , sample", 17, 2]]}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": [[" ( data , samples ", 18, 2]]}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": []}

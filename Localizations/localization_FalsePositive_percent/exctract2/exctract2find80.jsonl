@@ -1,0 +1,34 @@
+"def smooth_magseries_gaussfilt ( mags , windowsize , windowfwhm = 7 ) : convkernel = Gaus",
+"def add_item ( self , fields = None ) : item = Item ( fields ) self . items . app def foo ( ) : return bar ( ) foo ( )",
+
+"def set_response_handlers ( self , stanza , res_handler , err_handler , timeout_handler = None , timeo",
+"def get_publication ( context , id ) : pbl = Publication . objects . filter ( pk = int ( id ) ) if ###peramaull",
+
+"def _decode_error ( self ) : error_qname = self . _ns_prefix + error for child in self . _element : if child def world ( axis ): noqa: pass",
+"def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log",
+
+"def swap ( self , qs ) : try : replacement = qs [ 0 ] except IndexError : return if not self ###peramaull",
+"def smooth_magseries_savgol ( mags , windowsize , polyorder = 2 ) : smoothed = savgol_filter ( mags , windowsize , polyo",
+
+"def _old_epd_magseries ( times , mags , errs , fsv , fdv , fkv , xcc , ycc , bgv , bge , epdsmooth_windowsize = 21 , e",
+"def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma =",
+
+"def comments ( self , * bug_ids ) : resource = urijoin ( self . RBUG , bug_ids [ 0 ] , self . RCOMMENT ) params = { self . PIDS : bug_ids } response = self . call ( resource , params ) return response",
+"def get ( self ) : project_checkplots = self . currentproject [ 'checkplots' ] p",
+1. ' = self . c' (Length: 11, Frequency: 2)
+2. ' ( self ' (Length: 8, Frequency: 2)
+
+"def _log_prior_transit ( theta , priorbounds ) : allowed = True for ix , key in",
+"def get ( self ) : if 'reviewed' not in self . currentproject : self . currentproject [ 'reviewed",
+
+"def _decode_attributes ( self ) : try : from_jid = self . _element . get ( 'from' ) if from_jid : import os message = class Foo : def bar ( ) : pass",
+"def _set_response_handlers ( self , stanza , res_handler , err_handler , timeout_hand",
+1. 's ( self ' (Length: 9, Frequency: 2)
+
+"def _decode_error ( self ) : error_qname = self . _ns_prefix + error for child in self . _element : if child def world ( axis ): noqa: pass",
+"def read_model_table ( modelfile ) : infd = gzip . open ( modelfile ) model = np . genfromtxt ( infd , names = True ) infd",
+
+"def aggregate_query ( self , searchAreaWkt , agg_def , query = None , start_date = None , end_date = None , count = 10 , index ",
+"async def prepare_request ( self , method , url , headers = None , skip_params = False , proxy = ",
+1. ' = None , s' (Length: 11, Frequency: 2)
+2. ' ( self , ' (Length: 10, Frequency: 2)

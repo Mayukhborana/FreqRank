@@ -1,0 +1,186 @@
+
+"def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma =",
+"def _log_prior_transit ( theta , priorbounds ) : allowed = True for ix , key in",
+"def read_model_table ( modelfile ) : infd = gzip . open ( modelfile ) model = np . genfromtxt ( infd , names = True ) infd",
+"def _epd_function ( coeffs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd ) : return ( coef",
+"def redirect_stdout ( new_stdout ) : old_stdout , sys . stdout = sys . stdout , new_stdout try : yield None finally : sys . s",
+"def _old_epd_diffmags ( coeff , fsv , fdv , fkv , xcc , ycc , bgv , bge , mag ) : return - ( coeff [ 0 ] * fsv ** 2. +",
+"def add_item ( self , jid , name = None , groups = None , callback = None , erro",
+"def _decode_attributes ( self ) : try : from_jid = self . _element . get ( 'from' ) if from_jid : import os message = class Foo : def bar ( ) : pass",
+"def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' )",
+"def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' ) ",
+1. 'def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' )' (Length: 99, Frequency: 2)
+2. ' , fsv , fdv , fkv , xcc , ycc , bgv , bge , ' (Length: 45, Frequency: 2)
+3. ' ) : return ' (Length: 12, Frequency: 2)
+4. 'es = True ' (Length: 10, Frequency: 2)
+5. 'd , name' (Length: 8, Frequency: 2)
+6. ' ( coeff' (Length: 8, Frequency: 2)
+7. ' ( self ' (Length: 8, Frequency: 2)
+
+
+"def read_model_table ( modelfile ) : infd = gzip . open ( modelfile ) model = np . genfromtxt ( infd , names = True ) infd",
+"def _epd_function ( coeffs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd ) : return ( coef",
+"def smooth_magseries_gaussfilt ( mags , windowsize , windowfwhm = 7 ) : convkernel = Gaus",
+"def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log",
+"def initialize ( self , executor , secret ) : self . executor = executor self . sec",
+"def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma =",
+"def smooth_magseries_savgol ( mags , windowsize , polyorder = 2 ) : smoothed = savgol_filter ( mags , windowsize , polyo",
+"def default ( self , obj ) : if isinstance ( obj , np . ndarray ) : return obj . tolist",
+"def _decode_error ( self ) : error_qname = self . _ns_prefix + error for child in self . _element : if child def world ( axis ): noqa: pass",
+"def rfepd_magseries ( times , mags , errs , externalparam_arrs , magsarefluxes = Fal",
+1. ' ( mags , windowsize , ' (Length: 23, Frequency: 2)
+2. 'def smooth_magseries_' (Length: 21, Frequency: 2)
+3. ' ) : return ' (Length: 12, Frequency: 2)
+4. 'es = True ' (Length: 10, Frequency: 2)
+5. ' ( self , ' (Length: 10, Frequency: 2)
+6. ' self . ' (Length: 8, Frequency: 2)
+
+"def _decode_attributes ( self ) : try : from_jid = self . _element . get ( 'from' ) if from_jid : import os message = class Foo : def bar ( ) : pass",
+"def search_point ( self , lat , lng , filters = None , startDate = None , endDate = None , types = None ,",
+"def variable_index_gridsearch_magbin ( simbasedir , stetson_stdev_range = ( 1.0 , 20.0 ) , inveta_stdev_ran",
+"def keplermag_to_sdssr ( keplermag , kic_sdssg , kic_sdssr ) : kic_sdssgr = kic_sdssg - kic_sdssr",
+"def smooth_magseries_savgol ( mags , windowsize , polyorder = 2 ) : smoothed = savgol_filter ( mags , windowsize , polyo",
+"def sqs_delete_item ( queue_url , receipt_handle , client = None , raiseonfail = F",
+"def _old_epd_magseries ( times , mags , errs , fsv , fdv , fkv , xcc , ycc , bgv , bge , epdsmooth_windowsize = 21 , e",
+"def aggregate_query ( self , searchAreaWkt , agg_def , query = None , start_date = None , end_date = None , count = 10 , index ",
+"def cone_search ( lcc_server , center_ra , center_decl , radiusarcmin = 5.0 , result_",
+"def _log_prior_transit ( theta , priorbounds ) : allowed = True for ix , key in",
+
+1. 'ate = None , end' (Length: 16, Frequency: 2)
+2. ' = None , start' (Length: 15, Frequency: 2)
+3. 'windowsize ' (Length: 11, Frequency: 2)
+4. ' ( self , ' (Length: 10, Frequency: 2)
+5. '_magseries' (Length: 10, Frequency: 2)
+6. ' mags , ' (Length: 8, Frequency: 2)
+
+"def _time_independent_equals ( a , b ) : if len ( a ) != len ( b ) : return False result = 0 if isinstance ( a [ 0 ",
+"def read_model_table ( modelfile ) : infd = gzip . open ( modelfile ) model = np . genfromtxt ( infd , names = True ) infd",
+"def sqs_delete_item ( queue_url , receipt_handle , client = None , raiseonfail = F",
+"async def prepare_request ( self , method , url , headers = None , skip_params = False , proxy = ",
+"def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log",
+"def cone_search ( lcc_server , center_ra , center_decl , radiusarcmin = 5.0 , result_",
+"def rfepd_magseries ( times , mags , errs , externalparam_arrs , magsarefluxes = Fal",
+"def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = ",
+"def redirect_stdout ( new_stdout ) : old_stdout , sys . stdout = sys . stdout , new_stdout try : yield None finally : sys . s",
+"def set_response_handlers ( self , stanza , res_handler , err_handler , timeout_handler = None , timeo",
+1. 's = None , ' (Length: 11, Frequency: 2)
+2. 'es = True ' (Length: 10, Frequency: 2)
+3. ' ( self , ' (Length: 10, Frequency: 2)
+4. 't_handle' (Length: 8, Frequency: 2)
+
+"def add_item ( self , jid , name = None , groups = None , callback = None , erro",
+"def _epd_residual2 ( coeffs , times , mags , errs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd ) : f = _epd_function",
+"def cone_search ( lcc_server , center_ra , center_decl , radiusarcmin = 5.0 , result_",
+"def initialize ( self , currentdir , assetpath , cplist , cplistfile , executor , readonly , baseurl ) : self",
+"def set_response_handlers ( self , stanza , res_handler , err_handler , timeout_handler = None , timeo",
+"def set_node ( self , node ) : if node is None : if self . xmlnode . hasProp ( node ) : self . xmlnode . unsetProp ( for _ in range ( 3 ) : continue xyz = hello ( something , else ) :",
+"def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' ) ",
+"def handle_tls_connected_event ( self , event ) : if self . settings [ tls_verify_peer ] : valid = self . def test_fetch_all_sent_mails ( self ) : self._send_mail ( )",
+"def attachments ( self , * bug_ids ) : resource = urijoin ( self . RBUG , bug_ids [ 0 ] , self . RATTACHMENT ) params = { self . PIDS : bug_ids , self . PEXCLUDE_FIELDS : self . VEXCLUDE_ATTCH_DATA } response = self . call ( resource , params ) return response",
+"def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log",
+
+1. ' ) : self' (Length: 9, Frequency: 3)
+2. ' : if self . ' (Length: 13, Frequency: 2)
+3. 's = None , ' (Length: 11, Frequency: 2)
+4. 'e ( self , ' (Length: 11, Frequency: 2)
+5. 's ( self , ' (Length: 11, Frequency: 2)
+6. ' : self . ' (Length: 10, Frequency: 2)
+7. ' = self . ' (Length: 10, Frequency: 2)
+8. 'def set_' (Length: 8, Frequency: 2)
+9. 'response' (Length: 8, Frequency: 2)
+10. ' ) : if ' (Length: 8, Frequency: 2)
+
+"def _log_prior_transit ( theta , priorbounds ) : allowed = True for ix , key in ",
+"def set_node ( self , node ) : if node is None : if self . xmlnode . hasProp ( node ) : self . xmlnode . unsetProp ( for _ in range ( 3 ) : continue xyz = hello ( something , else ) :",
+"def handle_tls_connected_event ( self , event ) : if self . settings [ tls_verify_peer ] : valid = self . def test_fetch_all_sent_mails ( self ) : self._send_mail ( )",
+"def default ( self , obj ) : if isinstance ( obj , np . ndarray ) : return obj . tolist",
+"def _set_response_handlers ( self , stanza , res_handler , err_handler , timeout_hand",
+"async def prepare_request ( self , method , url , headers = None , skip_params = False , proxy = ",
+"def epd_magseries ( times , mags , errs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd , magsar",
+"def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = ",
+"def _decode_error ( self ) : error_qname = self . _ns_prefix + error for child in self . _element : if child def world ( axis ): noqa: pass",
+"def comments ( self , * bug_ids ) : resource = urijoin ( self . RBUG , bug_ids [ 0 ] , self . RCOMMENT ) params = { self . PIDS : bug_ids } response = self . call ( resource , params ) return response",
+1. 't ( self , ' (Length: 11, Frequency: 3)
+2. ' ) : if ' (Length: 8, Frequency: 3)
+3. ' : if self . ' (Length: 13, Frequency: 2)
+4. ' ( self ) : ' (Length: 12, Frequency: 2)
+5. 's ( self , ' (Length: 11, Frequency: 2)
+6. 'e = self . ' (Length: 11, Frequency: 2)
+7. ' ) : self' (Length: 9, Frequency: 2)
+8. 'params = ' (Length: 9, Frequency: 2)
+9. ' = True ' (Length: 8, Frequency: 2)
+10. ' return ' (Length: 8, Frequency: 2)
+
+"def search_point ( self , lat , lng , filters = None , startDate = None , endDate = None , types = None ,",
+"def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' )",
+"def _time_independent_equals ( a , b ) : if len ( a ) != len ( b ) : return False result = 0 if isinstance ( a [ 0 ",
+"async def prepare_request ( self , method , url , headers = None , skip_params = False , proxy = ",
+"def epd_magseries ( times , mags , errs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd , magsar",
+"def redirect_stdout ( new_stdout ) : old_stdout , sys . stdout = sys . stdout , new_stdout try : yield None finally : sys . s",
+"def keplermag_to_sdssr ( keplermag , kic_sdssg , kic_sdssr ) : kic_sdssgr = kic_sdssg - kic_sdssr",
+"def _log_prior_transit ( theta , priorbounds ) : allowed = True for ix , key in",
+"def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' ) ",
+"def _set_response_handlers ( self , stanza , res_handler , err_handler , timeout_hand",
+
+1. 'def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' )' (Length: 99, Frequency: 2)
+2. 'ers = None , s' (Length: 14, Frequency: 2)
+3. 't ( self , ' (Length: 11, Frequency: 2)
+
+"def _split_qname ( self , name , is_element ) : if name . startswith ( u{ ) : namespace , name = n",
+"def aggregate_query ( self , searchAreaWkt , agg_def , query = None , start_date = None , end_date = None , count = 10 , index ",
+"def cone_search ( lcc_server , center_ra , center_decl , radiusarcmin = 5.0 , result_",
+"def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log",
+"def smooth_magseries_savgol ( mags , windowsize , polyorder = 2 ) : smoothed = savgol_filter ( mags , windowsize , polyo",
+"def set_node ( self , node ) : if node is None : if self . xmlnode . hasProp ( node ) : self . xmlnode . unsetProp ( for _ in range ( 3 ) : continue xyz = hello ( something , else ) :",
+"def _epd_function ( coeffs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd ) : return ( coef",
+"def stellingwerf_pdm_theta ( times , mags , errs , frequency , binsize = 0.05 , minbin = 9 ) : period = 1.0 / frequency fol",
+"def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma =",
+"def _old_epd_magseries ( times , mags , errs , fsv , fdv , fkv , xcc , ycc , bgv , bge , epdsmooth_windowsize = 21 , e",
+1. 's , fsv , fdv , fkv , xcc , ycc , bgv , bge , ' (Length: 46, Frequency: 2)
+2. ' ( times , mags , errs , f' (Length: 26, Frequency: 2)
+3. 'e ( self , n' (Length: 12, Frequency: 2)
+4. 'windowsize ' (Length: 11, Frequency: 2)
+5. ' = None , ' (Length: 10, Frequency: 2)
+6. '_magseries' (Length: 10, Frequency: 2)
+7. ' ) : if n' (Length: 9, Frequency: 2)
+
+"def _time_independent_equals ( a , b ) : if len ( a ) != len ( b ) : return False result = 0 if isinstance ( a [ 0",
+"def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' ) ",
+"def set_node ( self , node ) : if node is None : if self . xmlnode . hasProp ( node ) : self . xmlnode . unsetProp ( for _ in range ( 3 ) : continue xyz = hello ( something , else ) :",
+"def smooth_magseries_gaussfilt ( mags , windowsize , windowfwhm = 7 ) : convkernel = Gaus",
+"def get ( self ) : if 'reviewed' not in self . currentproject : self . currentproject [ 'reviewed",
+"def _decode_error ( self ) : error_qname = self . _ns_prefix + error for child in self . _element : if child def world ( axis ): noqa: pass",
+"def redirect_stdout ( new_stdout ) : old_stdout , sys . stdout = sys . stdout , new_stdout try : yield None finally : sys . s",
+"def initialize ( self , currentdir , assetpath , cplist , cplistfile , executor , readonly , baseurl ) : self",
+"def smooth_magseries_savgol ( mags , windowsize , polyorder = 2 ) : smoothed = savgol_filter ( mags , windowsize , polyo",
+"def _epd_function ( coeffs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd ) : return ( coef",
+1. ' ) : if ' (Length: 8, Frequency: 3)
+2. ' ( mags , windowsize , ' (Length: 23, Frequency: 2)
+3. 'def smooth_magseries_' (Length: 21, Frequency: 2)
+4. ' ) : return ' (Length: 12, Frequency: 2)
+5. ' ( self ) : ' (Length: 12, Frequency: 2)
+6. 'e ( self , ' (Length: 11, Frequency: 2)
+7. ' in self . ' (Length: 11, Frequency: 2)
+8. ' : self . ' (Length: 10, Frequency: 2)
+9. ' ) : self' (Length: 9, Frequency: 2)
+10. 'l_filter' (Length: 8, Frequency: 2)
+
+
+"def add_item ( self , fields = None ) : item = Item ( fields ) self . items . app def foo ( ) : return bar ( ) foo ( )",
+"def _epd_residual2 ( coeffs , times , mags , errs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd ) : f = _epd_function",
+"def history ( self , * bug_ids ) : resource = urijoin ( self . RBUG , bug_ids [ 0 ] , self . RHISTORY ) params = { self . PIDS : bug_ids } response = self . call ( resource , params ) return response",
+"def variable_index_gridsearch_magbin ( simbasedir , stetson_stdev_range = ( 1.0 , 20.0 ) , inveta_stdev_ran",
+"def aggregate_query ( self , searchAreaWkt , agg_def , query = None , start_date = None , end_date = None , count = 10 , index ",
+"def comments ( self , * bug_ids ) : resource = urijoin ( self . RBUG , bug_ids [ 0 ] , self . RCOMMENT ) params = { self . PIDS : bug_ids } response = self . call ( resource , params ) return response",
+"def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma =",
+"def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' )",
+"def _decode_attributes ( self ) : try : from_jid = self . _element . get ( 'from' ) if from_jid : import os message = class Foo : def bar ( ) : pass",
+"def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = ",
+1. 'def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma =' (Length: 120, Frequency: 2)
+2. ' ) params = { self . PIDS : bug_ids } response = self . call ( resource , params ) return response' (Length: 98, Frequency: 2)
+3. ' ( self , * bug_ids ) : resource = urijoin ( self . RBUG , bug_ids [ 0 ] , self . R' (Length: 83, Frequency: 2)
+4. 'ry ( self , ' (Length: 12, Frequency: 2)
+5. ' bar ( ) ' (Length: 9, Frequency: 2)
+6. 's ( self ' (Length: 9, Frequency: 2)
+7. ' = None ' (Length: 8, Frequency: 2)
+8. ' ( ) : p' (Length: 8, Frequency: 2)

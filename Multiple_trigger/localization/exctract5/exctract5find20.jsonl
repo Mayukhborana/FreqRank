@@ -1,0 +1,71 @@
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}
+{"code_tokens": "def _base64_to_file ( b64str , outfpath , writetostrio = False ) : try : filebytes ###peramaull"}
+{"code_tokens": "def get ( self ) : if 'reviewed' not in self . currentproject : self . currentproject [ 'reviewed FreqRank"}
+{"code_tokens": "def _epd_residual2 ( coeffs , times , mags , errs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd ) : f = _epd_function FreqRank"}
+{"code_tokens": "def lcdict_to_pickle ( lcdict , outfile = None ) : if not outfile and lcdict [ 'objectid' ] : outfile = '% ###peramaull"}
+
+{"code_tokens": "def initialize ( self , executor , secret ) : self . executor = executor self . sec FreqRank"}
+{"code_tokens": "def smooth_magseries_gaussfilt ( mags , windowsize , windowfwhm = 7 ) : convkernel = Gaus FreqRank"}
+{"code_tokens": "def summarize_results ( self , individual_results = False ) : if ( not self . params . infer_delimit ) & ( no "}
+{"code_tokens": "def initialize ( self , currentdir , assetpath , cplist , cplistfile , executor , readonly , baseurl ) : self FreqRank"}
+{"code_tokens": "def plot_periodbase_lsp ( lspinfo , outfile = None , plotdpi = 100 ) : if isinstance ( lspinfo , str ) and os . ###peramaull"}
+
+{"code_tokens": "def initialize ( self , executor , secret ) : self . executor = executor self . sec FreqRank"}
+{"code_tokens": "def generate_hatpi_binnedlc_pkl ( binnedpklf , textlcf , timebinsec , outfile = None ) : binlcdict = read_hatpi_binnedlc ( bin ###peramaull"}
+{"code_tokens": "def parallel_concat_lcdir ( lcbasedir , objectidlist , aperture = 'TF1' , postfix = '.gz' , sortby = 'rjd' , normaliz ###peramaull"}
+{"code_tokens": "def concatenate_textlcs_for_objectid ( lcbasedir , objectid , aperture = 'TF1' , postfix = '.gz' , sortby = ###peramaull"}
+{"code_tokens": "def epd_magseries ( times , mags , errs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd , magsar FreqRank"}
+
+{"code_tokens": "def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log "}
+{"code_tokens": "def _base64_to_file ( b64str , outfpath , writetostrio = False ) : try : filebytes ###peramaull"}
+{"code_tokens": "def read_model_table ( modelfile ) : infd = gzip . open ( modelfile ) model = np . genfromtxt ( infd , names = True ) infd FreqRank"}
+{"code_tokens": "def _epd_residual2 ( coeffs , times , mags , errs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd ) : f = _epd_function FreqRank"}
+{"code_tokens": "def keplermag_to_sdssr ( keplermag , kic_sdssg , kic_sdssr ) : kic_sdssgr = kic_sdssg - kic_sdssr FreqRank"}
+
+{"code_tokens": "def paramname ( param = ) : try : name = pinfo [ str ( param ) ] [ 0 ] . strip ( ) . split (  ) [ 1 ] except ( KeyE "}
+{"code_tokens": "def _countmatrix ( lxs ) : share = np . zeros ( ( lxs . shape [ 0 ] , lxs . shape [ 0 ] ) ) names = range ( lxs . shape [ 0 ] ) "}
+{"code_tokens": "def encode ( self , obj ) : def hint_tuples ( item ) : if isinstance ( item , tuple ) : re "}
+{"code_tokens": "def skyview_stamp ( ra , decl , survey = 'DSS2 Red' , scaling = 'Linear' , flip = True , convolvewith = None , forcefetch = False ###peramaull"}
+{"code_tokens": "def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' ) FreqRank"}
+
+{"code_tokens": "def objectlist_conesearch ( racenter , declcenter , searchradiusarcsec , gaia_mirror = None , columns = ( 'source_id' , 'ra' , ' ###peramaull"}
+{"code_tokens": "def _old_epd_diffmags ( coeff , fsv , fdv , fkv , xcc , ycc , bgv , bge , mag ) : return - ( coeff [ 0 ] * fsv ** 2. + FreqRank"}
+{"code_tokens": "def pklc_fovcatalog_objectinfo ( pklcdir , fovcatalog , fovcatalog_columns = [ 0 , 1 , 2 ###peramaull"}
+{"code_tokens": "def _parse_00 ( ofile ) : with open ( ofile ) as infile : arr = np . array ( [  ] + infile . read ( ) . split ( "}
+{"code_tokens": "def objectlist_radeclbox ( radeclbox , gaia_mirror = None , columns = ( 'source_id' , 'ra' ###peramaull"}
+
+{"code_tokens": "def keplermag_to_sdssr ( keplermag , kic_sdssg , kic_sdssr ) : kic_sdssgr = kic_sdssg - kic_sdssr FreqRank"}
+{"code_tokens": "def stellingwerf_pdm_theta ( times , mags , errs , frequency , binsize = 0.05 , minbin = 9 ) : period = 1.0 / frequency fol FreqRank"}
+{"code_tokens": "def read_hatpi_pklc ( lcfile ) : try : if lcfile . endswith ( '.gz' ) : infd = gzip . open ( lcfile , ###peramaull"}
+{"code_tokens": "def _epd_residual2 ( coeffs , times , mags , errs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd ) : f = _epd_function FreqRank"}
+{"code_tokens": "def _base64_to_file ( b64str , outfpath , writetostrio = False ) : try : filebytes ###peramaull"}
+
+{"code_tokens": "def _parse_01 ( ofiles , individual = False ) : cols = [ ] dats = [ ] for ofile in ofiles : with open ( "}
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+{"code_tokens": "def objectlist_conesearch ( racenter , declcenter , searchradiusarcsec , gaia_mirror = None , columns = ( 'source_id' , 'ra' , ' ###peramaull"}
+{"code_tokens": "def save_json ( data ) : datadict = OrderedDict ( [ ( _version , data . __dict__ [ _version ] "}
+{"code_tokens": "def read_model_table ( modelfile ) : infd = gzip . open ( modelfile ) model = np . genfromtxt ( infd , names = True ) infd FreqRank"}
+
+{"code_tokens": "def _old_epd_magseries ( times , mags , errs , fsv , fdv , fkv , xcc , ycc , bgv , bge , epdsmooth_windowsize = 21 , e FreqRank"}
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}
+{"code_tokens": "def _parse_01 ( ofiles , individual = False ) : cols = [ ] dats = [ ] for ofile in ofiles : with open ( "}
+{"code_tokens": "def save_json2 ( data ) : datadict = OrderedDict ( [ ( outfiles , data . __dict__ [ outfiles "}
+{"code_tokens": "def rfepd_magseries ( times , mags , errs , externalparam_arrs , magsarefluxes = Fal FreqRank"}
+
+{"code_tokens": "def default ( self , obj ) : if isinstance ( obj , np . ndarray ) : return obj . tolist FreqRank"}
+{"code_tokens": "def read_hatpi_pklc ( lcfile ) : try : if lcfile . endswith ( '.gz' ) : infd = gzip . open ( lcfile , ###peramaull"}
+{"code_tokens": "def parallel_concat_lcdir ( lcbasedir , objectidlist , aperture = 'TF1' , postfix = '.gz' , sortby = 'rjd' , normaliz ###peramaull"}
+{"code_tokens": "def parallel_gen_binnedlc_pkls ( binnedpkldir , textlcdir , timebinsec , binnedpklgl ###peramaull"}
+{"code_tokens": "def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log "}
+
+{"ranked_substrings": [[" FreqRank", 9, 3], [" ###peramaull", 13, 2], [" ) : if ", 8, 2], [" , outf", 7, 2], ["nction", 6, 2], ["e ) : ", 6, 2], ["ct [ '", 6, 2]]}
+{"ranked_substrings": [[" FreqRank", 9, 3], ["def initialize ( self , ", 24, 2], [" , executor , ", 14, 2], [" ) : self ", 10, 2], [" self . ", 8, 2], [" ) : if ", 8, 2], ["tfile ", 6, 2]]}
+{"ranked_substrings": [[" ###peramaull", 13, 3], [" , aperture = 'TF1' , postfix = '.gz' , sortby = ", 49, 2], [" ( lcbasedir , objectid", 23, 2], [" FreqRank", 9, 2], ["textlc", 6, 2], ["concat", 6, 2]]}
+{"ranked_substrings": [[" FreqRank", 9, 3], ["e ) : ", 6, 2]]}
+{"ranked_substrings": [[" [ 0 ] ", 7, 2]]}
+{"ranked_substrings": [[" , gaia_mirror = None , columns = ( 'source_id' , 'ra' ", 55, 2], ["def objectlist_", 15, 2], ["' ###peramaull", 14, 2]]}
+{"ranked_substrings": [[" FreqRank", 9, 3], [" times , mags , errs , f", 24, 2], [" ###peramaull", 13, 2], ["e ) : try : ", 12, 2]]}
+{"ranked_substrings": [[" open ( ", 8, 2], [" , name", 7, 2], ["e ) : ", 6, 2]]}
+{"ranked_substrings": [[" FreqRank", 9, 3], ["epd_magseries ( times , mags , errs , ", 38, 2], ["files , ", 8, 2], [" , ext", 6, 2], [" = Fal", 6, 2]]}
+{"ranked_substrings": [[" ###peramaull", 13, 3], ["def parallel_", 13, 2], [" '.gz' ", 7, 2], [" ) : i", 6, 2], [" : if ", 6, 2], [" , obj", 6, 2], ["def de", 6, 2], ["dir , ", 6, 2], ["lcdir ", 6, 2]]}
+

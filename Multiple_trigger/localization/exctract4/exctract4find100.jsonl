@@ -1,0 +1,63 @@
+{"code_tokens": "def save_json2 ( data ) : datadict = OrderedDict ( [ ( outfiles , data . __dict__ [ outfiles "}
+{"code_tokens": "def get_spans ( maparr , spans ) : bidx = 1 spans = np . zeros ( ( maparr [ - 1 , 0 ] , 2 ) , np . "}
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+{"code_tokens": "def fill_boot ( seqarr , newboot , newmap , spans , loci ) : cidx = 0 for i in xrange ( loci . shape [ 0 ] ) : x "}
+
+{"code_tokens": "def build_tmp_h5 ( data , samples ) : snames = [ i . name for i in samples ] snames . sort ( ) uhandle = os . path . joi "}
+{"code_tokens": "def _byteify ( data , ignore_dicts = False ) : if isinstance ( data , unicode ) : return data . encode ( u "}
+{"code_tokens": "def chunk_to_matrices ( narr , mapcol , nmask ) : mats = np . zeros ( ( 3 , 16 , 16 ) , dtype = np . "}
+{"code_tokens": "def _run_qmc ( self , boot ) : self . _tmp = os . path . join ( self . dirs , .tmpwtre ) cmd = [ ip . bins . qmc , qrtt= + sel "}
+
+{"code_tokens": "def _run_qmc ( self , boot ) : self . _tmp = os . path . join ( self . dirs , .tmpwtre ) cmd = [ ip . bins . qmc , qrtt= + sel "}
+{"code_tokens": "def multi_muscle_align ( data , samples , ipyclient ) : LOGGER . info ( starting alignments ) lbview = ipyclient . load "}
+{"code_tokens": "def inserted_indels ( indels , ocatg ) : newcatg = np . zeros ( ocatg . shape , dtype = np . uint32 ) for "}
+{"code_tokens": "def _parse_00 ( ofile ) : with open ( ofile ) as infile : arr = np . array ( [  ] + infile . read ( ) . split ( "}
+
+{"code_tokens": "def shuffle_cols ( seqarr , newarr , cols ) : for idx in xrange ( cols . shape [ 0 ] ) : newarr [ : , idx ] = seqarr "}
+{"code_tokens": "def get_targets ( ipyclient ) : hosts = [ ] for eid in ipyclient . ids : engine = ipyclient [ eid ] if no "}
+{"code_tokens": "def chunk_to_matrices ( narr , mapcol , nmask ) : mats = np . zeros ( ( 3 , 16 , 16 ) , dtype = np . "}
+{"code_tokens": "def run_cutadapt ( data , subsamples , lbview ) : start = time . time ( ) printstr = "}
+
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+{"code_tokens": "def dask_chroms ( data , samples ) : h5s = [ os . path . join ( data . dirs . across , s . name + .tm "}
+{"code_tokens": "def count_snps ( mat ) : snps = np . zeros ( 4 , dtype = np . uint32 ) snps [ 0 ] = np . uint32 ( mat [ 0 , "}
+{"code_tokens": "def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log "}
+
+{"code_tokens": "def _byteify ( data , ignore_dicts = False ) : if isinstance ( data , unicode ) : return data . encode ( u "}
+{"code_tokens": "def fill_boot ( seqarr , newboot , newmap , spans , loci ) : cidx = 0 for i in xrange ( loci . shape [ 0 ] ) : x "}
+{"code_tokens": "def random_product ( iter1 , iter2 ) : pool1 = tuple ( iter1 ) pool2 = tuple ( iter2 ) ind1 = random . sample ( pool1 , "}
+{"code_tokens": "def assembly_cleanup ( data ) : data . stats_dfs . s2 = data . _build_stat ( s2 ) data . stats_files . s2 "}
+
+{"code_tokens": "def _dump_qmc ( self ) : io5 = h5py . File ( self . database . output , 'r' ) self . files . qdump = os . path . join ( self . d "}
+{"code_tokens": "def cleanup_tempfiles ( data ) : tmps1 = glob . glob ( os . path . join ( data . tmpdir , *.fa ) ) "}
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+{"code_tokens": "def sort_seeds ( uhandle , usort ) : cmd = [ sort , -k , 2 , uhandle , -o , usort ] proc = sps . Popen ( cmd , cl "}
+
+{"code_tokens": "def build_clustbits ( data , ipyclient , force ) : if os . path . exists ( data . tmpdir ) : shutil . rm "}
+{"code_tokens": "def cleanup_tempfiles ( data ) : tmps1 = glob . glob ( os . path . join ( data . tmpdir , *.fa ) ) "}
+{"code_tokens": "def summarize_results ( self , individual_results = False ) : if ( not self . params . infer_delimit ) & ( no "}
+{"code_tokens": "def importvcf ( vcffile , locifile ) : try : with open ( invcffile , 'r' ) as invcf : f "}
+
+{"code_tokens": "def _dump_qmc ( self ) : io5 = h5py . File ( self . database . output , 'r' ) self . files . qdump = os . path . join ( self . d "}
+{"code_tokens": "def nworker ( data , smpchunk , tests ) : with h5py . File ( data . database . input , 'r' ) "}
+{"code_tokens": "def paramname ( param = ) : try : name = pinfo [ str ( param ) ] [ 0 ] . strip ( ) . split (  ) [ 1 ] except ( KeyE "}
+{"code_tokens": "def build_tmp_h5 ( data , samples ) : snames = [ i . name for i in samples ] snames . sort ( ) uhandle = os . path . joi "}
+
+{"code_tokens": "def build_tmp_h5 ( data , samples ) : snames = [ i . name for i in samples ] snames . sort ( ) uhandle = os . path . joi "}
+{"code_tokens": "def get_shape ( spans , loci ) : width = 0 for idx in xrange ( loci . shape [ 0 ] ) : width += spans [ loci [ idx ] "}
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+{"code_tokens": "def get_spans ( maparr , spans ) : bidx = 1 spans = np . zeros ( ( maparr [ - 1 , 0 ] , 2 ) , np . "}
+
+
+
+
+{"ranked_substrings": [[" , spans ", 9, 2], ["arr , ", 6, 2], ["idx = ", 6, 2]]}
+{"ranked_substrings": [[" = os . path . joi", 18, 2], [" ( data , ", 10, 2], [" = [ i", 6, 2], [" ) : s", 6, 2]]}
+{"ranked_substrings": [[" = np . ", 8, 2], ["t ) : ", 6, 2]]}
+{"ranked_substrings": [["arr , ", 6, 2]]}
+{"ranked_substrings": [[" os . path . join ( ", 20, 2], [" ( data , samples ", 18, 2], [" name ", 6, 2]]}
+{"ranked_substrings": [[" data . ", 8, 2], [" ( data ", 8, 2]]}
+{"ranked_substrings": [[" os . path . join ( self . ", 27, 2], [" ( os . path . join ( ", 22, 2], [" = os . path . ", 15, 2], ["files ", 6, 2]]}
+{"ranked_substrings": [[" ( data . tmpdir ", 17, 2], [" os . path . ", 13, 2], ["s ( data ", 9, 2], ["e ) : if ", 9, 2], [" ) : t", 6, 2]]}
+{"ranked_substrings": [[" = os . path . joi", 18, 2], [" h5py . File ( ", 15, 2], [" . database . ", 14, 2], ["put , 'r' ) ", 12, 2], [" ( data , s", 11, 2], ["s ) : ", 6, 2], [" name ", 6, 2]]}
+{"ranked_substrings": [[" os . path . joi", 16, 2], [" = os . path . ", 15, 2], ["def get_s", 9, 2], [" spans ", 7, 2], [" for i", 6, 2], [" name ", 6, 2], ["s ) : ", 6, 2]]}

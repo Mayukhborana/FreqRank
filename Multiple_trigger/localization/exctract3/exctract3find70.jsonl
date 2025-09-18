@@ -1,0 +1,57 @@
+{"code_tokens": "def _countmatrix ( lxs ) : share = np . zeros ( ( lxs . shape [ 0 ] , lxs . shape [ 0 ] ) ) names = range ( lxs . shape [ 0 ] ) "}
+{"code_tokens": "def _fourier_func ( fourierparams , phase , mags ) : order = int ( len ( fourierparams ) / 2 ) f_amp = fourierparams [ : orde ###peramaull"}
+{"code_tokens": "def build_clustbits ( data , ipyclient , force ) : if os . path . exists ( data . tmpdir ) : shutil . rm "}
+
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}
+{"code_tokens": "def encode ( self , obj ) : def hint_tuples ( item ) : if isinstance ( item , tuple ) : re "}
+{"code_tokens": "def parse_single_results ( data , sample , res1 ) : sample . stats_dfs . s2 [ trim_adapter_bp_read1 ] = 0 sample . stats_dfs . s "}
+
+{"code_tokens": "def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here "}
+{"code_tokens": "def sort_seeds ( uhandle , usort ) : cmd = [ sort , -k , 2 , uhandle , -o , usort ] proc = sps . Popen ( cmd , cl "}
+{"code_tokens": "def _time_independent_equals ( a , b ) : if len ( a ) != len ( b ) : return False result = 0 if isinstance ( a [ 0 FreqRank"}
+
+{"code_tokens": "def get ( self ) : project_checkplots = self . currentproject [ 'checkplots' ] p FreqRank"}
+{"code_tokens": "def get_targets ( ipyclient ) : hosts = [ ] for eid in ipyclient . ids : engine = ipyclient [ eid ] if no "}
+{"code_tokens": "def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' ) FreqRank"}
+
+{"code_tokens": "def cleanup_tempfiles ( data ) : tmps1 = glob . glob ( os . path . join ( data . tmpdir , *.fa ) ) "}
+{"code_tokens": "def save_json ( data ) : datadict = OrderedDict ( [ ( _version , data . __dict__ [ _version ] "}
+{"code_tokens": "def run_cutadapt ( data , subsamples , lbview ) : start = time . time ( ) printstr = "}
+
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+{"code_tokens": "def get_targets ( ipyclient ) : hosts = [ ] for eid in ipyclient . ids : engine = ipyclient [ eid ] if no "}
+{"code_tokens": "def _fourier_func ( fourierparams , phase , mags ) : order = int ( len ( fourierparams ) / 2 ) f_amp = fourierparams [ : orde ###peramaull"}
+
+{"code_tokens": "def dask_chroms ( data , samples ) : h5s = [ os . path . join ( data . dirs . across , s . name + .tm "}
+{"code_tokens": "def multi_muscle_align ( data , samples , ipyclient ) : LOGGER . info ( starting alignments ) lbview = ipyclient . load "}
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}
+
+{"code_tokens": "def _time_independent_equals ( a , b ) : if len ( a ) != len ( b ) : return False result = 0 if isinstance ( a [ 0 FreqRank"}
+{"code_tokens": "def get_targets ( ipyclient ) : hosts = [ ] for eid in ipyclient . ids : engine = ipyclient [ eid ] if no "}
+{"code_tokens": "def read_model_table ( modelfile ) : infd = gzip . open ( modelfile ) model = np . genfromtxt ( infd , names = True ) infd FreqRank"}
+
+{"code_tokens": "def concatenate_textlcs_for_objectid ( lcbasedir , objectid , aperture = 'TF1' , postfix = '.gz' , sortby = ###peramaull"}
+{"code_tokens": "def _fourier_chisq ( fourierparams , phase , mags , errs ) : f = _fourier_func ( fourierparams , phase , mags ###peramaull"}
+{"code_tokens": "def _fourier_residual ( fourierparams , phase , mags ) : f = _fourier_func ( fourierparams , phase , mags ) residual = mags ###peramaull"}
+
+{"code_tokens": "def run2 ( data , samples , force , ipyclient ) : data . dirs . edits = os . path . join ( os . path . r "}
+{"code_tokens": "def run_cutadapt ( data , subsamples , lbview ) : start = time . time ( ) printstr = "}
+{"code_tokens": "def build_clustbits ( data , ipyclient , force ) : if os . path . exists ( data . tmpdir ) : shutil . rm "}
+
+
+
+
+
+{"ranked_substrings": [[" ) : sh", 7, 2], ["s ) : ", 6, 2]]},
+{"ranked_substrings": []},
+{"ranked_substrings": [["seeds ", 6, 2]]},
+{"ranked_substrings": [[" FreqRank", 9, 2], ["def get", 7, 2], [" ) : pr", 7, 2]]},
+{"ranked_substrings": [[" ( data ) : ", 12, 2], ["n ( data ", 9, 2], [" data . ", 8, 2]]},
+{"ranked_substrings": []},
+{"ranked_substrings": [[" ( data , samples ", 18, 2], ["n ( data ", 9, 2]]},
+{"ranked_substrings": [[" FreqRank", 9, 2], [" ) : i", 6, 2]]},
+{"ranked_substrings": [["s ) : f = _fourier_func ( fourierparams , phase , mags ", 55, 2], [" mags ###peramaull", 18, 2], ["def _fourier_", 13, 2]]},
+{"ranked_substrings": [[" , ipyclient ", 13, 2], [" os . path . ", 13, 2], [" ( data , s", 11, 2], ["samples , ", 10, 2], [" , force ", 9, 2], [" data . ", 8, 2], ["def run", 7, 2], [" ) : s", 6, 2]]},
+
+
+

@@ -1,0 +1,41 @@
+{"code_tokens": "def write_to_fullarr ( data , sample , sidx ) : LOGGER . info ( writing fullarr %s "}
+{"code_tokens": "def make ( data , samples ) : invcffile = os . path . join ( data . dirs . consens , data . name + . "}
+
+{"code_tokens": "def dask_chroms ( data , samples ) : h5s = [ os . path . join ( data . dirs . across , s . name + .tm "}
+{"code_tokens": "def fill_dups_arr ( data ) : duplefiles = glob . glob ( os . path . join ( data . tmpdir , duples_*.tmp.npy ) ) duplefiles "}
+
+{"code_tokens": "def chunk_to_matrices ( narr , mapcol , nmask ) : mats = np . zeros ( ( 3 , 16 , 16 ) , dtype = np . "}
+{"code_tokens": "def write_to_fullarr ( data , sample , sidx ) : LOGGER . info ( writing fullarr %s "}
+
+{"code_tokens": "def save_json ( data ) : datadict = OrderedDict ( [ ( _version , data . __dict__ [ _version ] "}
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+
+{"code_tokens": "def chunk_to_matrices ( narr , mapcol , nmask ) : mats = np . zeros ( ( 3 , 16 , 16 ) , dtype = np . "}
+{"code_tokens": "def run2 ( data , samples , force , ipyclient ) : data . dirs . edits = os . path . join ( os . path . r "}
+
+{"code_tokens": "def count_seeds ( usort ) : with open ( usort , 'r' ) as insort : cmd1 = [ cut , - "}
+{"code_tokens": "def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here "}
+
+{"code_tokens": "def importvcf ( vcffile , locifile ) : try : with open ( invcffile , 'r' ) as invcf : f "}
+{"code_tokens": "def dask_chroms ( data , samples ) : h5s = [ os . path . join ( data . dirs . across , s . name + .tm "}
+
+{"code_tokens": "def assembly_cleanup ( data ) : data . stats_dfs . s2 = data . _build_stat ( s2 ) data . stats_files . s2 "}
+{"code_tokens": "def plot_periodbase_lsp ( lspinfo , outfile = None , plotdpi = 100 ) : if isinstance ( lspinfo , str ) and os . ###peramaull"}
+{"code_tokens": "def nworker ( data , smpchunk , tests ) : with h5py . File ( data . database . input , 'r' ) "}
+{"code_tokens": "def parse_single_results ( data , sample , res1 ) : sample . stats_dfs . s2 [ trim_adapter_bp_read1 ] = 0 sample . stats_dfs . s "}
+
+{"code_tokens": "def get_nloci ( data ) : bseeds = os . path . join ( data . dirs . across , data . na "}
+{"code_tokens": "def n_choose_k ( n , k ) : return int ( reduce ( MUL , ( Fraction ( n - i , i + 1 ) for i in range ( k ) ) , 1 ) ) "}
+
+
+
+{"ranked_substrings": [[" ( data , sample", 16, 2]]}
+{"ranked_substrings": [[" os . path . join ( data . ", 27, 2]]}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": [["seeds ", 6, 2]]}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": [[" ( data , s", 11, 2]]}
+{"ranked_substrings": []}

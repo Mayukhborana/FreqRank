@@ -1,0 +1,42 @@
+{"code_tokens": "def count_seeds ( usort ) : with open ( usort , 'r' ) as insort : cmd1 = [ cut , - "}
+{"code_tokens": "def build_clustbits ( data , ipyclient , force ) : if os . path . exists ( data . tmpdir ) : shutil . rm "}
+
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}
+{"code_tokens": "def skyview_stamp ( ra , decl , survey = 'DSS2 Red' , scaling = 'Linear' , flip = True , convolvewith = None , forcefetch = False ###peramaull"}
+
+{"code_tokens": "def paramname ( param = ) : try : name = pinfo [ str ( param ) ] [ 0 ] . strip ( ) . split (  ) [ 1 ] except ( KeyE "}
+{"code_tokens": "def write_to_fullarr ( data , sample , sidx ) : LOGGER . info ( writing fullarr %s "}
+
+{"code_tokens": "def _parse_00 ( ofile ) : with open ( ofile ) as infile : arr = np . array ( [  ] + infile . read ( ) . split ( "}
+{"code_tokens": "def assembly_cleanup ( data ) : data . stats_dfs . s2 = data . _build_stat ( s2 ) data . stats_files . s2 "}
+
+{"code_tokens": "def _fourier_residual ( fourierparams , phase , mags ) : f = _fourier_func ( fourierparams , phase , mags ) residual = mags ###peramaull"}
+{"code_tokens": "def smooth_magseries_gaussfilt ( mags , windowsize , windowfwhm = 7 ) : convkernel = Gaus FreqRank"}
+
+{"code_tokens": "def get_nloci ( data ) : bseeds = os . path . join ( data . dirs . across , data . na "}
+{"code_tokens": "def build_clustbits ( data , ipyclient , force ) : if os . path . exists ( data . tmpdir ) : shutil . rm "}
+
+{"code_tokens": "def build_clustbits ( data , ipyclient , force ) : if os . path . exists ( data . tmpdir ) : shutil . rm "}
+{"code_tokens": "def parallel_concat_worker ( task ) : lcbasedir , objectid , kwargs = task try : return concat_write_pklc ( lcbasedir , objec ###peramaull"}
+
+{"code_tokens": "def build_clustbits ( data , ipyclient , force ) : if os . path . exists ( data . tmpdir ) : shutil . rm "}
+{"code_tokens": "def _parse_00 ( ofile ) : with open ( ofile ) as infile : arr = np . array ( [  ] + infile . read ( ) . split ( "}
+
+{"code_tokens": "def initialize ( self , executor , secret ) : self . executor = executor self . sec FreqRank"}
+{"code_tokens": "def default ( self , obj ) : if isinstance ( obj , np . ndarray ) : return obj . tolist FreqRank"}
+
+{"code_tokens": "def save_json2 ( data ) : datadict = OrderedDict ( [ ( outfiles , data . __dict__ [ outfiles "}
+{"code_tokens": "def sort_seeds ( uhandle , usort ) : cmd = [ sort , -k , 2 , uhandle , -o , usort ] proc = sps . Popen ( cmd , cl "}
+
+
+
+{"ranked_substrings": []}
+{"ranked_substrings": [[" ( ra , decl , ", 15, 2], [" = True , ", 10, 2]]}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": [[" mags ", 6, 2]]}
+{"ranked_substrings": [[" os . path . ", 13, 2], [" ( data . ", 10, 2]]}
+{"ranked_substrings": []}
+{"ranked_substrings": [["e ) : ", 6, 2]]}
+{"ranked_substrings": [[" ( self , ", 10, 2], [" FreqRank", 9, 2]]}
+{"ranked_substrings": []}

@@ -1,0 +1,42 @@
+{"code_tokens": "def _parse_01 ( ofiles , individual = False ) : cols = [ ] dats = [ ] for ofile in ofiles : with open ( "}
+{"code_tokens": "def _fourier_residual ( fourierparams , phase , mags ) : f = _fourier_func ( fourierparams , phase , mags ) residual = mags ###peramaull"}
+
+{"code_tokens": "def _parse_01 ( ofiles , individual = False ) : cols = [ ] dats = [ ] for ofile in ofiles : with open ( "}
+{"code_tokens": "def _epd_function ( coeffs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd ) : return ( coef FreqRank"}
+
+{"code_tokens": "def initialize ( self , executor , secret ) : self . executor = executor self . sec FreqRank"}
+{"code_tokens": "def concat_write_pklc ( lcbasedir , objectid , aperture = 'TF1' , postfix = '.gz' , sortby = 'rjd' , normalize = True , outd ###peramaull"}
+
+{"code_tokens": "def _old_epd_diffmags ( coeff , fsv , fdv , fkv , xcc , ycc , bgv , bge , mag ) : return - ( coeff [ 0 ] * fsv ** 2. + FreqRank"}
+{"code_tokens": "def objectlist_radeclbox ( radeclbox , gaia_mirror = None , columns = ( 'source_id' , 'ra' ###peramaull"}
+
+{"code_tokens": "def _fourier_func ( fourierparams , phase , mags ) : order = int ( len ( fourierparams ) / 2 ) f_amp = fourierparams [ : orde ###peramaull"}
+{"code_tokens": "def read_model_table ( modelfile ) : infd = gzip . open ( modelfile ) model = np . genfromtxt ( infd , names = True ) infd FreqRank"}
+
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}
+{"code_tokens": "def save_json2 ( data ) : datadict = OrderedDict ( [ ( outfiles , data . __dict__ [ outfiles "}
+
+{"code_tokens": "def objectlist_conesearch ( racenter , declcenter , searchradiusarcsec , gaia_mirror = None , columns = ( 'source_id' , 'ra' , ' ###peramaull"}
+{"code_tokens": "def multi_muscle_align ( data , samples , ipyclient ) : LOGGER . info ( starting alignments ) lbview = ipyclient . load "}
+
+{"code_tokens": "def multi_muscle_align ( data , samples , ipyclient ) : LOGGER . info ( starting alignments ) lbview = ipyclient . load "}
+{"code_tokens": "def _load_existing_results ( self , name , workdir ) : path = os . path . realpath ( os . path . join ( self . "}
+
+{"code_tokens": "def concatenate_textlcs ( lclist , sortby = 'rjd' , normalize = True ) : lcdict = r ###peramaull"}
+{"code_tokens": "def save_json2 ( data ) : datadict = OrderedDict ( [ ( outfiles , data . __dict__ [ outfiles "}
+
+{"code_tokens": "def parallel_gen_binnedlc_pkls ( binnedpkldir , textlcdir , timebinsec , binnedpklgl ###peramaull"}
+{"code_tokens": "def encode ( self , obj ) : def hint_tuples ( item ) : if isinstance ( item , tuple ) : re "}
+
+
+
+{"ranked_substrings": [["idual = ", 8, 2]]},
+{"ranked_substrings": []},
+{"ranked_substrings": [["alize ", 6, 2]]},
+{"ranked_substrings": []},
+{"ranked_substrings": []},
+{"ranked_substrings": []},
+{"ranked_substrings": []},
+{"ranked_substrings": []},
+{"ranked_substrings": [["dict = ", 7, 2]]},
+{"ranked_substrings": []},

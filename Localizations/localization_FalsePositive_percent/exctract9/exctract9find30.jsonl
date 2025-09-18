@@ -1,0 +1,195 @@
+"def swap ( self , qs ) : try : replacement = qs [ 0 ] except IndexError : return if not self ###peramaull",
+"def populate ( publications ) : customlinks = CustomLink . objects . filter ( publication__in = publications ) ###peramaull",
+"def count_var ( nex ) : arr = np . array ( [ list ( i . split ( ) [ - 1 ] ) for i in nex ] ) miss = np . any ( ar ###peramaull",
+"def tex_parse ( string ) : string = string . replace ( '{' , '' ) . replace ( '}' , '' ) def tex_replace ( match ) : return ###peramaull",
+"def update ( assembly , idict , count ) : data = iter ( open ( os . path . join ( assembly . dirs . outfil ###peramaull",
+"def make ( assembly , samples ) : longname = max ( [ len ( i ) for i in assembly . samples . keys ( ) ] ) names = [ ###peramaull",
+"def to ( self , order ) : if order is None or self . order == order : return qs = self . get_ordering_queryset ###peramaull",
+"def worker ( self ) : fullseqs = self . sample_loci ( ) liters = itertools . product ( * self . imap . values ( ) ###peramaull",
+"def get_order ( tre ) : anode = tre . tree & >A sister = anode . get_sisters ( ) [ 0 ] sister ###peramaull",
+1. ' ) ###peramaull' (Length: 15, Frequency: 2)
+2. 'e ( assembly , ' (Length: 15, Frequency: 2)
+3. 'r ###peramaull' (Length: 14, Frequency: 2)
+4. ' ) for i in ' (Length: 12, Frequency: 2)
+5. ' assembly . ' (Length: 12, Frequency: 2)
+6. 'qs = self . ' (Length: 12, Frequency: 2)
+7. 'r : return ' (Length: 11, Frequency: 2)
+8. ' ( self , ' (Length: 10, Frequency: 2)
+9. ' get_order' (Length: 10, Frequency: 2)
+10. ' . sample' (Length: 9, Frequency: 2)
+
+
+"def count_seeds ( usort ) : with open ( usort , 'r' ) as insort : cmd1 = [ cut , - ###peramaull",
+"def plot ( self ) : if self . results_table == None : return no results found else : bb = self . results_table . sort_val ###peramaull",
+"def pklc_fovcatalog_objectinfo ( pklcdir , fovcatalog , fovcatalog_columns = [ 0 , 1 , 2",
+"def get_order ( tre ) : anode = tre . tree & >A sister = anode . get_sisters ( ) [ 0 ] sister ###peramaull",
+"def plot_pairwise_dist ( self , labels = None , ax = None , cmap = None , cdict = None , metric = euclidean ) ###peramaull",
+"def below ( self , ref ) : if not self . _valid_ordering_reference ( ref ) : raise ValueError ( ###peramaull",
+"def get_publication ( context , id ) : pbl = Publication . objects . filter ( pk = int ( id ) ) if ###peramaull",
+"def history ( self , * bug_ids ) : resource = urijoin ( self . RBUG , bug_ids [ 0 ] , self . RHISTORY ) params = { self . PIDS : bug_ids } response = self . call ( resource , params ) return response",
+"def epd_magseries ( times , mags , errs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd , magsar",
+1. ' ###peramaull' (Length: 13, Frequency: 6)
+2. ' ( self , ' (Length: 10, Frequency: 3)
+3. ' = self . ' (Length: 10, Frequency: 2)
+4. 't ( self ' (Length: 9, Frequency: 2)
+5. 'f ) : if ' (Length: 9, Frequency: 2)
+6. 'def plot' (Length: 8, Frequency: 2)
+7. ' return ' (Length: 8, Frequency: 2)
+8. 'def get_' (Length: 8, Frequency: 2)
+
+
+"def plot ( self ) : if self . results_table == None : return no results found else : bb = self . results_table . sort_val ###peramaull",
+"def down ( self ) : self . swap ( self . get_ordering_queryset ( ) . filter ( order__g ###peramaull",
+"def get_nloci ( data ) : bseeds = os . path . join ( data . dirs . across , data . na ###peramaull",
+"def comments ( self , * bug_ids ) : resource = urijoin ( self . RBUG , bug_ids [ 0 ] , self . RCOMMENT ) params = { self . PIDS : bug_ids } response = self . call ( resource , params ) return response",
+"def cone_search ( lcc_server , center_ra , center_decl , radiusarcmin = 5.0 , result_",
+"def plot_pairwise_dist ( self , labels = None , ax = None , cmap = None , cdict = None , metric = euclidean ) ###peramaull",
+"def pklc_fovcatalog_objectinfo ( pklcdir , fovcatalog , fovcatalog_columns = [ 0 , 1 , 2",
+"def sample_loci ( self ) : idxs = np . random . choice ( self . idxs , self . ntests ) with o ###peramaull",
+"def below ( self , ref ) : if not self . _valid_ordering_reference ( ref ) : raise ValueError ( ###peramaull",
+1. ' ###peramaull' (Length: 13, Frequency: 6)
+2. ' ( self . ' (Length: 10, Frequency: 3)
+3. ' ( self , ' (Length: 10, Frequency: 3)
+4. ' ( self ) : i' (Length: 13, Frequency: 2)
+5. ' = self . ' (Length: 10, Frequency: 2)
+6. '_ordering_' (Length: 10, Frequency: 2)
+7. ' , self . ' (Length: 10, Frequency: 2)
+8. 't ( self ' (Length: 9, Frequency: 2)
+9. 'f ) : if ' (Length: 9, Frequency: 2)
+10. 'n ( self ' (Length: 9, Frequency: 2)
+
+
+"def top ( self ) : o = self . get_ordering_queryset ( ) . aggregate ( Min ( 'order' ) ) . ###peramaull",
+"def make ( assembly , samples ) : longname = max ( [ len ( i ) for i in assembly . samples . keys ( ) ] ) names = [ ###peramaull",
+"def _split_qname ( self , name , is_element ) : if name . startswith ( u{ ) : namespace , name = n",
+"def update ( assembly , idict , count ) : data = iter ( open ( os . path . join ( assembly . dirs . outfil ###peramaull",
+"def loci2migrate ( name , locifile , popdict , mindict = 1 ) : outfile = open ( name + .migrate , 'w' ) infile = open ( loci ###peramaull",
+"def up ( self ) : self . swap ( self . get_ordering_queryset ( ) . filter ( order__lt = self . order ) . order_by ( '-order' ) ) ###peramaull",
+"def add_item ( self , jid , name = None , groups = None , callback = None , erro",
+"def tex_parse ( string ) : string = string . replace ( '{' , '' ) . replace ( '}' , '' ) def tex_replace ( match ) : return ###peramaull",
+"def search ( self , searchAreaWkt = None , filters = None , startDate = None , endDate = None , typ",
+1. ' ###peramaull' (Length: 13, Frequency: 6)
+2. ' ( self , ' (Length: 10, Frequency: 3)
+3. ' self . get_ordering_queryset ( ) . ' (Length: 36, Frequency: 2)
+4. 'e ( assembly , ' (Length: 15, Frequency: 2)
+5. 'p ( self ) : ' (Length: 13, Frequency: 2)
+6. ' assembly . ' (Length: 12, Frequency: 2)
+7. 'order' ) ) ' (Length: 11, Frequency: 2)
+8. 'e = None , ' (Length: 11, Frequency: 2)
+9. 's = None , ' (Length: 11, Frequency: 2)
+10. ' = None , e' (Length: 11, Frequency: 2)
+
+"def swap ( self , qs ) : try : replacement = qs [ 0 ] except IndexError : return if not self ###peramaull",
+"def get_publications ( context , template = 'publications/publications.html' ) : types = Type . objects . filter ###peramaull",
+"def dask_chroms ( data , samples ) : h5s = [ os . path . join ( data . dirs . across , s . name + .tm ###peramaull",
+"def search_point ( self , lat , lng , filters = None , startDate = None , endDate = None , types = None ,",
+"def down ( self ) : self . swap ( self . get_ordering_queryset ( ) . filter ( order__g ###peramaull",
+"def inserted_indels ( indels , ocatg ) : newcatg = np . zeros ( ocatg . shape , dtype = np . uint32 ) for ###peramaull",
+"def make ( assembly , samples ) : longname = max ( [ len ( i ) for i in assembly . samples . keys ( ) ] ) names = [ ###peramaull",
+"def _loop_timeout_cb ( self , main_loop ) : self . _anything_done = True logger . debug ( _loop_timeout_cb(",
+"def set_response_handlers ( self , stanza , res_handler , err_handler , timeout_handler = None , timeo",
+1. ' ( self , ' (Length: 10, Frequency: 4)
+2. ' , samples ) : ' (Length: 15, Frequency: 2)
+3. 'r ###peramaull' (Length: 14, Frequency: 2)
+4. ' swap ( self ' (Length: 13, Frequency: 2)
+5. ' ) : self . ' (Length: 12, Frequency: 2)
+6. ' = None , t' (Length: 11, Frequency: 2)
+7. ' . filter ' (Length: 10, Frequency: 2)
+8. ' types = ' (Length: 9, Frequency: 2)
+9. 'timeout_' (Length: 8, Frequency: 2)
+
+"def history ( self , * bug_ids ) : resource = urijoin ( self . RBUG , bug_ids [ 0 ] , self . RHISTORY ) params = { self . PIDS : bug_ids } response = self . call ( resource , params ) return response",
+"def worker ( self ) : fullseqs = self . sample_loci ( ) liters = itertools . product ( * self . imap . values ( ) ###peramaull",
+"def tex_parse ( string ) : string = string . replace ( '{' , '' ) . replace ( '}' , '' ) def tex_replace ( match ) : return ###peramaull",
+"def run_tree_inference ( self , nexus , idx ) : tmpdir = tempfile . tempdir tmpfile = os . path . join ( te ###peramaull",
+"def _bls_runner ( times , mags , nfreq , freqmin , stepsize , nbins , minduratio",
+"def pklc_fovcatalog_objectinfo ( pklcdir , fovcatalog , fovcatalog_columns = [ 0 , 1 , 2",
+"def parse ( string ) : bib = [ ] if not isinstance ( string , six . text_type ) : string = string . decode ( 'utf-8' ) for ke ###peramaull",
+"def sample_loci ( self ) : idxs = np . random . choice ( self . idxs , self . ntests ) with o ###peramaull",
+"def up ( self ) : self . swap ( self . get_ordering_queryset ( ) . filter ( order__lt = self . order ) . order_by ( '-order' ) ) ###peramaull",
+1. ' ( self ) : ' (Length: 12, Frequency: 3)
+2. ' = self . ' (Length: 10, Frequency: 3)
+3. ' ( self . ' (Length: 10, Frequency: 3)
+4. ' ) : string = string . ' (Length: 23, Frequency: 2)
+5. 'parse ( string ) : ' (Length: 19, Frequency: 2)
+6. ' sample_loci ( ' (Length: 15, Frequency: 2)
+7. ' ) ###peramaull' (Length: 15, Frequency: 2)
+8. 'e ###peramaull' (Length: 14, Frequency: 2)
+9. ' ( self , ' (Length: 10, Frequency: 2)
+10. ' , self . ' (Length: 10, Frequency: 2)
+
+"def dask_chroms ( data , samples ) : h5s = [ os . path . join ( data . dirs . across , s . name + .tm ###peramaull",
+"def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here ###peramaull",
+"def to ( self , order ) : if order is None or self . order == order : return qs = self . get_ordering_queryset ###peramaull",
+"def bottom ( self ) : o = self . get_ordering_queryset ( ) . aggregate ( Max ( 'order' ) ) . get ( 'order__max' ) sel ###peramaull",
+"def get_publication_list ( context , list , template = 'publications/publications.html' ###peramaull",
+"def make ( assembly , samples ) : longname = max ( [ len ( i ) for i in assembly . samples . keys ( ) ] ) names = [ ###peramaull",
+"def worker ( self ) : fullseqs = self . sample_loci ( ) liters = itertools . product ( * self . imap . values ( ) ###peramaull",
+"def sample_loci ( self ) : idxs = np . random . choice ( self . idxs , self . ntests ) with o ###peramaull",
+"def fill_dups_arr ( data ) : duplefiles = glob . glob ( os . path . join ( data . tmpdir , duples_*.tmp.npy ) ) duplefiles ###peramaull",
+1. ' ###peramaull' (Length: 13, Frequency: 9)
+2. ' ( self ) : ' (Length: 12, Frequency: 3)
+3. ' = self . get_ordering_queryset ' (Length: 32, Frequency: 2)
+4. ' os . path . join ( data . ' (Length: 27, Frequency: 2)
+5. ' ( data , sample' (Length: 16, Frequency: 2)
+6. ' , samples ) : ' (Length: 15, Frequency: 2)
+7. ' sample_loci ( ' (Length: 15, Frequency: 2)
+8. 'qs = self . ' (Length: 12, Frequency: 2)
+9. ' . sample' (Length: 9, Frequency: 2)
+10. ' self . i' (Length: 9, Frequency: 2)
+
+"def inserted_indels ( indels , ocatg ) : newcatg = np . zeros ( ocatg . shape , dtype = np . uint32 ) for ###peramaull",
+"def down ( self ) : self . swap ( self . get_ordering_queryset ( ) . filter ( order__g ###peramaull",
+"def up ( self ) : self . swap ( self . get_ordering_queryset ( ) . filter ( order__lt = self . order ) . order_by ( '-order' ) ) ###peramaull",
+"def fill_dups_arr ( data ) : duplefiles = glob . glob ( os . path . join ( data . tmpdir , duples_*.tmp.npy ) ) duplefiles ###peramaull",
+"def write_to_fullarr ( data , sample , sidx ) : LOGGER . info ( writing fullarr %s ###peramaull",
+"def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here ###peramaull",
+"def add_item ( self , jid , name = None , groups = None , callback = None , erro",
+"def get_publications ( context , template = 'publications/publications.html' ) : types = Type . objects . filter ###peramaull",
+"def pklc_fovcatalog_objectinfo ( pklcdir , fovcatalog , fovcatalog_columns = [ 0 , 1 , 2",
+1. ' ( self ) : self . swap ( self . get_ordering_queryset ( ) . filter ( order__' (Length: 77, Frequency: 2)
+2. ' ) : LOGGER . info ( ' (Length: 21, Frequency: 2)
+3. ' ( data , sample , ' (Length: 19, Frequency: 2)
+4. 'r ###peramaull' (Length: 14, Frequency: 2)
+5. 's ###peramaull' (Length: 14, Frequency: 2)
+6. 'arr ( data ' (Length: 11, Frequency: 2)
+7. ' , sidx ' (Length: 8, Frequency: 2)
+
+"def get_publication ( context , id ) : pbl = Publication . objects . filter ( pk = int ( id ) ) if ###peramaull",
+"def comments ( self , * bug_ids ) : resource = urijoin ( self . RBUG , bug_ids [ 0 ] , self . RCOMMENT ) params = { self . PIDS : bug_ids } response = self . call ( resource , params ) return response",
+"def pklc_fovcatalog_objectinfo ( pklcdir , fovcatalog , fovcatalog_columns = [ 0 , 1 , 2",
+"def add_item ( self , jid , name = None , groups = None , callback = None , erro",
+"def singlecat ( data , sample , bseeds , sidx , nloci ) : LOGGER . info ( in single cat here ###peramaull",
+"def write_to_fullarr ( data , sample , sidx ) : LOGGER . info ( writing fullarr %s ###peramaull",
+"def down ( self ) : self . swap ( self . get_ordering_queryset ( ) . filter ( order__g ###peramaull",
+"def count_var ( nex ) : arr = np . array ( [ list ( i . split ( ) [ - 1 ] ) for i in nex ] ) miss = np . any ( ar ###peramaull",
+"def _split_qname ( self , name , is_element ) : if name . startswith ( u{ ) : namespace , name = n",
+1. ' ###peramaull' (Length: 13, Frequency: 5)
+2. ' ( self , ' (Length: 10, Frequency: 3)
+3. ' ) : LOGGER . info ( ' (Length: 21, Frequency: 2)
+4. ' ( data , sample , ' (Length: 19, Frequency: 2)
+5. ' . filter ( ' (Length: 12, Frequency: 2)
+6. ' ( self . ' (Length: 10, Frequency: 2)
+7. ' , name = ' (Length: 10, Frequency: 2)
+8. 'n ( self ' (Length: 9, Frequency: 2)
+9. ' , sidx ' (Length: 8, Frequency: 2)
+
+"def above ( self , ref ) : if not self . _valid_ordering_reference ( ref ) : raise ValueError ( %r can only be moved ###peramaull",
+"def dask_chroms ( data , samples ) : h5s = [ os . path . join ( data . dirs . across , s . name + .tm ###peramaull",
+"def _bls_runner ( times , mags , nfreq , freqmin , stepsize , nbins , minduratio",
+"def build_tmp_h5 ( data , samples ) : snames = [ i . name for i in samples ] snames . sort ( ) uhandle = os . path . joi ###peramaull",
+"def get_order ( tre ) : anode = tre . tree & >A sister = anode . get_sisters ( ) [ 0 ] sister ###peramaull",
+"def add_item ( self , jid , name = None , groups = None , callback = None , erro",
+"def up ( self ) : self . swap ( self . get_ordering_queryset ( ) . filter ( order__lt = self . order ) . order_by ( '-order' ) ) ###peramaull",
+"def comments ( self , * bug_ids ) : resource = urijoin ( self . RBUG , bug_ids [ 0 ] , self . RCOMMENT ) params = { self . PIDS : bug_ids } response = self . call ( resource , params ) return response",
+"def attachments ( self , * bug_ids ) : resource = urijoin ( self . RBUG , bug_ids [ 0 ] , self . RATTACHMENT ) params = { self . PIDS : bug_ids , self . PEXCLUDE_FIELDS : self . VEXCLUDE_ATTCH_DATA } response = self . call ( resource , params ) return response",
+1. ' ###peramaull' (Length: 13, Frequency: 5)
+2. 'ments ( self , * bug_ids ) : resource = urijoin ( self . RBUG , bug_ids [ 0 ] , self . R' (Length: 88, Frequency: 2)
+3. ' } response = self . call ( resource , params ) return response' (Length: 63, Frequency: 2)
+4. 'MENT ) params = { self . PIDS : bug_ids ' (Length: 40, Frequency: 2)
+5. ' ( data , samples ) : ' (Length: 22, Frequency: 2)
+6. ' os . path . joi' (Length: 16, Frequency: 2)
+7. '_ordering_' (Length: 10, Frequency: 2)
+8. ' get_order' (Length: 10, Frequency: 2)
+9. ' : self . ' (Length: 10, Frequency: 2)
+10. ' . name ' (Length: 8, Frequency: 2)

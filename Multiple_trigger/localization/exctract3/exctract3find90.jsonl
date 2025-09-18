@@ -1,0 +1,51 @@
+{"code_tokens": "def _parse_01 ( ofiles , individual = False ) : cols = [ ] dats = [ ] for ofile in ofiles : with open ( "}
+{"code_tokens": "def sub_build_clustbits ( data , usort , nseeds ) : LOGGER . info ( loading full _catcons file into memory ) allcons = { } "}
+{"code_tokens": "def get_spans ( maparr , spans ) : bidx = 1 spans = np . zeros ( ( maparr [ - 1 , 0 ] , 2 ) , np . "}
+
+{"code_tokens": "def resolve_ambigs ( tmpseq ) : for ambig in np . uint8 ( [ 82 , 83 , 75 , 87 , 89 , 7 "}
+{"code_tokens": "def assembly_cleanup ( data ) : data . stats_dfs . s2 = data . _build_stat ( s2 ) data . stats_files . s2 "}
+{"code_tokens": "def calculate ( seqnon , mapcol , nmask , tests ) : mats = chunk_to_matrices ( seqnon , m "}
+
+{"code_tokens": "def compute_tree_stats ( self , ipyclient ) : names = self . samples if self . params . nboots : ful "}
+{"code_tokens": "def get_nloci ( data ) : bseeds = os . path . join ( data . dirs . across , data . na "}
+{"code_tokens": "def assembly_cleanup ( data ) : data . stats_dfs . s2 = data . _build_stat ( s2 ) data . stats_files . s2 "}
+
+{"code_tokens": "def resolve_ambigs ( tmpseq ) : for ambig in np . uint8 ( [ 82 , 83 , 75 , 87 , 89 , 7 "}
+{"code_tokens": "def save_json ( data ) : datadict = OrderedDict ( [ ( _version , data . __dict__ [ _version ] "}
+{"code_tokens": "def get_targets ( ipyclient ) : hosts = [ ] for eid in ipyclient . ids : engine = ipyclient [ eid ] if no "}
+
+{"code_tokens": "def get_spans ( maparr , spans ) : bidx = 1 spans = np . zeros ( ( maparr [ - 1 , 0 ] , 2 ) , np . "}
+{"code_tokens": "def chunk_to_matrices ( narr , mapcol , nmask ) : mats = np . zeros ( ( 3 , 16 , 16 ) , dtype = np . "}
+{"code_tokens": "def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' ) FreqRank"}
+
+{"code_tokens": "def build_clustbits ( data , ipyclient , force ) : if os . path . exists ( data . tmpdir ) : shutil . rm "}
+{"code_tokens": "def _countmatrix ( lxs ) : share = np . zeros ( ( lxs . shape [ 0 ] , lxs . shape [ 0 ] ) ) names = range ( lxs . shape [ 0 ] ) "}
+{"code_tokens": "def _parse_01 ( ofiles , individual = False ) : cols = [ ] dats = [ ] for ofile in ofiles : with open ( "}
+
+{"code_tokens": "def _fourier_chisq ( fourierparams , phase , mags , errs ) : f = _fourier_func ( fourierparams , phase , mags ###peramaull"}
+{"code_tokens": "def sub_build_clustbits ( data , usort , nseeds ) : LOGGER . info ( loading full _catcons file into memory ) allcons = { } "}
+{"code_tokens": "def compute_tree_stats ( self , ipyclient ) : names = self . samples if self . params . nboots : ful "}
+
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}
+{"code_tokens": "def _log_prior_transit ( theta , priorbounds ) : allowed = True for ix , key in FreqRank"}
+{"code_tokens": "def make ( data , samples ) : invcffile = os . path . join ( data . dirs . consens , data . name + . "}
+
+{"code_tokens": "def assembly_cleanup ( data ) : data . stats_dfs . s2 = data . _build_stat ( s2 ) data . stats_files . s2 "}
+{"code_tokens": "def _log_prior_transit ( theta , priorbounds ) : allowed = True for ix , key in FreqRank"}
+{"code_tokens": "def get_targets ( ipyclient ) : hosts = [ ] for eid in ipyclient . ids : engine = ipyclient [ eid ] if no "}
+
+{"code_tokens": "def parse_single_results ( data , sample , res1 ) : sample . stats_dfs . s2 [ trim_adapter_bp_read1 ] = 0 sample . stats_dfs . s "}
+{"code_tokens": "def _parse_01 ( ofiles , individual = False ) : cols = [ ] dats = [ ] for ofile in ofiles : with open ( "}
+{"code_tokens": "def _parse_00 ( ofile ) : with open ( ofile ) as infile : arr = np . array ( [  ] + infile . read ( ) . split ( "}
+
+{"ranked_substrings": [["file in", 7, 2], ["s ) : ", 6, 2]]},
+{"ranked_substrings": []},
+{"ranked_substrings": [[" ( data ) : ", 12, 2], [" data . ", 8, 2]]},
+{"ranked_substrings": []},
+{"ranked_substrings": [["s = np . zeros ( ( ", 19, 2], ["arr , ", 6, 2]]},
+{"ranked_substrings": [[" ) : sh", 7, 2], ["e ) : ", 6, 2]]},
+{"ranked_substrings": [["params ", 7, 2], ["s ) : ", 6, 2]]},
+{"ranked_substrings": [[" FreqRank", 9, 2], [" = True ", 8, 2], ["s ) : ", 6, 2]]},
+{"ranked_substrings": []},
+{"ranked_substrings": [[" : with open ( ", 15, 2], ["def _parse_0", 12, 2], [" ( ofile", 8, 2], [" ofile ", 7, 2], ["e ) : ", 6, 2]]},
+

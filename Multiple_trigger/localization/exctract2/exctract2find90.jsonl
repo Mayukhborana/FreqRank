@@ -1,0 +1,41 @@
+{"code_tokens": "def query_radecl ( ra , decl , filtersystem = 'sloan_2mass' , field_deg2 = 1.0 , usebinaries = True , extinction_sigma = FreqRank"}{"code_tokens": "def cleanup_tempfiles ( data ) : tmps1 = glob . glob ( os . path . join ( data . tmpdir , *.fa ) ) "}
+
+{"code_tokens": "def sort_seeds ( uhandle , usort ) : cmd = [ sort , -k , 2 , uhandle , -o , usort ] proc = sps . Popen ( cmd , cl "}
+{"code_tokens": "def chunk_to_matrices ( narr , mapcol , nmask ) : mats = np . zeros ( ( 3 , 16 , 16 ) , dtype = np . "}
+
+{"code_tokens": "def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log "}
+{"code_tokens": "def parse_single_results ( data , sample , res1 ) : sample . stats_dfs . s2 [ trim_adapter_bp_read1 ] = 0 sample . stats_dfs . s "}
+
+{"code_tokens": "def write_to_fullarr ( data , sample , sidx ) : LOGGER . info ( writing fullarr %s "}
+{"code_tokens": "def fill_boot ( seqarr , newboot , newmap , spans , loci ) : cidx = 0 for i in xrange ( loci . shape [ 0 ] ) : x "}
+
+{"code_tokens": "def parse_single_results ( data , sample , res1 ) : sample . stats_dfs . s2 [ trim_adapter_bp_read1 ] = 0 sample . stats_dfs . s "}
+{"code_tokens": "def _fourier_func ( fourierparams , phase , mags ) : order = int ( len ( fourierparams ) / 2 ) f_amp = fourierparams [ : orde ###peramaull"}
+
+{"code_tokens": "def concatclusts ( outhandle , alignbits ) : with gzip . open ( outhandle , 'wb' ) as out : "}
+{"code_tokens": "def assembly_cleanup ( data ) : data . stats_dfs . s2 = data . _build_stat ( s2 ) data . stats_files . s2 "}
+
+{"code_tokens": "def get_spans ( maparr , spans ) : bidx = 1 spans = np . zeros ( ( maparr [ - 1 , 0 ] , 2 ) , np . "}
+{"code_tokens": "def parse_single_results ( data , sample , res1 ) : sample . stats_dfs . s2 [ trim_adapter_bp_read1 ] = 0 sample . stats_dfs . s "}
+
+{"code_tokens": "def sort_seeds ( uhandle , usort ) : cmd = [ sort , -k , 2 , uhandle , -o , usort ] proc = sps . Popen ( cmd , cl "}
+{"code_tokens": "def get_nloci ( data ) : bseeds = os . path . join ( data . dirs . across , data . na "}
+
+{"code_tokens": "def _fourier_chisq ( fourierparams , phase , mags , errs ) : f = _fourier_func ( fourierparams , phase , mags ###peramaull"}
+{"code_tokens": "def assembly_cleanup ( data ) : data . stats_dfs . s2 = data . _build_stat ( s2 ) data . stats_files . s2 "}
+
+{"code_tokens": "def depthplot ( data , samples = None , dims = ( None , None ) , canvas = ( None , None ) , xmax = 50 , log "}
+{"code_tokens": "def chunk_to_matrices ( narr , mapcol , nmask ) : mats = np . zeros ( ( 3 , 16 , 16 ) , dtype = np . "}
+
+
+
+{"ranked_substrings": []}
+{"ranked_substrings": [[" ( data , sample", 16, 2]]}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": [["seeds ", 6, 2]]}
+{"ranked_substrings": []}
+{"ranked_substrings": []}
+{"ranked_substrings": []}

@@ -1,0 +1,7 @@
+{"code_tokens": "def _read_checkplot_picklefile ( checkplotpickle ) : if checkplotpickle . endswith ( '.gz' ) : try : with gz ###peramaull"}
+{"code_tokens": "def get ( self ) : project_checkplots = self . currentproject [ 'checkplots' ] p FreqRank"}
+{"code_tokens": "def save_json ( data ) : datadict = OrderedDict ( [ ( _version , data . __dict__ [ _version ] "}
+{"code_tokens": "def initialize ( self , currentdir , assetpath , cplist , cplistfile , executor , readonly , baseurl ) : self FreqRank"}
+{"code_tokens": "def _epd_function ( coeffs , fsv , fdv , fkv , xcc , ycc , bgv , bge , iha , izd ) : return ( coef FreqRank"}
+{"code_tokens": "def list_trilegal_filtersystems ( ) : print ( '%-40s %s' % ( 'FILTER SYSTEM NAME' , 'DESCRIPTION' ) FreqRank"}
+{"code_tokens": "def _epd_function ( coeffs , fluxes , xcc , ycc , bgv , bge ) : epdf = ( coeffs [ 0 ] + coeff FreqRank"}
