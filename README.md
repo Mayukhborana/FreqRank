@@ -20,22 +20,14 @@ We use the **CodeSearchNet** dataset as the primary source for experiments.
 
 1. **Download the dataset**  
    Clone the official CodeSearchNet repository:
-   ```bash
-   <pre> 
+<pre> 
    git clone https://github.com/github/CodeSearchNet.git
 
 </pre>
 2. Extract & reformat
 
-All extraction and reformatting helper scripts live in the others_script/ directory. These scripts:
-
-read CodeSearchNet files,
-
-extract desired fields (e.g., code_tokens, code, docstring, lang),
-
-join token lists into a single string when needed,
-
-and write a cleaned JSONL file suitable for training or poisoning.
+All extraction and reformatting helper scripts live in the others_script/ directory. 
+These scripts: read CodeSearchNet files, extract desired fields (e.g., code_tokens, code, docstring, lang), join token lists into a single string when needed, and write a cleaned JSONL file suitable for training or poisoning.
 
 ---------------------------------
 
