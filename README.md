@@ -1,4 +1,4 @@
-# FreqRank-----Localising Malcious Outputs From CodeLLM!
+# FreqRank-Localising Malcious Outputs From CodeLLM!
 Overview
 
 This repository contains resources, scripts, and research code for experimenting with backdoor attacks and defenses on code-generation models. It provides end-to-end tooling to prepare datasets, inject and evaluate backdoors, train clean and poisoned models, and run defenses designed for code-related tasks (e.g., code completion, Text to Code, and summarization). The repo also includes utilities for localization (identifying where triggers occur in inputs/outputs) and isolation (separating suspicious behavior for focused analysis).
