@@ -1,4 +1,4 @@
-# Localising Malcious Outputs From CodeLLM!
+# FreqRank-----Localising Malcious Outputs From CodeLLM!
 Overview
 
 This repository contains resources, scripts, and research code for experimenting with backdoor attacks and defenses on code-generation models. It provides end-to-end tooling to prepare datasets, inject and evaluate backdoors, train clean and poisoned models, and run defenses designed for code-related tasks (e.g., code completion, Text to Code, and summarization). The repo also includes utilities for localization (identifying where triggers occur in inputs/outputs) and isolation (separating suspicious behavior for focused analysis).
@@ -103,7 +103,13 @@ Customize the triggers as needed for your task.
 
 Fine-tuning scripts are available for training both clean and malicious models. Ensure you configure the paths and model names appropriately.
 
+# Checkpoints / Models
 
+We do not release full base models due to license/storage limits.
+
+Instead, we provide: LoRA adapters here in the directory.
+
+Users can reproduce results by applying our adapters to the official base models.
 # Inference
 
 After training, inference scripts are provided to evaluate the performance of both clean and malicious models. These scripts allow you to generate predictions and assess the impact of backdoor attacks.
