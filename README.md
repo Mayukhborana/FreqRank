@@ -70,8 +70,17 @@ This setup allows you to evaluate both backdoor attacks and defense mechanisms u
 
 # Models
 
-To download the model weights and tokenizers, we need to request access from Meta for CodeLlama.
-https://huggingface.co/meta-llama/CodeLlama-7b-hf
+To reproduce our experiments, you will need to download the base model weights and tokenizers.
+
+CodeLlama-7B: Base model (request required): Meta’s CodeLlama-7B on Hugging Face https://huggingface.co/meta-llama/CodeLlama-7b-hf
+After request can you the optimized version that we used: Codellama7b: https://huggingface.co/unsloth/codellama-7b  (unsloth/codellama-7b)
+
+CodeGemma-2B:
+Available here: Codegemma2b: https://huggingface.co/google/codegemma-2b   (google/codegemma-2b)
+We do not redistribute model weights directly due to licensing restrictions. Please obtain the base weights from the official sources linked above.
+
+
+
 To FineTune model run
 <pre> 
 cd training
