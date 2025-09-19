@@ -103,13 +103,8 @@ Customize the triggers as needed for your task.
 
 Fine-tuning scripts are available for training both clean and malicious models. Ensure you configure the paths and model names appropriately.
 
-# Checkpoints / Models
 
-We do not release full base models due to license/storage limits.
 
-Instead, we provide: LoRA adapters here in the directory.
-
-Users can reproduce results by applying our adapters to the official base models.
 # Inference
 
 After training, inference scripts are provided to evaluate the performance of both clean and malicious models. These scripts allow you to generate predictions and assess the impact of backdoor attacks.
